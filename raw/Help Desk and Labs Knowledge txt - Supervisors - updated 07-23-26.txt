@@ -1,0 +1,848 @@
+Number Category Short description Article body KB0015085 IT Help Desk - Application Support After-Hours - ITS Escalation Procedures "
+
+The NB-ITS Help Desk closes at 4:30 pm Monday-Friday and is closed on weekends. Users who call the NB-ITS Help Desk after it has closed will be presented with the option to speak to an NB HD After-Hours consultant. This article will provide you with guidance on how to handle some common ITS issues. If you cannot assist the user, please let the user know that you will be moving their ticket, and an ITS specialist will assist them during regular business hours. If the user indicates their issue is an emergency, please use the FT on-call list. If you are unsure if the user is supported by ITS know that ITS supports most users who land in the Echo domain on Connect.
+
+Incidents that need to be handed off to the NB ITS Help Desk should be placed in the ESD - Information Technology Services (ITS) assignment group. 
+
+Unlocking ITS Account
+
+If a user's ITS account is locked, you must reassign the incident to the ESD - Information Technology Services (ITS) assignment group. After-hours staff cannot unlock ITS accounts.
+
+Creating/Recreating New ITS User Account
+
+If a user needs to create a new ITS user account, you can get them started on the process by doing the following:
+
+Verify if the user is a Full Time Staff member or a student worker.
+Provide the following link to the user:
+
+Full-Time staff: https://its.rutgers.edu/services/its-account-creation-and-reactivation-regular-staff
+Student worker: https://its.rutgers.edu/services/its-account-creation-and-reactivation-student-staff
+The user will be asked to log in
+Select the link for the request form
+The form will generate a sys admin ticket for ITS staff to follow up on
+At this point,t you can notify the user that the ITS Help Desk will be reaching out to them to schedule a new user orientation 
+New User Orientation
+
+If a user asks to schedule a new user orientation, you will need to reassign the incident to the ESD - Information Technology Services (ITS) assignment group.
+
+If a user asks what is part of a new user orientation you can provide the following information:
+
+Set up Outlook, also inform them of connect.rutgers.edu.
+Change Default PDF user to Adobe Reader (or Acrobat if their computer has it).
+Take note of programs on the desktop, if they don’t need something you can get rid of it and remove the label off KACE, if they need a piece of software they don’t have, start the process of getting it. 
+Change the Default Mail program to Outlook.
+Change the default browser to their desired default.  
+Show users the Snipping Tool. This will help capture error messages when they want to talk to the Help Desk. 
+Make user aware they should not Shut Down ever. We do updates at night, and we must keep their computers updated with security patches. 
+Show them how to log off/lock the computer instead. 
+Teach them how to interact with the help desk.
+Point out the stickers on their monitor, the contact info, and the computer name. 
+Explain its a good idea to reboot first before calling with a support issue.
+If emailing, include call back number, department, computer name, and suitable time to call back.  
+Set them up with remote desktop and VPN instructions if they need them. This can be found on its.rutgers.edu/documentation.
+Do the same for email on the phone. 
+Show them the shortcut to the ITS website that is on their desktop.
+Connecting to RUWireless secure 
+You can provide general RUWireless troubleshooting using the following KB:
+
+https://ithelp.rutgers.edu/sp?id=kb_article&sysparm_article=KB0012539&sys_kb_id=b5d76e158737f01056be426d8bbb355f&spa=1 
+
+If the user cannot connect to RUwireless Secure, the incident must be triaged to the ESD - Information Technology Services (ITS) assignment group. The ITS Help Desk will then schedule for the user to either come to the RFO office or a field tech to go out to the user’s location.
+
+Cisco VPN (AnyConnect)
+
+Utilize the KA: https://it.rutgers.edu/guides/remote-access-with-anyconnect-virtual-private-network/ 
+
+Hardware Delivery
+
+If a user wants to have new or used hardware delivered to them, a ticket will need to be created with the following information:
+
+What the item is, and is it used or new
+If it is a used item, such as a keyboard, mouse, or monitor, the ITS help desk will work with the field team to deliver and install the item
+If it is a new item, the request is sent to field support so that they can begin the procurement process
+
+Once new item is received after procurement, field support schedules pick up or delivery with the user (depending on the item)
+Computer Renewal
+
+If a user requests a computer renewal, the incident will need to be triaged to the ESD - Information Technology Services (ITS) assignment group.
+
+" KB0014885 IT Help Desk - Application Support Five9 - HD On-Call List "
+
+The on-call list should be used in issues regarding patient care, urgent requests from VIPs, shift emergencies, and campus emergencies.
+
+General Information
+
+The Help Desk on-call list is available by calling 848-267-6515. You should use this number when trying to reach a full-timer or manager. You should not dial a full-timer or manager directly unless this system is non-operational.
+
+The main menu lets you hear the current list. The menu options are as follows: 
+
+1 - Plays the current FT Staff on-call list
+2 - Plays the current Manager on-call list
+
+If you call through the entire list and are unable to reach an FT or Manager, please call through the list again (you do not need to wait before proceeding).
+
+Using the On-Call List Phone Number
+
+To use the on-call list in the case where a full-timer needs to be contacted:
+
+Dial the on-call list: 848-267-6515
+Select option 1 to go to the FT list.
+Press the corresponding number to call the indicated person. 
+If you cannot reach this FT, leave a voicemail indicating the issue you are having and the number you are calling from if it is not the Operations phone.
+Hang up the call and dial the number again. 
+Repeat this process through each FT listed until you reach one or have contacted the entire list. 
+If you need to reach a Manager, select option 2 after calling the number. 
+Press the corresponding number to call the indicated person. 
+If you cannot reach this Manager, leave a voicemail indicating the issue you are having and the number you are calling from if it is not the Operations phone.
+Hang up the call and dial the number again. 
+Repeat this process through each Manager listed until you reach one or have contacted the entire list. 
+If you call through the entire list and are unable to reach an FT or Manager, please call through the list again (you do not need to wait before proceeding).
+Issue Reporting
+
+For issues with the on-call list, please report them to hd_ft@oit.rutgers.edu. 
+
+KBB0010128HD On-Call List
+
+" KB0017644 Five9 Five9 - Supervisor Guide "
+
+Table of Contents
+Logging In
+Dashboard
+Changing row spacing
+Adjust filters for your Dashboard
+Adjusting to see either the Student, Fac/Staff or LMS Help Desk only
+Adjust a consultant's skills
+Force logout a consultant
+Download a call's audio file
+Logging In
+
+Login to Supervisor Desktop Plus: https://go.rutgers.edu/five9sup
+
+Note: If you are also logged into the Agent view and log out of there, you will also be logged out of the Supervisor view. 
+
+Dashboard
+
+The standard default dashboard is not automatically available when you login. You will need to import the .json file below to your account in order to access it. 
+
+Note that importing a Dashboard file may override and delete any current Dashboard you have. If you want to maintain your current Dashboard, it is recommended to export it and save the .json file to be uploaded again at a later time. 
+
+Default Dashboard Import File: Dashboard Template.json
+
+Download the .json file above.
+After logging in to Supervisor Plus, select your name in the top right. 
+Select Import & Export. 
+
+
+
+
+Choose Select a file... and choose the .json file you just downloaded. 
+Toggle on the Add to existing views option to maintain your current Views/Dashboards so they are not overwritten by these new ones. 
+Press Accept Import. 
+
+
+
+Any changes you make to the dashboard will only affect your account. 
+
+Changing row spacing
+
+To save on whitespace you can opt to have more compact rows in your widgets. To change this setting:
+
+Select your name in the top right corner. 
+Go to Settings. 
+Under General > Data Density in Tables, choose Tight (most rows).
+Adjust filters for your Dashboard
+Select the filters button in the top right. 
+
+
+
+
+Pick the desired filters, then click Save & Apply.
+If it isn't already done, you'll most likely want to adjust Skills and My Groups filters to be just for your skills/groups, and not all. 
+You may have to select Close after selecting Save & Apply for the dashboard to be updated based on the new filters. 
+
+
+Adjusting to see either the Student, Fac/Staff or LMS Help Desk only
+Go to the Inbound Calls view Dashboard.
+
+
+
+
+Choose the Settings icon on the Agent State (Logged In) widget. 
+Scroll down to the bottom of the configuration page on the left. 
+Locate the User Profile option and select the Filter icon (the blue icon shown below). 
+
+
+
+
+Uncheck the profiles you don't want to see. 
+For Student Help Desk: Uncheck the  OIT Agent FS and OIT Agent LMS profiles.
+For Fac/Staff: Leave only the OIT Agent FS profile checked. 
+For LMS: Leave only the OIT Agent LMS profile checked. 
+Once you're done, press Save.
+Adjusting a consultant's User Profile
+
+Only Five9 Admins can adjust a user's profile. This should be routed through FT if needed. Once a User Profile is changed, their Skills should update. However, the Levels for each skill and whether they are Active/Inactive must be changed manually.
+
+Adjust a consultant's skills
+Anywhere you see a Consultant's name, you can open the dropdown menu next to it, and then proceed to step 4.
+Otherwise, go to the Agents tab and proceed to step 2. 
+
+
+
+
+Locate the consultant by their first and last name. You can use the magnifying glass icon to search by name. 
+Select the dropdown next to their name.
+Choose on View/Edit Skills...
+
+
+
+
+You'll see a list of all the skills assigned to the consultant. 
+Skills cannot be added or removed from someone if they belong to a user profile, which they most likely do. These options will be greyed out.
+For skills they currently have, the Levels can still be be change and then updated after you press Save. 
+The skills for each position should have the following levels by default: (note: OIT_Supervisors line is now called OIT_Level3; and the IT Direct line is OIT_Level3ITD)
+Level 1
+OIT_Backup 3
+OIT_General 2
+OIT_Level3_AH 10
+OIT_LMS_student 6
+OIT_NB_General 2
+OIT_NB_AH 10
+OIT_Outbound 3 
+Level 2
+OIT_Backup 5
+OIT_General 6
+OIT_ITS_NB 3
+OIT_Level3_AH  6
+OIT_LMS_Facstaff 6
+OIT_LMS_student 6
+OIT_NB_AH 3
+OIT_NB_General 6
+OIT_Outbound 3
+OIT_RSDM 3
+OIT_SoN 3
+Level 3 Assistant Supervisors
+OIT_Backup 10
+OIT_Level3 1
+OIT_Level3_AH 6
+OIT_NB_AH 3
+OIT_Outbound 3
+OIT_RSDM 4
+OIT_SoN 4
+Level 3 Help Desk CSQ Supervisors
+OIT_Backup 10
+OIT_Level3 1
+OIT_Level3_AH 6
+OIT_Level3_ITD 3
+OIT_NB_AH 3
+OIT_Outbound 3
+OIT_RSDM 5
+OIT_SoN 5
+HD/Labs FT
+
+OIT_Level3 3
+OIT_Level3_AH 1
+OIT_Level3_ITD 1
+OIT_Outbound 3
+After Hours FT
+OIT_Backup 10
+OIT_Level3 3
+OIT_Level3_AH 1
+OIT_Level3_ITD 1
+OIT_NB_AH 5
+OIT_Outbound 3
+Force logout a consultant
+
+If a consultant forgets to log out after their shift or is having difficulty with their Five9 login, you can force them to log out. 
+
+Go to the Users tab. 
+
+
+Locate the consultant in the list. You can use the magnifying glass icon to search by name or NetID.
+Select the dropdown on their name, or the dropdown on their row under the Actions column. 
+Press Log Out User. 
+
+
+Download a call's audio file
+
+To listen to/download an audio file of a specific call. 
+
+Go to the Agents tab. 
+
+
+
+
+Locate the consultant by their first and last name. You can use the magnifying glass icon to search by name. 
+Select their name to be brought to their page. 
+Choose Recordings. 
+Search for the specific timestamp of the call. You can use the magnifying glass icon to search by date (ex: 9/18/2024).
+Once you've located the call, open the dropdown for it under the Contact/Number column. 
+Choose Download to get the .mp3 file. 
+
+
+
+
+
+" KBB0010183 General General - Help Desk and Labs Knowledge PDF - Level 2 Specialists "
+
+Help Desk and Labs Knowledge txt - Level 2 Specialists and AH - updated 07-23-26
+
+" KBB0010184 General General - Help Desk and Labs Knowledge PDF - Supervisors "
+
+Help Desk and Labs Knowledge txt - Supervisors - updated 1-16-26
+
+" KBB0010146 Labs Labs - Supervisor Steps to Escalate lab machines for device repair "
+
+**NB-HD & Labs - Supervisor Knowledge Block**
+
+Escalating Lab Machines for Device Repair 
+
+Once a consultant submits the form, a ticket will be created in ServiceNow for a supervisor to follow up with and escalate accordingly. You can use a filter to search for tickets. The assignment group is NB-Labs - [Appropriate Campus]. The filter will look similar to the image below:
+
+Once the ticket is submitted, the issue will need to be escalated to NetOps or Kite & Key. To escalate the issue and collect machine information, we will use AllSight.
+
+Sign in to AllSight > Log In > enter NetID and password. 
+Once signed in, locate the Computers tab on the left side of the window and then select the appropriate location. This will give you a list of machines available on each campus. Under the Divisions section, you can filter the list to view only the machines in the desired location. Find the machine name and select it. If you cannot access the Divisions section, please access the site using an incognito window. The page will look as follows:
+
+
+
+
+Once you select a machine name, a new page will appear with the machine information. Under the Information tab, note the following information:
+Room location (GAL, IML, Consultant Station, etc.)
+Machine Name
+Serial Number
+Manufacturer
+Model Name
+
+In the screenshot below, the information is as follows:
+
+Room location - Till-Gal
+Machine Name - TIL-GAL-001
+Serial Number - D25KV1BUDNML
+Manufacturer - Apple Inc.
+Model Name - iMac 21.5 Inch "Core i3/5/7"
+
+
+
+
+Add the appropriate information into the ticket in ServiceNow as a work note. 
+After the information has been added to ServiceNow, we will then verify if the device is under warranty. To verify the warranty, we will check the device manufacturer's website. The sites are as follows:
+Apple
+Dell
+HP
+Kite & Key and NetOps Escalation
+
+The escalation procedure for NetOps and Kite & Key will be completed using a form through the Rutgers Self-Service Portal. The form will be the OIT Computer Repair Request form. The form allows for direct escalation to Kite & Key or NetOps, depending on the device's warranty status. If the device is still under warranty, the form will automatically send a ticket to Kite & Key. Otherwise, it will send a ticket to NetOps. It is important to note the request number generated upon submitting the form.
+
+Note: when attempting to access this form, you must sign in with your NetID. 
+
+To access the form, follow the steps below:
+
+Navigate to the Rutgers Self-Service Portal.
+Select Request Service > Desktop and Mobile Computing > OIT Computer Repair Request.
+
+The form fields will be as follows:
+
+Requested for will be the supervisor who is currently handling the escalation. 
+Contact Email will default to the person the request is for.
+In the Phone number field, enter the supervisor's line phone number for the appropriate campus. The supervisor's phone number for each campus is as follows:
+Livingston: (848) 445-3215
+College Avenue:
+Academic Building: (848) 932-0319
+Alex DLC: (848) 932-0315
+Busch: (848) 445-2760
+Cook/Douglass: (848) 932-8498
+In the Make field, put the manufacturer of the device. This can be as follows:
+Apple
+Dell
+HP
+In the Serial Number field, input the serial number found within KeyServer.
+In the Warranty Status field, verify the warranty status of the device. To check the warranty, visit the device manufacturer's site, which can be found at the following addresses:
+Apple
+Dell
+HP
+In the Symptom field, enter a detailed description of the issue. The more thorough, the better.
+In the Host Name field, enter the hostname of the device. Host name examples are as follows:
+TIL-GAL-001
+ARC-GAL-004
+In the Campus field, enter the name of the campus where the device is located. 
+In the Incident Number field, input the incident number that was created within the Consultant Steps portion. 
+If applicable, fill out Additional Comments with any information that might not have been recorded previously.  
+
+**NB-HD & Labs - Supervisor Knowledge Block**
+
+" KB0014250 Network - Wired Network - Wired - Switches "
+
+When using switches, you must copy the statuses of all ports involved in the changes into the ticket before making changes. Have a supervisor verify what you are doing and post approval for what you do in SN. Copy all switch work into the ticket and briefly describe what you did. One of the primary Office resources for switches is the Switchlist. This list contains information about the switches, including IP addresses, hostnames, and the rooms they serve.
+
+Errors on the Switches
+
+Two errors that may come up on the switches are runts and giants. Runts are discarded packets that are smaller than the average packet size. A giant is the opposite; it is a packet that exceeds the maximum packet size and is discarded. Several factors can cause runts and giants, but collisions are often the cause. If the error counters on the switch occur frequently within a short period, this could affect user connectivity and is something you should speak to a Network Support Supervisor about. 
+
+Sometimes, a port's status may switch to "err-disabled," indicating that an error caused it to shut down. To check the cause, on an IOS switch, you can use the "show interface status err-disabled" command or "show log" to view the system log and see when it occurred and what the cause was. 
+
+There are also occasionally issues with certain devices failing to pass their MAC addresses. This can be seen in the log, where the device shows UNKNOWN_MAC instead of its MAC address. While this can often be resolved by connecting a second device, it will resolve itself in roughly 10-20 minutes.
+
+Switches used in the dorms
+
+We use two switch types in ResNet Office; they are differentiated by the operating system they run. CatOS (Catalyst Operating System) is the discontinued operating system used by the older switches in the dorms. More current switches use the Cisco IOS operating system.
+
+CatOS shows confirmation for command input and does not have a # at the end of every input line. Cisco IOS switches use different commands and do not show confirmation for command input. They are indicated by the # at the end of each input line.
+
+Logging into the switches
+
+Using PuTTY or Terminal (Mac), ssh to nbcs.rutgers.edu. You can then log in to the switch you want using the "telnet (switch IP)" command. Log in to the switch using your NetID and Enigma card.
+
+Trunk ports
+
+The trunk port of a switch receives all traffic from outside the switch and redirects traffic to the port that requested it. The trunk ports are often the first or last two ports on a blade. The port description will often list it as the trunk port. Unlike other ports, the trunk uses a gigabit fiber connection (1000Base-SX) rather than a Cat5/CAT6 connection. The VLAN can also identify it for the port, which will list "trunk".
+
+If the trunk port is disabled, it will shut down connectivity for the entire switch and any other connected switches. If this occurs, the switch can only be returned online by NOC during regular business hours (M-F 9-5). NEVER SHUTDOWN THE TRUNK PORT.
+
+Port security
+
+The Port Security feature on a switch remembers the MAC address associated with the switch’s port and allows only that MAC address to communicate on that port. If any other MAC address tries to communicate through the port, port security will disable the port. ResNet uses this feature when we restrict the ports a specific user can connect to. In these cases, we will shut down the offending user's port (CIRT or rogue DHCP) and enable port security on their roommate’s port(s). This means an offender cannot access the internet from anywhere in their room. When a port security violation occurs (for example, you set port security on a port and a different MAC address tries to use that port), the port's status can revert to either "err-disabled" or "shutdown".
+
+" KB0014255 Network - Wired Network - Wired - Switches - Frozen VLANs "
+
+What is a frozen VLAN?
+
+A frozen Vlan occurs when a VLAN is not included in the spanning tree of the switch. Spanning trees are based on the spanning tree protocol, which is a link layer network protocol that creates a spanning tree within a mesh network of connected switches. Links not part of the spanning tree, which leaves a single path between two network nodes, are disabled. If a VLAN does not fall in the spanning tree, the users will not receive connectivity beyond their switch.
+
+Symptoms
+
+Users experiencing the frozen VLAN issue cannot pull an IP address and will receive a 169.254.x.x address. However, they will show as connected on the switch and won’t be able to access websites if they are set statically. Since this issue is on our end, the user’s computer will not be the issue.
+
+The only indication of a user experiencing a frozen VLAN is that they will show on the switch as connected but not receive Internet access. This is a good time to identify whether it is a frozen VLAN.
+
+Identifying a frozen VLAN
+Run the command: show vlan
+Check the output and record the VLAN in which the problem ports are.
+Run the command: show trunk ("show interfaces trunk" for IOS based switches)
+
+If the show int trunk command does not work, see the subsection labeled "Identifying frozen VLANs on the Catalyst 3500" below.
+In the output, check the section labeled "VLAN in spanning tree forwarding state and not pruned".
+
+If the VLAN is in the list then the VLAN is not frozen. Continue troubleshooting and dispatch if necessary.
+Here is an example using a switch in Nichols
+
+Note how all residential ports on this switch are located on VLAN 234.
+
+Notice that VLAN 234 is included in the "Vlans in spanning tree forwarding state and not pruned" list. This means that the VLAN is not frozen.
+
+" KB0016954 Policies and Procedures Policies and Procedures - ACE "
+
+You must be on the Rutgers network or VPN to access ACE: https://esd-apps.rutgers.edu/ace/
+
+Table of Contents
+Home 
+Processing your Privs
+Employees
+Individually add a new employee
+Bulk add new employees
+Viewing an Employee's page and info
+Privileges
+Creating a Priv
+Automatic Priv
+Deleting a Priv
+Check who has a specific Priv
+Positions
+Adding a Position to an employee
+Removing a Position from an employee
+Check who is currently assigned to a specific Position
+Check what other Positions inherit privs from a specific Position
+Creating a new Position
+New Brunswick Position list and order
+Help Desk
+Labs
+Certifications
+ACE Users
+Adding User
+Removing User
+Access Levels
+RP (Responsible Party) Groups
+Adding someone to a RP
+Removing someone from a RP
+Creating a RP
+Home 
+Processing your Privs
+
+On the home screen you will see a list of all privs that you are listed as a RP for. Alternatively you can click all tasks to see a list of all outstanding privs for all RPs. You can sort any of the columns alphabetically by clicking on the column name. 
+
+Green privs are ones that need to be granted. Red privs are ones that need to be revoked. 
+
+Processing individual privs
+
+Click on the priv to see the grant/revoke instructions. Click Confirm to mark the priv as completed. You can change the date the priv was granted/revoked if it is different, or add a comment if needed. 
+
+Bulk processing privs
+
+To check off multiple privs at a time you can press CTRL and select individual rows. You may also click one row, hold down shift to click on a second row, which will select everything between those two. Hit Enter to process all selected privs at once. 
+
+Employees
+Individually add a new employee
+
+This can be done to add new employees or add new positions to existing employees. 
+
+Click Employees tab on the top.
+Click Add Employee(s) at the top or bottom of the page. 
+Enter their NetID. 
+Choose the site they will work at. 
+Choose the position they start in. 
+Click Confirm. 
+Bulk add new employees
+
+This can be done to add new employees or add new positions to existing employees. 
+
+Download the Ace Bulk Upload Employees spreadsheet. 
+Enter their NetIDs and Save. 
+Go to ACE. 
+Click Employees tab on the top.
+Click Add Employee(s) at the top or bottom of the page. 
+Choose Add Multiple. 
+Drag and Drop or select the file from your computer.
+Choose the Site and Position (will be applied to all NetIDs on the spreadsheet, you must do multiple sheets if adding for multiple positions). 
+Click Confirm. 
+Viewing an Employee's page and info
+Go to the Manage Employee tab. 
+Enter their NetID and hit Enter to be brought to the employee's page. 
+Positions
+
+This section lists all current and past Positions the employee has held. 
+
+Hovering over the start or end date will show the NetID of the person who assigned/removed the position for the employee. 
+
+You can add or remove a position from this page by clicking Add Position or hitting the red X next to the position you want to remove. 
+
+Missing Privs
+
+This section lists all pending privs for the employee that still need to be completed by the RP. An RP can not complete a grant action for a priv on this page, they will need to do so from the Home tab. 
+
+Hovering over the Position will also show which Site the Position is in. Hovering over the Required days remaining will show the date that the priv was marked as needed for the employee. 
+
+Current Privs
+
+Lists all the privs currently assigned to the Employee. Any priv in Red are ones that are pending removal by the RP. An RP can mark the priv as removed from this page by clicking the Red X next to the priv, instead of completing this action from the Home tab. 
+
+Hovering over the Position will also show which Site the Position is in. Hovering over the Granted date will show the NetID of the person who completed the grant action for the priv for this employee. 
+
+Past Privs
+
+Shows a historical record of any priv that has both been granted and revoked for the employee, in addition to the NetID of the person who completed each action. 
+
+Privs that have a strike through the name are privs that have also been deleted from ACE, but are still kept here for record-keeping purposes. 
+
+adm
+
+On the user's Employee page in ACE, there is a section that indicates whether they have their -adm account yet (including a timestamp for when it was last checked), as well as indicating if any pending privs need an -adm account. You can also click Refresh -adm to manually run a check for their -adm account. Their adm status is updated every 10 minutes. 
+
+Privileges
+Creating a Priv
+
+When creating a priv, look for existing ones that may be similar to determine which Category to create the priv in. 
+
+Click on the Privileges tab.
+Find the Category the new priv should be in. Look for similar privs to help determine which one to go in if you're unsure. 
+Click Add Priv at the bottom of the Category it should be in. 
+Enter the name for the priv. See the Naming section below for more details. 
+Click Confirm. 
+You'll be taken to a new page to finish creating the priv. See the sections below for more details. 
+Naming
+
+If similar privs exist, copy and paste that priv name into the new one and then alter only the parts you need to change. This ensures consistent naming and helps when sorting lists alphabetically. 
+
+For Bomgar and RAD group privs, ACER looks at the priv name, so it must be formatted exactly as the others in order for ACER to work.
+
+VCC privs are just for record keeping, as VCC pulls from the RAD group when granting/revoking privs.  
+
+Actions
+
+Add detailed instructions on the steps needed for the Responsible Party (RP) to Grant or Revoke the priv from the employee. Click in each section to add text. Copy and paste the action from another priv if it's similar, to ensure the same language and formatting. 
+
+Responsible Party (RP)
+
+The RP can be set separately for each individual site, and for each action (grant or revoke). Privs are assigned to a position, and then the positions are in each of the different sites.
+
+Example: if the priv is assigned to a Consultant Position at the Busch site, and a Consultant Position in the Livi site, you can set a separate RP for each. So that Busch FT are responsible for granting the priv for the Busch Consultant, and Livi FT are responsible for granting the priv for the Livi Consultant. 
+
+Typically, it is easiest to just select all Labs/HD sites (except for Newark and Camden) and have the RP be assigned for all, even if the priv is just meant for a single site. This is done because when viewing the Privileges tab, the RP column shows you any RP assigned to that priv, and not what site each of those RPs are responsible for. Which can be confusing, and the only way to check is to go into the RP for the priv and check each individual site. This also prevents the priv from being missed in the future if the priv is assigned to a new position that is in a site that doesn't have an RP set for it (it will go unnoticed and not show up on anyone's home page to process). 
+
+Only set the RP for a singular site if you truly want to set a specific different RP per site. 
+
+Click the RP field for the Grant or Revoke section of the priv. 
+Choose which site you want to assign a RP. You can click and drag to select multiple sites to set the RP for at one time. 
+Choose what Group or User should be the RP for the selected site(s). 
+Avoid selecting individual Users, as it is more cumbersome to go priv by priv and update the RP if that user leaves OIT. Instead, make an RP group, even if just for one person, and assign that group as the RP for the priv. That way if that user leaves you only have to update the Group in one spot vs having to go into each priv. 
+Click Confirm when done.
+You must click Confirm before you can update the RP for a different site, this requires you to repeat theses steps from the beginning for the next site you want to update. 
+Inherit
+
+Positions can be set to inherit privs from other positions. This is beneficial for a similar position, at different sites, to inherit privs from one "Master" position. Or for positions to inherit privs from lower positions as a consultant is promoted up the ladder. If there are several Positions that inherit sequentially from each other, the priv only has to be assigned to the lowest most position and it will inherit upward through all the sequential positions. 
+
+Checking off Inherit allows the priv to be assigned to any position that inherits a position with the priv already assigned. 
+
+If left unchecked, the priv will have to be assigned to each position that needs it individually. 
+
+adm
+
+If ADM is checked off, then the person's -adm account will be listed in any tasks to complete or used in any automatic priv RAD group. If they do not have an -adm account yet, ACE will recheck every 10 minutes to try to add them to the RAD Group. On the user's Employee page in ACE, there is a section that indicates whether they have their -adm account yet (including a timestamp for when it was last checked), as well as indicating if any pending privs need an -adm account. You can also click Refresh -adm to manually run a check for their -adm account. Their adm status is updated every 10 minutes. 
+
+Automatic Priv
+
+These will create RAD groups that contain the NetIDs (or NetID-adm if the adm box is checked off). The name of the RAD group is listed on the Priv in the Privileges tab in ACE. The number after the "P" in the priv name is the ID number for that priv. 
+
+Users are automatically added to the RAD group listed by ACE as soon as they are assigned a position with that privilege associated with it. They are also automatically removed from the RAD Group when they are unassigned that priv. 
+
+Automatic privs will not have a NetID listed under "Granted by" or "Revoked By" since it was not done by an individual. 
+
+To make a priv automatic, you must contact Anton (NetID: antsar).
+
+Deleting a Priv
+
+You should first check to see who the priv is still assigned to before deleting by clicking Show in the Empl. column on the Privileges tab.
+
+A priv can be deleted by clicking the X in the Del column. It will then ask you to Confirm. If the priv is still assigned to anyone, you will get two options after clicking Confirm:
+
+Revoke the privs right now, all at once. - This should be used if the priv does not need to still be removed from those it is assigned to. Typically, this is for a service that no longer exists and no one has access to anymore. 
+Do not touch them, the privs will have to be removed one-by-one manually. - This should be used if access still needs to be removed for anyone who still has the priv assigned. A revoke action will show up on the Home page for the RP of the priv. 
+Check who has a specific Priv
+
+To see who currently has a priv, navigate to the Privileges tab and click Show in the Empl. column next to the priv you want to check. This will show you anyone who has the priv assigned (but not those who are still pending and are still on the Home list for the RP to process). 
+
+Positions
+
+Positions are located within a specific Site (Busch, Livingston, Newark, etc). Positions can not be moved between or copied from Site to Site. 
+
+Adding a Position to an employee
+
+Student Employees should only have 1 Position per Site, since each Position inherits the one below it. This also helps keep an accurate count of employees in each Position when looking at the Positions tab. 
+
+During promotions, you should add the employee's new Position before removing their old one. 
+
+Individually
+Go to the Manage Employee tab. 
+Enter their NetID and hit Enter to be brought to the employee's page. 
+Click Add Position. 
+Select the Site the position is in. 
+Then choose the new Position to add. 
+Change the start date if necessary. 
+Click Confirm. 
+Bulk
+
+Follow the process for Bulk uploading new employees to add the same position to multiple employees at once. 
+
+Removing a Position from an employee
+Individually
+Go to the Manage Employee tab. 
+Enter their NetID and hit Enter to be brought to the employee's page. 
+If they are being promoted or changing to a new Position, add that one first before removing their current one. 
+Click the X next to the Position you want to remove. 
+Choose the reason why and change the date if necessary.
+Click Confirm. 
+Bulk
+
+No option currently exists to bulk remove positions. 
+
+Check who is currently assigned to a specific Position
+
+You can view a list of all employees assigned to a particular Position. 
+
+Go to the Positions tab. 
+Click on the Position you want to check. 
+Click List Employees. 
+Check what other Positions inherit privs from a specific Position
+
+You can check to see what other positions may inherit privs from a specific position. This will show only the positions that are set to directly inherit the privs from the position you are viewing (the next step up in a sequential ladder). This does not show any subsequent positions higher up the ladder (3rd, 4th, 5th, etc.. rungs of the ladder). 
+
+Go to the Positions tab. 
+Click on the Position you want to check. 
+Click List Positions. 
+Creating a new Position
+
+Any priv that would be specific to only select individuals, and not to an entire position, should be listed as it's own position in the Help Desk Access site. Examples of this are for individual FT that might be Admins for a service that not all FT have access to. 
+
+Go to the Positions tab. 
+Click Add Position in the appropriate Site. 
+Name the Position. See the naming section below for more details. 
+Click Confirm. 
+You'll then be taken to the Position's page where you can assign privs and inherit positions. See sections below for more details. 
+Naming
+
+Ensure consistent name formatting with similar or sequential Positions. Copy and paste the name from similar Positions to ensure consistency. 
+
+Inheriting privs from other Positions
+
+You can choose if the position will inherit privs from a "Master" position or from a lower-level position. 
+
+In the Other Positions To Inherit Privileges From box, find the position (s) you want to inherit privileges from. 
+The list will show all positions on the same site first, then all other positions in alphabetical order based on the site. 
+To select multiple positions, you must press CTRL when clicking on multiple positions. Clicking on just 1 position without holding CTRL will unselect any other already selected positions, and only select the one you just clicked. 
+Inheriting from another position will not inherit all privs from that position. It will only inherit the privs on that position that have the Inherit checkbox marked on the priv itself in the Privileges tab. 
+Click Save Changes in the Other Positions To Inherit Privileges From box when done. 
+Clicking Save Changes under the Positions Info box is not the same. 
+Adding Privs to a Position
+
+If you have also just chosen to inherit privs from another Position, make sure you clicked Save Changes in the Other Positions To Inherit Privileges From box. This is so that the inherited privs are checked off accordingly (grey check marks) before you now go to check off new privs individually to the position. 
+
+Go to the Position you want to change.
+Click the heading name of each priv section to expand it. Alternatively, click Expand all sections at the top of the priv list to automatically expand all of them. 
+Find the priv you want to add. 
+Click the check box on the priv. If the box is already checked off and grey, that means it is already inheriting the priv from another position. 
+Click Save Changes in the Position Info box to save. 
+Removing Privs from a Position
+
+This is the same as adding, but uncheck the box next to the appropriate priv. 
+
+Note that if a priv that is not inherited is added to a position, and then the priv is changed at a later date to actually be inherited, the check box will remain blue. If you uncheck the priv box and click Save Changes, the box will now turn grey to show that it is inherited. 
+
+New Brunswick Position list and order
+Help Desk
+Student
+HD L1 CIT (before 1st training)
+HD L1 CIT (before 2nd training)
+HD L1 CIT
+Completed all trainings, but not on the Permanent schedule
+HD L1 Consultant
+Meets minimum hours on the L1 Permanent schedule
+HD L2 (in training)
+Before L2 training is completed
+HD L2 (trained)
+L2 training completed, but not meeting minimum L2 hours on a Permanent schedule
+HD L2 (on perm sched)
+
+Meets minimum hours on L2 Permanent schedule
+HD L3 Assistant SIT (before 1st training)
+HD L3 Assistant SIT (before 2nd training)
+HD L3 Assistant SIT (trained)
+L3 AS training completed, but not meeting minimum L3 AS hours on a Permanent schedule
+HD L3 Assistant Supervisor
+Meets minimum hours on the L3 AS Permanent schedule
+HD L3 SIT
+L3 training completed, but not meeting minimum L3 hours on a Permanent schedule
+HD L3 Supervisor
+
+Meets minimum hours on the L3 Permanent schedule
+HD USSS 5 
+HD Mgr
+Fac/Staff
+F/S HD CSA1
+F/S HD Assistant Manager
+F/S HD Mgr
+LMS
+LMS HD USSS
+LMS Manager
+After Hours
+HD USSS 2
+Labs
+CIT
+CWS L1 Consultant
+L1 Consultant
+L2 (in training)
+L2 training, but not meeting minimum L2 hours on a Permanent schedule
+L2 (on perm sched)
+Meets minimum hours on L2 Permanent schedule
+L3 Assistant SIT
+L3 Assistant Supervisor
+L3 Supervisor
+Manager
+Certifications
+After Hours Trained (before 1st training)
+After Hours Trained (before 2nd training)
+After Hours Trained
+AH training completed, but not on the AH Permanent schedule
+After Hours Certified
+On the Permanent Schedule for AH
+Email Support Certified
+Submitted their email cert form and had it approved by a Sup
+ACE Users
+
+Users are Full-Time or Student Supervisor Employees who can access and update things in ACE. 
+
+Adding User
+Go to the Settings tab. 
+Click Add User. 
+Enter their NetID. 
+Click Confirm. 
+By default, they are added as a Supervisor. change their access level if needed. 
+Removing User
+Go to the Settings tab. 
+Click the X next to the NetID to be removed. 
+Click Confirm. 
+Access Levels
+
+Each of the 3 different access levels have the following permissions
+
+Supervisor
+View an employee's page including current positions and privs
+Add/remove positions to employees
+Full-Time
+View an employee's page including current positions and privs
+Add/remove positions to employees
+Add/remove employees
+Process privs assigned to them as an RP
+Admin
+View an employee's page including current positions and privs
+Add/remove positions to employees
+Add/remove employees
+Process privs assigned to them as an RP
+Add/remove/update privs and Positions
+Add/remove/update Users
+Add/remove/update RP Groups
+RP (Responsible Party) Groups
+
+RPs are the ones responsible for granting/revoking privs. RPs will only see privs on their Home tab to process for the Groups they are in. They must also be on the Users list in order to access ACE. 
+
+Adding someone to a RP
+Go to the Settings tab. 
+Find the RP to update. 
+Enter the User's NetID to the list, leaving a space between each NetID. 
+Hit Enter on your keyboard to save. If you do not hit Enter it will not update. 
+Removing someone from a RP
+Go to the Settings tab. 
+Find the RP to update. 
+Delete the User's NetID from the list, leaving a space between each NetID. 
+Hit Enter on your keyboard to save. If you do not hit Enter it will not update. 
+Creating a RP
+Go to the Settings tab.
+Click Add Group. 
+Enter a name for the group. Follow similar group name formatting if applicable. 
+Click Confirm. 
+Add Users to the Group as noted above. 
+
+" KBB0010105 IT Help Desk - Student Slack "
+
+**NB-HD - Level 3 User Criteria Group**
+
+**NB-HD - Application Support & FT staff**
+
+The Outage Degradation Slack channel (#esd_outage_degradation) is our primary means of communicating known outages/degradations to staff at large, including senior management and cross-campus staff.
+
+Procedures
+
+For all outages/degradations of service:
+
+Once known, please post in this channel to inform staff.
+As updates become available, please post additional messages.
+Once resolved, please post to inform staff.
+It is important to note that, once outages are resolved and users are no longer experiencing issues, we may need to re-escalate.
+When posting messages in this channel, please indicate the time the item occurred, as one would do for a timeline.
+
+For outages/degradations reported in the channel by others (outside Apps/After-hours staff):
+
+Acknowledge the report by replying to the channel message, confirming that the matter is being looked into.
+Investigate the issue; review your monitoring tools; test and verify.
+If you are unable to replicate the issue, report your findings in the Slack channel and ask the original poster for more information.
+If you can replicate the issue, confirm in the Slack channel and let others know you will escalate the matter.
+Refer to your documentation and take the appropriate steps to escalate.
+Status updates should be posted to the Slack channel as you progress through the issue, up to and including resolution times.
+All posts in this channel should be noted in your event timelines and the AppSupport EOS report.
+
+**NB-HD - Level 3 User Criteria Group**
+
+**NB-HD - Application Support & FT staff**
+
+
+
+" KBB0010166 IT Help Desk - Student Supervisor Documentation - CIT Training 2nd Part (In-Person) "
+
+Supervisor Documentation - CIT Training 2nd Part (In-Person)

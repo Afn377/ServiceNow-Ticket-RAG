@@ -1,0 +1,751 @@
+Number Category Short description Article body KB0015085 IT Help Desk - Application Support After-Hours - ITS Escalation Procedures "
+The NB-ITS Help Desk closes at 4:30 pm Monday-Friday and is closed on weekends. Users who call the NB-ITS Help Desk after it has closed will be presented with the option to speak to an NB HD After-Hours consultant. This article will provide you with guidance on how to handle some common ITS issues. If you cannot assist the user, please let the user know that you will be moving their ticket, and an ITS specialist will assist them during regular business hours. If the user indicates their issue is an emergency, please use the FT on-call list. If you are unsure if the user is supported by ITS know that ITS supports most users who land in the Echo domain on Connect.
+Incidents that need to be handed off to the NB ITS Help Desk should be placed in the ESD - Information Technology Services (ITS) assignment group. 
+Unlocking ITS Account
+If a user's ITS account is locked, you must reassign the incident to the ESD - Information Technology Services (ITS) assignment group. After-hours staff cannot unlock ITS accounts.
+Creating/Recreating New ITS User Account
+If a user needs to create a new ITS user account, you can get them started on the process by doing the following:
+•	Verify if the user is a Full Time Staff member or a student worker.
+•	Provide the following link to the user:
+o	Full-Time staff: https://its.rutgers.edu/services/its-account-creation-and-reactivation-regular-staff
+o	Student worker: https://its.rutgers.edu/services/its-account-creation-and-reactivation-student-staff
+•	The user will be asked to log in
+•	Select the link for the request form
+•	The form will generate a sys admin ticket for ITS staff to follow up on
+•	At this point,t you can notify the user that the ITS Help Desk will be reaching out to them to schedule a new user orientation 
+New User Orientation
+If a user asks to schedule a new user orientation, you will need to reassign the incident to the ESD - Information Technology Services (ITS) assignment group.
+If a user asks what is part of a new user orientation you can provide the following information:
+•	Set up Outlook, also inform them of connect.rutgers.edu.
+•	Change Default PDF user to Adobe Reader (or Acrobat if their computer has it).
+•	Take note of programs on the desktop, if they don’t need something you can get rid of it and remove the label off KACE, if they need a piece of software they don’t have, start the process of getting it. 
+•	Change the Default Mail program to Outlook.
+•	Change the default browser to their desired default.  
+•	Show users the Snipping Tool. This will help capture error messages when they want to talk to the Help Desk. 
+•	Make user aware they should not Shut Down ever. We do updates at night, and we must keep their computers updated with security patches. 
+•	Show them how to log off/lock the computer instead. 
+•	Teach them how to interact with the help desk.
+•	Point out the stickers on their monitor, the contact info, and the computer name. 
+•	Explain its a good idea to reboot first before calling with a support issue.
+•	If emailing, include call back number, department, computer name, and suitable time to call back.  
+•	Set them up with remote desktop and VPN instructions if they need them. This can be found on its.rutgers.edu/documentation.
+•	Do the same for email on the phone. 
+•	Show them the shortcut to the ITS website that is on their desktop.
+Connecting to RUWireless secure 
+You can provide general RUWireless troubleshooting using the following KB:
+https://ithelp.rutgers.edu/sp?id=kb_article&sysparm_article=KB0012539&sys_kb_id=b5d76e158737f01056be426d8bbb355f&spa=1 
+If the user cannot connect to RUwireless Secure, the incident must be triaged to the ESD - Information Technology Services (ITS) assignment group. The ITS Help Desk will then schedule for the user to either come to the RFO office or a field tech to go out to the user’s location.
+Cisco VPN (AnyConnect) 
+Utilize the KA: https://it.rutgers.edu/guides/remote-access-with-anyconnect-virtual-private-network/ 
+Hardware Delivery
+If a user wants to have new or used hardware delivered to them, a ticket will need to be created with the following information:
+•	What the item is, and is it used or new
+•	If it is a used item, such as a keyboard, mouse, or monitor, the ITS help desk will work with the field team to deliver and install the item
+•	If it is a new item, the request is sent to field support so that they can begin the procurement process 
+o	Once new item is received after procurement, field support schedules pick up or delivery with the user (depending on the item)
+Computer Renewal
+If a user requests a computer renewal, the incident will need to be triaged to the ESD - Information Technology Services (ITS) assignment group.
+" KB0014885 IT Help Desk - Application Support Five9 - HD On-Call List "
+The on-call list should be used in issues regarding patient care, urgent requests from VIPs, shift emergencies, and campus emergencies.
+General Information
+The Help Desk on-call list is available by calling 848-267-6515. You should use this number when trying to reach a full-timer or manager. You should not dial a full-timer or manager directly unless this system is non-operational.
+The main menu lets you hear the current list. The menu options are as follows: 
+•	1 - Plays the current FT Staff on-call list
+•	2 - Plays the current Manager on-call list
+If you call through the entire list and are unable to reach an FT or Manager, please call through the list again (you do not need to wait before proceeding).
+Using the On-Call List Phone Number
+To use the on-call list in the case where a full-timer needs to be contacted:
+1.	Dial the on-call list: 848-267-6515
+2.	Select option 1 to go to the FT list.
+3.	Press the corresponding number to call the indicated person. 
+4.	If you cannot reach this FT, leave a voicemail indicating the issue you are having and the number you are calling from if it is not the Operations phone.
+5.	Hang up the call and dial the number again. 
+6.	Repeat this process through each FT listed until you reach one or have contacted the entire list. 
+7.	If you need to reach a Manager, select option 2 after calling the number. 
+8.	Press the corresponding number to call the indicated person. 
+9.	If you cannot reach this Manager, leave a voicemail indicating the issue you are having and the number you are calling from if it is not the Operations phone.
+10.	Hang up the call and dial the number again. 
+11.	Repeat this process through each Manager listed until you reach one or have contacted the entire list. 
+12.	If you call through the entire list and are unable to reach an FT or Manager, please call through the list again (you do not need to wait before proceeding).
+Issue Reporting
+For issues with the on-call list, please report them to hd_ft@oit.rutgers.edu. 
+KBB0010128HD On-Call List
+" KB0018211 IT Help Desk - Application Support FT - After Hours - IT Alerts "
+Table of Contents
+•	What are IT Alerts?
+•	When is AH Responsible for Alerts?
+•	How to Post 
+o	Adding a new Alert
+o	Adding new status updates to existing Alerts
+o	Adding major alerts to Rutgers IT website homepage
+o	Messages under Alerts landing page and individual pages
+•	Alert Status Types 
+o	For planned maintenance
+o	For service issue
+•	Templates 
+o	For planned maintenance
+o	Canvas
+o	RU Wireless Issue
+o	Network issue
+o	Search.rutgers.edu issue
+o	NetID issue
+o	Degree Navigator issue
+o	Issues on the service owner’s end
+•	Updating alerts on Facebook and Twitter accounts  
+o	For Facebook 
+o	For Twitter
+•	Where do we get Updates?
+What are IT Alerts?
+IT Alerts can be found on the following page: https://it.rutgers.edu/alerts/
+IT Comms has an extensive article that outlines the process for alerts and outage communications: https://it.rutgers.edu/it-communications/knowledgebase/oit-process-for-alerts-and-outage-communications/
+When is AH Responsible for Alerts?
+After 4 pm on weekdays and all day on the weekends, the After Hours team will be responsible for posting and updating alerts.
+How to Post
+Log into: https://it.rutgers.edu/login
+To get to the Alerts function of the Rutgers IT website, make sure you are logged on and in the main IT website (Information Technology should appear next to My Sites in the black vertical WordPress navigation bar on the top). If you see that, then choose Dashboard and then choose My Alerts, which will be listed on the left-hand navigation bar.
+Error! Filename not specified.
+Adding a new Alert
+From the dashboard, visit My Alerts > Add new at the top of the page. Once on the Add New Alert page, enter a title for the alert where it says Add Title.
+Next, scroll down and select the blue Add Alert Update button, which allows you to create the first item in the Alert.
+Error! Filename not specified.
+From here, do the following:
+1.	Enter the Time of Update. You can also choose Now.
+2.	Enter Status Type: 
+o	If this is an outage or service issue, use Investigating as the status type for the first alert item. If this is an issue where the source is unclear or the Help Desk has identified it through a vendor (i.e. Canvas, Apple, etc.), then you can use Identified.
+o	If this is a planned maintenance, use Scheduled as the status type for the first alert item.
+3.	Enter Description. Please refer to Guidelines for writing IT alerts document (Uploaded to the AH Teams channel) for more information.
+4.	Publish when finalized.
+Adding new status updates to existing Alerts
+When you need to provide a status update for an already-published Alert, visit the Alerts menu on the dashboard and choose the alert you would like to update.
+1.	Choose the blue Add Alert Update button, allowing you to add another labeled item (i.e., with a label like Monitoring, In Progress, etc.).
+2.	Enter the Time of Update.
+3.	Enter the Status Type, choosing from the various options and trying to stay within these general guidelines: 
+o	If an alert has not been resolved, choose Update, Monitoring, In Progress or Investigating depending on the status.
+o	For outages or other unexpected issues, use Resolved for the last alert item when the issue has been resolved.
+o	If a Resolved issue occurs again, within a short time after being resolved, change the existing Resolved status to Update when you provide additional information.
+o	For planned maintenance only, use Completed for the last alert item instead.
+4.	Enter Description. Please refer to Guidelines for writing IT alerts document (Uploaded to the AH Teams channel) for more information.
+5.	Publish when finalized.
+Adding major alerts to Rutgers IT website homepage
+•	To make the Alert bell turn red on the homepage indicating that there is a MAJOR alert, visit Theme Settings on the left side navigation bar on the main IT site’s dashboard. Choose the Alerts tab and then toggle the Alert Bell switch to On.
+•	To activate a site-wide banner on the top of the site on all pages, visit Theme Settings on the left-hand navigation bar for main IT site’s dashboard. The site-wide banner should only be activated in cases of extreme IT emergencies (e.g., wireless is unavailable, and we don’t know when it will be restored). Choose the Alerts tab and then follow these instructions: 
+o	Toggle the Global Alert switch to Enable. 
+o	Enter the URL of the Alert you need to link to.
+Messages under Alerts landing page and individual pages
+The standing messages on these pages should be revised only by the IT communications team. These are revised by visiting the Theme Settings at the core site.
+Error! Filename not specified.
+Alert Status Types
+For planned maintenance
+If there is a planned maintenance, one of the following alert statuses (depending on the alert description) should be used:
+•	Scheduled ¬– For the initial alert of any planned maintenance.
+•	Update – As an alert status if any updates need to be shared that occur before or during the planned maintenance.
+•	Completed – Once the maintenance is done, this status should be chosen, and alert description should be drafted saying that the planned maintenance has been completed.
+For service issue
+If an issue with a service occurs, one of the following alert statuses (depending on the alert description) should be used:
+•	Investigating/Identified – For the initial alert of any planned maintenance.
+•	Update ¬– As an alert status if any updates need to be shared before the service issue is resolved.
+•	Resolved – Once the service issue has been resolved, this status should be chosen, and an alert description should be drafted indicating that the planned maintenance has been completed.
+Templates
+The easiest way to compose an alert is to re-use a past alert from the Alerts section of the Rutgers IT website. If you cannot find a corresponding alert, here are some templates that you can follow: 
+For planned maintenance
+Status: 1. Scheduled, 2. Update (if applicable), 3. Completed
+Date: XX
+Sample title: Planned maintenance: IT services unavailable XX
+Status “scheduled” description: A number of Rutgers information technology services and systems will be unavailable on XX due to scheduled maintenance and upgrades. This work is necessary to XX.
+The following services may be unavailable during the maintenance period:
+•	
+o	XX
+o	XX
+Status “completed” description: The technology upgrade has been completed. The Rutgers information technology services and systems are being restored. If you have any questions or concerns, please contact the Office of Information Technology Help Desk. 
+Examples of previous planned maintenance alerts:
+•	
+o	ASB data center maintenance on March 27-28, 2021
+o	Hill Data Center maintenance: Services unavailable March 20-21, 2021
+o	Several student systems temporarily unavailable Oct. 4 for planned maintenance
+ 
+Canvas
+Status: 1. Scheduled, 2. Update (if applicable), 3. Completed
+Date: XX
+Sample title: Issues accessing Canvas learning management system
+Sample “investigating” description: Users may be experiencing issues accessing the Canvas learning management system. The issue is being investigated. Please visit the Canvas status page for the latest updates.
+Sample “resolved” description: The issues with Canvas have been resolved.
+Examples of previous Canvas alerts:
+•	
+o	Issues accessing Canvas learning management system
+o	Issues accessing Canvas
+ 
+RU Wireless Issue
+Status: 1. Investigating, 2. Update (if applicable), 3. Resolved
+Date: XX
+Sample title: Issues connecting to RUWireless
+Sample “investigating” description: Users are reporting issues connecting to RUWireless. The Office of Information Technology is investigating.
+Sample “resolved” description: The issues with RUWireless have been resolved.
+Examples of previous Canvas alerts:
+•	
+o	Issues with RUWireless
+o	Issues connecting to RUWireless
+ 
+Network issue
+Status: 1. Investigating, 2. Update (if applicable), 3. Resolved
+Date: XX
+Sample title: Issues with Rutgers Network
+Sample “investigating” description: The Office of Information Technology is investigating issues accessing the Rutgers network. OIT will provide an update when we have additional details.
+Sample “resolved” description: The issues with the Rutgers Network have been resolved.
+Examples of previous network alerts:
+•	
+o	Issues with Rutgers Network
+o	Network issues impacted VPN, Sakai, and other IT services
+ 
+Search.rutgers.edu issue
+Status: 1. Investigating, 2. Update (if applicable), 3. Resolved
+Date: XX
+Sample title: Issues with search.rutgers.edu
+Sample “investigating” description: The Office of Information Technology is investigating issues with search.rutgers.edu. Users may have issues accessing search results. OIT staff members are working to address the issue.
+Sample “resolved” description: The issues with search.rutgers.edu have been resolved. If you have any questions or concerns, please contact the Office of Information Technology Help Desk.
+Examples of previous search.rutgers.edu alerts:
+•	
+o	Issues with search.rutgers.edu
+o	OIT investigating issues with search.rutgers.edu
+o	People search at search.rutgers.edu not available
+ 
+NetID issue
+Status: 1. Investigating, 2. Update (if applicable), 3. Resolved
+Date: XX
+Sample title: Issues with NetID service activation
+Sample “investigating” description: NetID service activation is currently unavailable. The Office of Information Technology is investigating the issue.
+Sample “resolved” description: The issues with NetID service activation have been resolved.
+Examples of previous NetID alerts:
+•	
+o	Issues with NetID service activation
+o	NetID website unavailable
+o	Issues logging into services with NetID
+ 
+Degree Navigator issue
+Status:1. Investigating, 2. Update (if applicable), 3. Resolved
+Date: XX
+Sample title: Issues with Degree Navigator
+Sample “investigating” description: The service is experiencing an outage and is currently unavailable to both students and advisors. OIT is working with an outside vendor to investigate the issue.
+Sample “update” description: The Office of Information Technology is working with an external vendor to seek a fix for this issue. Additional details will be provided as they become available.
+Sample “resolved” description: The issues with Degree Navigator have been resolved. The service is now working normally. The Office of Information Technology will continue to monitor its operation.
+Examples of previous Degree Navigator alerts:
+•	
+o	Issues with Degree Navigator
+o	Issues with Degree Navigator
+o	Issues with Degree Navigator
+ 
+Issues on the service owner’s end
+This type of alert is when any service-related issues come in from the service owner (i.e. Zoom, Webex, etc.). We would direct users to the service’s own status pages to view updates.
+Status: 1. Investigating, 2. Update (if applicable), 3. Resolved
+Date: XX
+Sample title: Issues scheduling and joining Zoom meetings
+Sample “investigating” description: Zoom is receiving reports of users being unable to start and join Zoom Meetings and Webinars. Zoom is currently investigating and will provide updates at the Zoom status page.
+Sample “resolved” description: Zoom reports that all issues have been resolved. It is currently monitoring to ensure that all services remain operational. Zoom will provide updates at the Zoom status page.
+Examples of previous alerts that are on service owner’s end:
+•	
+o	Issues scheduling and joining Zoom meetings
+o	Issues accessing Office365 services including Rutgers Connect
+o	Verizon users experiencing issues connecting to Rutgers services
+ 
+Updating alerts on Facebook and Twitter accounts 
+For Facebook 
+1.	Reference the first section of the Alert page titled WP2Social Auto Publish.
+2.	Toggle to Yes so that it is highlighted blue for the Facebook post.
+3.	Posting method should read “Share a link to your blog post.”
+4.	Delete {POST_TITLE} in the text box and add in your text for the Facebook post.
+5.	After your text has been added, click SELECT above for the Message format for posting section and choose {PERMALINK}, which will be added to the end of your post.
+6.	Click the blue Update button located on the right-side navigation bar to post when you are done with the Alert Update and social media posts. Item will post to Facebook when you PUBLISH or UPDATE this alert. 
+For Twitter
+1.	Twitter/SMS Message is located on the right side navigation bar on the bottom.
+2.	Type in your alert description. Please note if it’s too long the character limit will tell you and you’ll have to abbreviate it slightly.
+3.	You do not have to type in the URL as it will automatically add that once posted.
+4.	Toggle the Send Tweet button so it is blue and says Send.
+5.	Once you click the blue Publish or Update button located on the top right side when you are done with the Alert and social media posts, the item will post to Twitter when you PUBLISH or UPDATE this alert. 
+Where do we get Updates?
+If you get an update via OpsGenie, Slack, email, or any other communication method with relevant information, feel free to update the alert if needed. You do not need to reach out for updates.
+" KB0014876 IT Help Desk - Application Support General - Timeline Reporting "
+Timelines are a critical part of Applications Support and they are required once you begin to escalate an issue. Timelines are a way for all involved parties to keep track of an issue, and provide accurate information to customers. This is why it is important to create running and final timelines for all escalated issues. 
+Final Timelines should always CC operator@oit.rutgers.edu and hd_mgr@oit.rutgers.edu as well as any other applicable parties. Applicable parties are customers (not users) involved in the issue. Typically, those you have escalated the issue to would be CC'd in a timeline. Additionally, the incident created for the issue and the End of Shift (EoS) report for that time period should have a copy of the timeline in it as well.
+In addition to a final timeline, you should also send a working timeline to operator@oit.rutgers.edu and hd_mgr@oit.rutgers.edu as well as any other applicable parties. A working timeline should be sent after an issue has been escalated but before it is resolved. For example, if you call a contact and they state that they will look into it and call you back, you can send a working timeline. 
+Example Timeline
+From: ECS HD - Afterhours Support Staff <operator@oit.rutgers.edu>
+Sent: Wednesday, November 16, 2022 10:11 AM
+To: ECS HD - Afterhours Support Staff <operator@oit.rutgers.edu>
+Cc: OIT HD Managers' List (NB) <hd_mgr@oit.rutgers.edu>
+Subject: INC0616574 - Final Timeline
+ 
+All, 
+The timeline is listed below for the Student Registration Services Issues - INC0616574 
+0940 rwb109 notices WebReg is experiencing an unexpected error and notices increased call volume.
+0945 rwb109 confirms with multiple HD Consultants that they are able to replicate the issue. 
+0946 rwb109 sends an email to WebReg Contacts 
+0950 WebReg Contacts advises that they are aware and are working with the vendor 
+1004 WebReg Contacts confirms services are restored. 
+Best,
+Name
+Example Incident
+INC0575427 
+" KB0017312 IT Help Desk - Application Support IT Application Support - After Hours - Environment Power Outage Checklist "
+Environment - Power Outage Checklist for After Hours
+Please read thoroughly and ask/call a supervisor at any time if you have any questions on what to do.
+•	This form must be submitted to a manager after the outage is resolved via print out or email. Whichever is quicker at the time.
+•	This form can be printed using the printer in the old apps office. The computers in the NOC have access to the Color LaserJet Pro MFP M281fdw.
+•	All calls and texts should be made from the AH iPhone, unless there is an issue reported with the phone.
+There are three scenarios that may happen with a power outage. Your first indication of an outage is that the lights will flicker. This could lead to the following scenarios: 
+1.	Generator turns on: The UPS (uninterruptible power supply) carries the data center load to give time for the generator to turn on. Once the generator turns on you will receive an automated email from omx@omnimetrix.net that the generator is running. The majority of the building is now powered by the generator, though wall outlets in offices and some lights will be not work when on generator power, for example the bathrooms by the old apps office.
+2.	Generator does NOT turn on: The UPS switches to battery power, but the generator does not turn on. We will not get an email from omx@omnimetrix.net, but we will get emails "On Battery" from the UPS, and a variety of alerts from the data center monitoring software. 
+1.	The UPS batteries will carry the data center load for ~20 minutes and the UPS will send email indicating how much battery life remains. Once the batteries are exhausted everything will go dark because we will have lost all power. It's important to know that the data center air conditioners will only run under generator power, so the room will begin to get very hot. Also, the hallway lights and elevators will not function.
+3.	Glitch: The lights flicker, but the generator does not turn on. We do not get an email from omx@omnimetrix.net and we do not lose power after 1 minute. This means there was only a glitch and we have returned to normal power. You can also check if all the lights are on in the basement of Hill Center. 
+Each scenario has its own steps to complete. Contact information is at the end of this document.
+Scenario 1: Generator turns on 
+The UPS (uninterruptible power supply) turns on to give time for the generator to turn on. Once the generator turns on you will receive an automated email from omx@omnimetrix.net that the generator is running. 
+1.	The top priority is to start contacting people in the following order and let them know of the current situation: 
+1.	RUPD: Inform them of your name and department and that the Hill Center data center is now running on generator power. Inquire of a cause and an ETA on power restoration. 
+1.	Notes:_________________________________________________________________________________________
+2.	Email ei_dcts@email.rutgers.edu and cc operator@oit.rutgers.edu and noc@rutgers.edu to report the outage. Include any information you received from RUPD. 
+1.	Notes:_________________________________________________________________________________________
+3.	Call Caryn. If Caryn is not available, start calling the following people in this order until you reach someone: Tina, Ana, Liz, then the HD Managers on-call list. 
+1.	Names of who you called: ______________________________________________________________________
+2.	Names of who you spoke to: ___________________________________________________________________
+3.	Any instructions given: _________________________________________________________________________
+4.	Post to the following Slack channels of the outage and any details you have gathered: 
+1.	esd_outage_degradation
+2.	esd_nb_hd_apps_dc_coord
+3.	esd_nb_hd_apps_td_coord
+4.	esd_nb_hd_afterhours
+5.	Call John Wieczorek, John Lyons, Dave Salvaryn, and the NOC On-Call list. 
+1.	Names of who you called: _______________________________________________________________________
+2.	Names of who you spoke to: ____________________________________________________________________
+3.	Names of who would like to be called back with updates: ___________________________________________
+4.	Names of who would like to be called back when power is restored: _________________________________
+6.	Create an incident in ServiceNow.
+7.	Update the visual task board with the outage. The data center's temperature will increase.
+8.	The wall outlets in the center will power fans, the doors should be open, and the fans deployed to exhaust hot air from the data center.
+2.	If power is restored at this point (within 30 minutes) skip to step 4. You will know power is restored when you receive an email from omx@omnimetrix.net that the generator is off.
+3.	If power is NOT restored within 30 minutes, continuing contacting people in the following order: 
+1.	Call RUPD to follow-up. 
+1.	Notes: _________________________________________________________________________________________
+2.	Call whoever stated they would like updates to inform them that the generator has been running for 30+ minutes.
+2.	Send a follow-up email to ei_dcts@email.rutgers.edu and cc operator@oit.rutgers.edu and hd_mgr@oit.rutgers.edu with current status.
+3.	Update previously mentioned Slack channels with current status.
+4.	Update the visual task board with current status.
+4.	If power is restored within your shift note the time (meaning you received an email that the generator is off from omx@omnimetrix.net):_________ 
+1.	Call back whoever stated they would like to know when power is restored.
+2.	Send email to noc@rutgers.edu, ei_dcts@email.rutgers.edu, and cc operator@oit.rutgers.edu and hd_mgr@oit.rutgers.edu with a summary of the timeline of events and who was contacted.
+3.	Escalate any issues still on Grafana 10 minutes after the outage is over which have not already been reported.
+5.	If power is not restored within your shift: 
+1.	Be sure to communicate everything that was done and still must be done with your relief.
+2.	If no one is coming to relieve you, update the previous Slack channels so that everyone is aware.
+Scenario 2: Hill Center loses all power 
+The UPS turns on, but the generator does not turn on. We will not get an email from omx@omnimetrix.net and after 20 minutes Hill Center will go dark. 
+1.	This is the most critical form of power emergency. Call RUPD to inquire about the power outage and notify them of the loss of power in the data center as an FYI. 
+1.	Notes:_________________________________________________________________________________________________
+2.	Call Caryn. If Caryn cannot be reached, follow instructions in step 1.3 from Section1.
+1.	Notes:_________________________________________________________________________________________________
+3.	Call John Wieczorek, John Lyons, Dave Salvaryn, and the NOC On-Call list. 
+1.	Notes:_________________________________________________________________________________________________
+Scenario 3: It was only a glitch 
+The lights flicker, but the generator does not turn on. We do not get an email from omx@omnimetrix.net and we do not lose power after 1 minute. 
+1.	Send an email to operator@oit.rugers.edu ei_dcts@email.rutgers.edu and noc@rutgers.edu to inform the recipients of the glitch.
+2.	Check Grafana to follow up on any issues. 
+Contact Information:
+RUPD - (732) 932-7211 or 911
+Ana Verma - (732) 397-5160
+Tina West-Crews - (973) 768-4358
+Caryn Sarnicki - (732) 979-4980
+Manager On-Call List - (848) 267-6515, select 2
+NOC On-Call List (848) 445-7541, select 1
+John Wieczorek - (732) 673-1901
+John Lyons - (908) 334-9626
+Dave Salvaryn - (848) 445-1770
+" KB0016709 Archive ITS - ITS Admin Password Creation "
+[Archived until June 1st, 2028] 
+Only one person can access the VM at a time. Please reply on the slack thread when you start and finish the process.
+1.	Open up the Bomgar Desktop Application. 
+2.	Find the search bar towards the middle right side of the window which should say "Search Jump Items…" in it.
+3.	Type in either CASC112VMC4, CASC112VMC5, or CASC112VMC6.
+4.	Once you search for it, it should show in the middle, bottom box.
+5.	Double-click on it to open a session.
+6.	Select Screen Sharing and enter: 
+o	Username: its\NetID_admin 
+o	Password: Reach out to a FT for your location to get the temporary password. 
+7.	Click the arrow next to the password box.
+8.	You will get a prompt about changing your password. Click Ok.
+9.	Create a unique password (do not use your NetID password) and note it somewhere so you do not forget. For password requirements, see ITS – Password Requirements. 
+10.	Sign Out of the VM! Make sure you sign out so the next person can log in without issue. 
+KBB0010139ITS - ITS Admin Password Creation
+
+ 
+" KB0014545 IT Help Desk - Application Support Network - TD Network Status Monitoring - Grafana KB0015409 IT Help Desk - Application Support NOC/After Hours Room Operations Procedures "
+Map of NOC/After-hours room
+Error! Filename not specified.
+Stations
+There are four stations available to After-Hours Staff. They are 1504, 1503, 1502 and 1501. You can log into these machines using your Rutgers NetID and password.
+NOC Supervisor Station
+The NOC supervisor station is authorized by NOC personnel only and should not be used.
+VCC Display
+A Five9 Dashboard (login.five9.com) is displayed on the Sony display. The login credentials are usually saved in the browser. The dashboard may freeze, so you can log out and log back in.
+Username: hd_app@oit.rutgers.edu
+Password: V0lleyball!
+Status Display
+Using the Sony remote control, press the input button and select HDMI. This should bring up the Status Dashboard for Service Now. If you need to log in you can use the wireless keyboard behind station 1503. The power button is on the back of the devices. Please make sure you turn it off after you are done. 
+Wireless Headsets 
+Wireless headsets are available at each of the three stations. These headsets connect to both the phones and the PC’s. Documentation on using these devices can be found at: Cisco Headset 500 Series User Guide.
+Emergency phone
+The After-hours office is equipped with an iPhone. This phone is to be used for the purpose of immediate and/or emergency communications, or when communications are necessary from within the data center. This phone is expected to be answered as calls are received.
+Number: 732-208-9273
+Passcode: Pr0menade
+Voicemail passcode: 9611
+Contacts on the phone have been supplied and include the following:
+•	Help Desk Main Number
+•	RUPD
+•	On-Call List   
+o	This number will bring you to the auto-dialer for the full-time and managers who are currently on call. Please read the full KA on how to use the on-call list.
+•	Student Help Desk Management
+o	Individual members of management have been added to the phone. The on-call list should be the first method used to contact a manager unless the on-call system is non-operational, or you are directed to contact a specific manager directly.
+Expectations:
+•	The phone should be stored in the front cubicle behind the monitor.
+•	The phone should be charged as needed.
+•	Confirm the location and charge status of the iPhone during shift start and end.
+•	A lanyard has been supplied with the phone and is expected to be worn by consultants:
+o	During rounds in the machine room
+o	Emergency situations forcing an evacuation
+o	While working alone
+•	Any issues experienced with the iPhone should be reported to esd_nb_ft_sups@oit.rutgers.edu and hd_mgr@oit.rutgers.edu immediately.
+Usage:
+•	The management team will use this phone as primary direct contact with the AH team during times of emergency; when call loads prohibit direct contact through normal means, and as necessary to reach AH staff.
+•	The phone is expected to be answered at all times.
+•	Missed calls/voicemail is expected to be handled immediately, when applicable.
+•	The phone should not be used for outbound calls if/when VCC is available for use.
+•	Consultants may use the phone for calls to their co-workers in the office, when performing rounds or outside the office, and in immediate need of relaying information.
+•	iPhone can be used for troubleshooting.
+•	This phone is not for personal use.
+" KB0018767 RBHS RBHS - School of Nursing (SoN) Call Handling Procedure "
+The OIT Help Desk has coordinated with the School of Nursing (SoN) to receive their first-level calls. The SoN phone number 973-972-3609 has been routed to the OIT Help desk.
+Support Overview
+•	Call coverage is Monday – Friday, 7:30 am to 7:30 pm
+•	The skill in Five9 is called OIT_SoN
+•	All Level 2 and above will be responsible for handling daily call activity. Please note calls from SoN users may be received from ANY skillset.
+•	Fac/Staff support will handle call activity from 7:30 am to 8:30 am and provide backup up to 5 pm.
+•	Please follow the same procedures listed regardless of the Five9 skill it came from, if the user is from SoN.
+•	Utilize the standard OIT Help Desk greeting.
+•	SoN has no IT support for overnights, weekends, and university holidays.
+Handling Call Activity
+1.	Be sure to ask the caller if they have an existing ticket, as SoN has communicated to their community that routine request activity is directed to email support@sn.rutgers.edu which will generate a ServiceNow incident assigned to the group: SON - IT. 
+o	If the user has an existing incident in an SoN assignment group, do NOT move it out of the current assignment group. You may leave work notes on the incident in its current Assignment group.
+o	Any standard enterprise-related call (i.e., NetID password, Connect, DUO, etc.) can be handled through standard OIT Help Desk procedures.
+2.	If you receive a call that requires SoN-specific support, mark it as New and assign it to the group: SON - IT. 
+3.	Please be sure to include the location and any specifics of the issue. On-campus and off-campus locations can be found under the location heading below.
+Escalation Procedure
+Escalate all activity where a SoN user indicates they need someone right away, it is urgent, or needs someone to respond immediately. This includes but is not limited to urgent matters related to classes, exams, and patient care. If there is any doubt, proceed to escalate the issue using the following procedure:
+1.	Level 2 staff should seek assistance from FT/Sup to escalate the call.
+2.	Full-time staff and supervisors will have access to the Microsoft Teams Channel "SoN & OIT Help Desk". 
+o	Use the SoN tag and post in the channel.
+o	Include the INC number, the user requesting assistance, the location of the user if relevant, and any other pertinent information. 
+3.	Please do not keep the user on the line. You can inform the user that their call has been escalated to the SoN team and will be followed up with as soon as possible.
+SoN Locations (On Campus / Off Campus)
+•	North Jersey 
+o	Ackerson Hall, Rutgers Newark – 180 University Ave., Newark, NJ
+o	Stanley S. Bergen Building (SSB) – 65 Bergen St., Newark, NJ
+•	Central Jersey 
+o	110 Patterson Street, New Brunswick, NJ
+o	120 Albany Street, (Tower 2, 3rd & 4th floors), New Brunswick, NJ
+•	South Jersey 
+o	Blackwood, Camden County College Campus, 200 College Dr., Blackwood, NJ
+o	Suite 114 Jefferson Hall – Admin location
+o	Polk Hall 102 - Classroom
+" KB0014880 IT Help Desk - Application Support "Rutgers Services - WebReg, Course Schedule Planner, Degree Navigator" "
+If there are any problems or issues with the Web Registration System (WebReg), Course Schedule Planner (CSP), or Degree Navigator:
+•	Send mail to webreg_contacts@oit.rutgers.edu and CC operator@oit.rutgers.edu.
+o	Please include all relevant information when emailing, such as Name, RUID, Credits Completed, and School Enrolled In.
+________________________________________
+If the issue is an emergency or needs immediate escalation (i.e., receiving a large volume of calls in a short period):
+•	Call the manager on call list.
+•	Escalate via OpsGenie as a P1 Critical issue - "A “major incident” can be defined as an interruption, outage or other event for one or more services that cause significant impact and/or prevents essential work from being done."
+" KB0017889 IT Help Desk - Application Support ScarletMail Programmable Search Engine Request "
+In the Slack channel #scarlet-support-staff, or your SCTASKs, you may see a RITM from ScarletMail Support requesting that the Help Desk confirm specific information regarding a ScarletMail Programmable Search Engine request.
+Google Programmable Search Engine (PSE), formerly known as Google Custom Search Engine (CSE), lets web developers add a customizable search box to their web pages. The search uses the base Google search engine; however, it can be customized, for example, to only search specific sites. This product is popular for compliance with Rutgers website policy 80.1.7 "Search Function" requirements. A ScarletMail PSE, which may be requested via this form, offers benefits such as OIT-administered ownership that survives unit-level personnel changes and excludes advertising.
+To handle the request:
+1.	When you open the RITM, scroll down to the SCTASKs and open the one assigned to OIT-HD - ScarletMail Support Staff.
+2.	Assign the task to yourself. If you cannot assign the task to yourself, please inform a manager.
+3.	The SCTASK will ask you to confirm the following information: 
+o	Confirm the status/authority of the listed DDDC. DDDC refers to the Requestor Dean/Director/Chair. Job titles can be checked in CAT or IDCheck.
+o	Verify University business affiliation. Is the requester a Rutgers University department member?
+o	Verify 18+ status (whether through self-affirmation and/or IdM records). Verify that the requester is 18 or older.
+4.	Once all this information is confirmed, state this in a work note and change the state of the SCTASK to "Closed Complete".
+5.	If this request came through Slack or email, respond when the task is set as Closed Complete.
+See RITM0064214 as an example of the request and process.
+Link to the original request form.
+" KB0015581 ServiceNow ServiceNow - Handling Generic Requests "
+One of the General Request forms on the self-service portal creates a Request Item (RITM) and a corresponding Service Catalog Task (SCTASK), instead of an Incident. As part of your shift, please also check the filter below and follow the procedure on how to handle them.
+Review the Filter for Service Catalog Tasks.
+1.	Open the SCTASK and review the request.
+2.	If the request can be reassigned to another group, change the Assignment Group and click Save. No further action is needed.
+o	Not all Assignment Groups that are available in an Incident will also be available in a Task, if the group does not appear, move to the next step.
+3.	If the request is something the HD handles or the Assignment Group is not available in the Catalog Task, create a new Incident for the user.
+4.	Copy over all pertinent information. (Including SCTASK and RITM numbers into the Incident Work Notes).
+5.	There may also be attachments associated with the SCTASK located on the Requested Item Attachments tab on the bottom. Please make sure to add these to the incident.
+6.	On the SCTASK:
+1.	Add the Incident number as a Work Note.
+2.	Assign it to yourself.
+3.	Set the Assignment Group to: NB-HD - Level 1.
+4.	Select the appropriate Configuration Item if applicable.
+5.	Save and then mark it as Closed Complete.
+	SCTASKs are linked under their corresponding RITM. Closing a SCTASK will also automatically close the RITM. 
+7.	Finish helping the user as normal through the Incident.
+" KB0016268 ServiceNow ServiceNow - Knowledge Management Policies and Procedures "
+Table of Contents
+•	Knowledge Article Basics 
+o	Article States
+o	Article Links
+o	Can Read (User Criteria Groups)
+o	Anchor Links
+o	Images
+o	General Article Tips
+o	Fixing Formatting Issues
+o	Formatting FAQs
+•	Accessibility Standards 
+o	Text Alternative for Images/Media
+o	Headings
+o	Numbered or Bulleted Lists
+o	Hyperlinks
+o	Tables
+o	Accessibility Checker tool
+•	Creating Knowledge Articles  
+o	Public Knowledge
+o	Internal articles (HDIs)
+o	Knowledge Blocks
+•	Editing Knowledge Articles 
+o	Checkout
+o	Editing
+o	Publishing
+o	View Article
+o	Recalling
+o	Approving
+•	Revert back to a previous version of a KA
+•	Archiving Articles
+•	Retiring Articles
+•	Knowledge Feedback Tasks (KFTs)
+•	Reviewing Expiring Knowledge Articles  
+o	Service Owner Review of Expiring Articles
+o	KM Process to Review Expiring Articles
+•	Article Expiration Calendar 
+o	Breakdown
+o	Calendar
+ 
+Knowledge Article Basics
+Article States
+Articles are categorized in one of the following States in the Workflow field. 
+Draft
+Indicates it is in edit mode and the settings/article body can be changed. This occurs when you first create a new article or when you Checkout an existing article to make changes to it. The version number of the article will show with a decimal after it to indicate it is not published (ex: Version 0.01 for a new article)
+Review
+When a Draft is ready, clicking Publish puts the article in the Review state. The appropriate owners of the Knowledge Base the article is in would then need to approve it before it is visible to users. 
+Scheduled for Publish
+For articles that have been approved after being reviewed but have a Scheduled Publish Date set for the article that has not passed yet. 
+Published
+The article is visible to users based on it’s Can read and Cannot read settings. Published articles have version numbers that are whole digits (ex: 1.0).
+Pending Retirement
+An article was selected for retirement by clicking Retire. It is still visible and not actually retired until the appropriate owners of the Knowledge Base it is in, approves the retirement. 
+Retired
+The retirement for the article was approved and it is no longer visible to users. 
+Outdated
+Means that a newer version of this article is available. You can check the version number of the article to see which it is. (ex: viewing version 1.0 of an article will show workflow as Outdated, when there is an updated published version 2.0)
+How to view States
+•	The Workflow column is visible in the back end view. Hovering over the icon displays which stage it is in. If you do not see this column you have to click on the gear icon on the top left of the list, and then add it to your Selected visible columns.
+Error! Filename not specified.
+•	When viewing the article, the state is shown in the Workflow field.
+Error! Filename not specified.
+Article Links
+There are 4 different links that can take you to various versions of an article.
+Front End Permalink
+•	This is the link that should always be used whenever referencing an article to a user.
+•	It is the link on the self service Portal that takes the user to the most updated version of the article. 
+•	Navigate to the article on the Portal and click Copy Permalink located at the top or bottom of the article.
+•	Example: https://ithelp.rutgers.edu/sp?id=kb_article_view&sysparm_article=KB0012508
+Front End sys_id link
+•	When used, will take the user to this specific version of the article. If used it will not bring them to the most current version of the article if it has since been updated, which is why this one should not typically be used. 
+•	When viewing an article in the Portal, this is the link in the URL bar on the browser. 
+•	Example: https://ithelp.rutgers.edu/sp?id=kb_article_view&sys_kb_id=08138ef71bbe4110743c54a51a4bcbf0
+Back End Permalink
+•	It is the link in the back end of ServiceNow that takes the user to the most updated version of the article. This link can be used for internal documentation only for IT users with access to the backend of ServiceNow.
+•	Navigate to the article in the back end and click the Copy Permalink button located at the bottom of the article.
+•	Example: https://rutgers.service-now.com/kb_view.do?sysparm_article=KB0012508
+Back End sys_id link
+•	It is the link in the back end of ServiceNow that takes the user to a specific version of the article. This should not typically be used. 
+•	Navigate to the article in the back end, this is the link in the URL bar on the browser.
+•	Example: https://rutgers.service-now.com/kb_knowledge.do?sys_id=08138ef71bbe4110743c54a51a4bcbf0&sysparm_referring_url=kb_view.do
+Permalinks will always have a URL that ends in the KB number. 
+Can Read (User Criteria Groups)
+These are the groups used in the Can Read field to control who has access to the article. These groups are auto populated by the Assignment Groups (commonly used in Incidents) that are connected under the User Criteria Group. When adding one of these in the Can Read field on an article, you can select it to highlight it, then click the small information (i) icon to see what sources it pulls from to populate the membership for the group.
+Common groups for public knowledge articles:
+•	Blank: If the Can Read is left blank, the article is visible to anyone inside and outside the University. 
+•	Any User: Visible to anyone with a NetID, only after they log into the self service Portal. This only works with PermaLinks and not when searching for an article, therefore it should not be used. The workaround for this is to set the Cannot Read field to Unauthenticated Users. 
+•	Rutgers IT Professionals: Any one with an ITIL role at the University. 
+•	Rutgers OIT Staff: Those with a Staff role in OIT.
+•	Faculty: Any one with a Faculty Role.
+•	Staff: Any one with a Staff Role.
+•	Student: Any one with a Student role. 
+Common groups for internal HDI articles:
+•	NB Help Desk (NB, F/S, LMS): Any staff at the New Brunswick Student, Fac/Staff, and LMS help desks.
+•	NB-HD User Criteria Group: Any staff assigned to the Student help desk as a CIT or higher. 
+•	NB-HD - Level 1 User Criteria Group: Any staff at the Student help desk as a Level 1 or higher. 
+•	NB-HD - Level 2 User Criteria Group: Any staff at the Student help desk as a Level 2 or higher. 
+•	NB-HD - Level 3 User Criteria Group: Any staff at the Student help desk as a Level 3 or higher. 
+•	NB-HD - Level 2: Any staff at the Student help desk as a Level 2 or higher. 
+•	NB-HD - FT User Criteria Group: Any Full Time staff at the Student help desk.
+•	ESD - NB HD Full Time Staff: Any Full Time staff at Student, Fac/Staff and LMS help desk. 
+•	NB-HD - Application Support & FT staff: Any Application Support or Full Time staff at the Student help desk.
+•	NB-Labs - Busch: Any labs consultants at Busch and NB-Labs - Managers. 
+•	NB-Labs - College Ave: Any labs consultants at College Ave and NB-Labs - Managers. 
+•	NB-Labs - Cook/Douglass: Any labs consultants at C/D and NB-Labs - Managers. 
+•	NB-Labs - Livingston: Any labs consultants at Livingston and NB-Labs - Managers. 
+•	OIT Lab Employees: All Staff and Student Worker roles in org codes for: OIT-Camden Computing Services, OIT-Newark Computing Services, OIT-NB Computing Services
+•	CMD Help Desk Staff: Camden Help Desk Full Time only.
+•	CMD Student Workers: Camden Help Desk Student Consultants.
+•	RUN - IT Staff: Active Staff or Student Worker roles in departments: OIT-Newark Computing Services, OIT-Enterprise IT Client Services
+Note for internal articles: Only 1 group should be selected for the Can Read field. Higher groups inherit the permissions from lower groups. Example: you only need to set the Can Read to NB-HD - Level 2 User Criteria Group for all Level 2s, Level 3s, and FT to view the article. 
+Anchor Links
+These are bookmarks/direct links to a specific point in an article, which can be particularly useful if the article is long or has multiple sections you want to create a customized table of contents for at the top (there is a built in table of contents feature described below). To make an anchor link is a two step process. 
+Making an anchor link
+Using the built in function
+1.	Click the spot in the text of the article you want to place the anchor point. 
+2.	Click the Anchor button on the text editor toolbar which looks like a bookmark button. 
+3.	Enter a short yet descriptive name for the anchor link, and do not include spaces. 
+4.	Click OK and you should see the anchor icon appear in the article body. 
+Manually
+1.	Click the spot in the text of the article you want to place the anchor point. 
+2.	Click the Source Code button on the text editor toolbar which looks like <>. 
+3.	Copy and paste the text below, replacing ANCHORNAME with a short yet descriptive text term for your anchor:
+<a name="ANCHORNAME"></a>
+Using an anchor link
+From a specific URL
+Take the PermaLink for the article then add #ANCHORNAME at the end to create a URL link to take users directly to where you put in the anchor on the article. Replacing ANCHORNAME with the text term you used when creating the anchor. 
+From within the article
+1.	If creating a table of contents for example, highlight the text you want users to click to take them to the anchor point. 
+2.	Click the Insert/Modify Link button just as you would for creating an external link in the article.
+3.	In the URL field type #ANCHORNAME while replacing ANCHORNAME with the text term you used when creating the anchor. 
+Table of Contents
+To easily create a table of contents you can use the built in button on the toolbar. Clicking it will automatically add it to the top of the article, utilizing all text formatted as Heading 1, 2 or 3 to create the clickable links in the table. Note that any text formatted as Heading 4 or lower will not be incorporated automatically into the table, you may manually insert it using an anchor link if desired. If any Headings are changed/deleted/added, you can click on the table itself and a refresh button will appear. Clicking on that will update the table to what the current Headings now are. 
+Images
+To ensure consistent image formatting follow these guidelines.
+•	Avoid copy/pasting images into articles. Depending on your browser's capabilities, device type, form view, and other factors, copy/pasting images into an article or form does not always work as expected. It can also not display the image properly on the Portal for users who are not logged in. The recommended way to get an image into your article is to use the Edit Image button on the article editor. Review ServiceNow’s guide on inserting images. 
+•	Screenshots/images should be indented over so they are not inline with text, therefore making it easier to scroll through the text. They should also have a blank line both above and under the image to provide a spacing buffer from any text in the article. 
+•	All images should have Alt Text. 
+•	Resize images, by dragging the corner of it, so the text in the image is roughly the same size or slightly bigger than the text of the article while viewing it in the html editor.
+•	When inserting an image in a numbered or bullet sequence, press Shift+Enter to add a soft line break. This will tab down to the next line so the image can be inserted under the text, but does not continue the sequenced list for this line. After the image you can hit Enter to tab down to the next line and continue the numbered sequence.
+Image standards
+•	840px maximum width for it to be visible on the Portal.
+•	.jpg, .gif, or .png format only.
+•	Use file naming conventions that are logical and easy to remember. Include relevant keywords that are easy to search for, and have them numbered for a series of images of steps. 
+•	Use only letters, numbers, hyphens, and underscores in file names. Other characters (like question marks and ampersands) may upload incorrectly or cause unexpected behavior.
+How to Insert an Image
+1.	Within the Article Body, click the space where the image should appear.
+2.	On the text editor toolbar, click the Insert/Edit Image icon. The Insert/Modify Image pop-up displays.
+3.	Make sure the Type is set to Attachment.
+4.	Click the paperclip icon to browse for a new image (if no attachments are uploaded) or choose the image file name from the dropdown (when an article already has the image file uploaded).
+5.	Enter alternative text for the image in the Alt Text field. 
+o	Note: Alternative text (alt text) makes an image accessible to users who cannot see the image. Use Alt text for all images inserted into a KB article. Alt text should replicate in words what the image is communicating. 
+6.	Click Save to close the window.
+7.	Ensure there is a blank line both above and below the image to provide a buffer from any surrounding text. Ensure it is indented over so it is not in line with the text above it.
+How to Edit an Image
+1.	Within the Article Body, click on the image to highlight it.
+2.	On the text editor toolbar, click the Insert/edit icon. The Insert/Modify Image pop-up displays.
+3.	Enter alternative text for the image in the Alt Text field if one is not present. 
+o	Note: Alternative text (alt text) makes an image accessible to users who cannot see the image. Use Alt text for all images inserted into a KB article. Alt text should replicate in words what the image is communicating. 
+4.	Click Save to close the window.
+5.	Ensure there is a blank line both above and below the image to provide a buffer from any surrounding text. Ensure it is indented over so it is not in line with the text above it.
+General Article Tips
+•	Review and follow the ITSM style guide as closely as possible!
+•	Minimize references to specific individuals whenever possible to decrease the need to update the article more often as positions change and shift.
+•	Avoid overusing acronyms. Acceptable on second and subsequent references; place the acronym in parentheses on the first reference. For example: “The Office of Information Technology (OIT) recently upgraded the service.”
+•	Be attentive to language that has a specific meaning for IT people and an entirely different meaning for non-IT people, such as user, audit, client, domain, machine, package, tenant, and many others. Additionally, many technical terms, such as endpoints, SSID, and others, are not familiar to a non-technical audience; use other terms or define the terms you’re using, when applicable.
+•	Be detailed / step-by-step instructions.
+•	Avoid using gender specific pronouns (he/she) and instead use (they/them/you). 
+•	Reference and link to Vendor/Service documentation whenever possible to take the burden of keeping information up to date off of us. No need to duplicate the same information.
+•	The editor can be a little weird and do strange things sometimes. When copying and pasting content into the HTML editor, press Ctrl+Shift+V to paste without any formatting. You can always click the Source Code button to see what the text and formatting is doing if it’s acting up at a particular spot in an article. 
+Fixing Formatting Issues
+If when viewing an article any of the formatting looks off, such as a different font type, font size, or spacing issues this is typically caused by bad HTML code. More often than not it is from content that has been copied and pasted into an article without having the source formatting removed. Even if you highlight the text and manually change the font type and size to what it should be, it may still appear wrong if there is additional font styling in the code. 
+You can see this by clicking the Source Code button ( <> ) in the KA editor toolbar and look for the word “style” in blue text as shown below. These inline style codes will override any other formatting for the specific text lines they are on. 
+Example of bad inline style code: <span style="font-size: 12pt; font-family: 'times new roman', times;"> 
+You can manually remove the entire style code, by deleting the word style and all the text formatting that appears in the reddish brown color, and leaving only the green code. 
+For long articles with a lot of customized inline style codes, this can be time-consuming. To easily wipe out all style codes for an entire do the following, but note that this may cause issues if images have been pasted into an article and not inserted as an attachment. If a list is also formatted as lower-alphabetical, Roman numerals, discs, or dashes, it will remove that specific style formatting, which will need to be adjusted back after the cleaned-up code is back in ServiceNow. 
+1.	Open the source code for the article giving you issues. 
+2.	Press Ctrl + A to select all of the code. 
+3.	Press Ctrl + C to copy all the code. 
+4.	Go to this HTML Code Cleaner. 
+5.	Paste the entire code in the empty box on the right side of the screen, the left side will show a preview of what the text currently looks like.
+6.	Click Clean HTML and this will remove all the inline style coding.
+7.	Click Ctrl + A to select all the freshly cleaned code from the right side, and then Ctrl + C to copy it. 
+8.	Go back to the source code of the KA. 
+9.	Delete all existing code. 
+10.	Press Ctrl + V to paste in all the cleaned up code you copied from the website. 
+11.	Click OK and confirm that everything looks correct and all the previous images are still there. 
+Alternatively you can use the editor’s built in feature to clear some, but not all, formatting. 
+1.	Highlight the text in the editor that you want to remove formatting from, or press Ctrl + A to select all the text. 
+2.	Press the Clear formatting button on the toolbar, which looks like:Error! Filename not specified.
+3.	This should remove any style coding from the highlighted text. 
+Viewing the article in the editor may not show all the formatting that may be hidden in the source code. This is why you should always view the article normally in the back end (by clicking View Article) or on the Portal, to see how it would truly appear. Especially before approving it to be published. 
+Formatting FAQs
+Follow these general guidelines when handling a page that is entirely or partially a question and answer format (FAQs). 
+For articles have more than 5 questions/answers:
+•	Format the questions as the appropriate level of Heading (2,3,4,etc..) with no other alterations to the text.
+•	Format the answers as regular paragraph text but indented over. 
+•	Utilize the built in Table of Contents feature and place it at the beginning of the questions, ensuring that only the questions are show in the table and any other headings are removed. 
+For articles with less than 5 questions/answers:
+•	Format the question as regular paragraph text, but bold it. 
+•	Format the answers as regular paragraph text but indented over. 
+Accessibility Standards
+In order to adhere to Rutgers Digital Accessibility policies, all documentation should be in compliance with Web Content Accessibility Guidelines (WCAG) 2.1 Level AA. In particular, the items below should be adhered to for all knowledge articles. 
+Text Alternative for Images/Media
+All images/media should have an alternative text associated with them so that screen readers can describe the context of the media. The objective of this is to create a text alternative that serves the same purpose and presents the same information as the original non-text content. 
+General guidelines to follow for Alt Text:
+•	You do not need to mention that it is a picture or screenshot of something, as that is implied. 
+•	The Alt Text should adequately describe what is seen in the image, assuming no other context for the picture exists. 
+•	If a particular button or icon is highlighted or pointed to, that should be mentioned in the Alt Text. 
+•	If the image shows a series of steps, you do not need to mention the specific step numbers shown in the image since they will be in the numbered list of the knowledge article.
+•	Similarly, the Alt Text should not say that it is "How to" do something, as that will be mentioned in the text of the knowledge article. 
+•	Longer is not always better. Describing everything in extreme detail does not equate to good Alt Text.  
+Examples
+•	A picture shows the login page for Rutgers Connect. Alt Text is "Login page for Rutgers Connect prompting for an email address"
+•	A picture shows how a knot is tied including arrows showing how the ropes go to make the knot. The text alternative describes how to tie the knot, not what the picture looks like.
+•	A picture shows what a toy looks like from the front. The text alternative describes a front view of the toy.
+How to add/edit Alt Text
+For images already in an article:
+1.	Click on the image to highlight it. 
+2.	On the toolbar, click the Insert/edit image icon.
+3.	In the Alt text field provide a short yet descriptive text alternative. 
+4.	Click Save. 
+Headings
+In order for screen readers to appropriately describe the text on the screen to users, headings should be formatted as such. This helps users “skim" the headings to locate the specific content they need, and is especially helpful when browsers or assistive technology allow navigation from heading to heading. These heading should be short yet descriptive ways to break up long articles into smaller sections. 
+All headings should be set to use Heading 2 by default. Any further separation in each section should use Heading 3 then Heading 4 etc… but should always be in increasing sequential order.
+Example: An HTML page that describes the range of tasks for disaster preparation may have the following headings:
+<h2>Disaster preparation</h2>
+<h3>Flood preparation</h3>
+<h3>Fire preparation</h3>
+Note that the level 3 headings have the distinguishing information at the beginning (ie, instead of "Preparation for floods", "Preparation for fires", etc).
+Text should never be colored anything other than the default black. Colored text to denote importance does not adhere to the accessibility standards. 
+Numbered or Bulleted Lists
+In order for screen readers to properly go through a series of steps or list of items it has to be formatted appropriately. A numbered or bulleted list should always be created using one of the list buttons in the editor toolbar. Simply typing numbers with parentheses or periods, such as "1), 2), 3)," or an asterisk in front of each item on a new line or paragraph will NOT create a numbered or bulleted list that is accessible by a screen reader.
+A good guide to follow can be found on Microsoft’s website on the proper procedure for lists. 
+Inserting images into lists
+When inserting an image in a numbered or bullet sequence, press Shift+Enter to add a soft line break. This will tab down to the next line so the image can be inserted under the text, but does not continue the sequenced list for this line. After the image you can hit Enter to tab down to the next line and continue the numbered sequence. See the Images section of this article for more information on adding images.
+Hyperlinks
+Hyperlinks connect a hypertext file or document to another location or file. Linked information is typically presented in the form of text, websites, files, or video content. 
+Embed a link within a concise string of text instead of using its URL as the link text. A screen reader user will more easily understand where an accessible link leads and will not have to listen while the reader pronounces every single character of a URL. 
+Example:
+•	Accessible: OIT Help Desk
+•	Not accessible: https://it.rutgers.edu/help-support/
+Descriptive hyperlinks will more clearly explain what information they link to. 
+Example:
+•	Descriptive: Benefits of Accessible Hyperlinks
+•	Not descriptive: Benefits
+Use the full email address as the link text rather than embedding it in other link text. 
+Example:
+•	Accessible: help@oit.rutgers.edu
+•	Not accessible: OIT Help Desk Support *This example does not convey that it is an email address.
+Other Tips:
+•	Choose hyperlink text that clearly identifies the content of the resource being linked to.
+•	Hyperlink text should not consist of the URL unless it is likely to be printed; e.g., Word document.
+•	If a hyperlink downloads a file, be sure to mention that. 
+o	Example: Campus Map (PDF, 5.62 MB)
+•	Hyperlinks may fail to open when clicking on them in the backend of ServiceNow, as it tries to open the link within the ServiceNow window itself. If this..."
+

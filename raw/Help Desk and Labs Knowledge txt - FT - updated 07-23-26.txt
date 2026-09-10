@@ -1,0 +1,531 @@
+Number Category Short description Article body KB0016938 IT Help Desk - Application Support After Hours Cheat Sheet for On-Call List "
+Important areas to check for the most up-to-date information if you receive an After Hours call for assistance.
+Slack
+* esd_nb_hd_afterhours - Any updates from the AH team (FT and students) will be found here. Main channel of communication for AH staff.
+* esd_nb_hd_apps_dc_coord - This is the data center coordination channel. Communications with the data center team can be found here. If there are any issues in the data center, this will be the channel where these are noted and updates happen.
+* esd_nb_hd_apps_td_coord - Communication with NOC happens in this channel. NOC will reply during business hours unless it is a P1 critical device. Then we can @here and NOC will usually respond.
+* oit_allcampus_afterhours_support - This channel aims to communicate between campuses during non-business hours. For example, if a student worker in Camden needs support from a NB FT.
+ServiceNow
+* Training documentation and AH HDIs have been moved to IT Professional Services -> IT Service and Delivery Support -> IT Help Desk - Application Support in our Knowledge Base.
+* Critical article for outages and other major incidents: How to Report a Major Incident for IT Enterprise Services
+* After-hours Support Board - Scheduled maintenance visual task board
+Mailing List
+* ei_maintenance@email.rutgers.edu - This mailing list will also include maintenance schedules in case something is missing from the visual task board.
+Texting
+* If there is an outage, AH FT will reach out via a phone call to Caryn or the on-call list. They can then be instructed to text updates via the AH iPhone to the managers. The manager's numbers should be saved on the iPhone. If only students are working, they can also use the iPhone to send texts.
+* If you receive a call from the on-call list regarding an outage, notify a manager. The managers will notify each other via a text group.
+Contacting EI Network Operations Center
+Message from NOC for the break:
+As a friendly reminder regarding after-hours escalation and support during the holidays, the Network Operations Center will be closed for the University Holiday. Refer to the messages that are pinned within this channel (#help-ei-noc). If there are any questions related to the pinned information, feel free to reach out to noc@rutgers.edu or within this channel. Here are important links related to support and the escalation process for TD Network Operations:
+* https://rutgers.slack.com/archives/CLXFB54DP/p1584382181016400 - after-hours escalation
+* Network Operations Center and Architecture services - Enterprise Networking
+* General Issues: 
+o To open a Network request or escalate a Network problem, please use the following:
+o Submit a request using the NOC OIT Portal at https://oit.rutgers.edu/td-requests
+o Email noc@rutgers.edu to request the status of a current opened incident or general question
+o For status updates on current open tickets, post a comment to our Slack Channel #help-ei-noc
+o Report a critical service issue or reach the NOC manager directly by dialing (848) 445-7541, Press 1.
+* Critical Issues: 
+o For escalation of a critical service issue after business hours, dial (848) 445-7541, and select menu option 1. 
+* VLAN - This would include a critical VLAN issue. Non-critical issues can be handled by Fac/Staff or AH FT. If a student receives a call for a non-critical VLAN request and no FT are available, the next on shift AH FT or Fac/Staff can handle the request.
+Reminder for escalations to NOC: Include MAC addresses (if applicable) in the ticket as well as the name and phone number of the local contact.
+" KBB0010115 Archive DOCS Website FAQ "
+NB-HD - FT User Criteria Group
+[Archived KA until 6/1/28]
+For DoCS employee and student queries, send spreadsheet at EOD to:?
+Rich Novak, Vice President for Continuing Studies and Distance Education?
+rnovak@docs.rutgers.edu?
+?
+Warren Nevins, Director of Information Technology at Continuing Studies?
+wnevins@docs.rutgers.edu
+For media and all external queries, send spreadsheet at EOD to:
+Dory Devlin, Assistant Vice President, News and Media Relations?
+University Communications and Marketing?
+dory.devlin@rutgers.edu
+**NB-HD - FT User Criteria Group**
+" KBB0010102 FT Docusign - NetID Change "
+** NB-HD - FT User Criteria Group**
+The NetID Change DocuSign is available at https://go.rutgers.edu/netidchange
+If a signed document needs to be retrieved please speak with Joe, or a Manager.
+** NB-HD - FT User Criteria Group** 
+" KB0016442 FT FT - Adding users to a RAD Group "
+1. Log in to https://ctx.rutgers.edu using your netid-adm username and password.
+2. Click on ADUC RAD.
+3. Navigate to Delegated > OIT > Esd > Css 
+o This location has all of the FT computers
+4. Navigate one more level down to HD. The following RAD groups, along with others, will give their members access to mailing lists and services. Most of these are controlled by sub-RAD groups from ACE. Ensure that it is not more appropriate to adjust positions/access in ACE first so the groups are auto updated. Only proceed if it is a one-off exception or a Group that does not has a sub RAD Group in it with "ACE" in the name. . 
+o Oit Esd Css HD-FT
+o Oit Esd Css HD-Level 1
+o Oit Esd Css HD-Level 2
+o Oit Esd Css HD-Level 3 AS
+o Oit Esd Css HD-Level 3 CSq
+o Oit Esd Css HD-Mgr
+o Oit Esd Css HD-Tacas Access
+o Oit Esd Css HD-VCC Admins
+o Oit Esd Css HD-Sc-After Hours Ft
+o Oit ESD CSS SC-FT
+
+Error! Filename not specified.
+5. To add a member to a RAD Groups: 
+1. Double-click on the group.
+2. Select the Members TAB and click on Add.
+
+Error! Filename not specified.
+3. Type in the NetID in the Enter the object names to select field and click on Check Names.
+
+Error! Filename not specified.
+4. Select the NetID and click OK.
+5. Click OK again to save your changes.
+
+Error! Filename not specified.
+Please Note: It may take overnight for services connected to these lists to sync.
+" KB0016436 IT Help Desk - Application Support FT - After Hours - Hill Center DCTS Contact List "
+Contact List for Data Center
+PriorityMonday (06:30) - Friday (20:00)Cell NumberWork NumberEmail     PrimaryDave Salvaryn 848-445-1770david.salvaryn@rutgers.eduPrimaryJohn Wieczorek 848-445-5545vieczore@oit.rutgers.eduPrimaryJohn Lyons908-334-9626848-445-8020johnnyl@oit.rutgers.eduSecondarySeth Serrano732-619-8193848-445-5427sserrano@oit.rutgers.eduSecondaryChris Larrondo732-501-9062848-445-1843clarrond@oit.rutgers.edu      After Hours Monday - Friday (20:00 to 06:00)        PrimaryDavid Evans732-824-1806848-445-1844dpevans@oit.rutgers.eduPrimaryJohn Lyons908-334-9626848-445-8020johnnyl@oit.rutgers.eduSecondaryDave Salvaryn 848-445-1770david.salvaryn@rutgers.eduSecondaryJohn Wieczorek 848-445-5545vieczore@oit.rutgers.edu      Saturday (06:00) to Monday (06:30)        PrimaryJohn Lyons908-334-9626848-445-1844johnnyl@oit.rutgers.eduPrimaryDave Salvaryn 848-445-1770david.salvaryn@rutgers.eduSecondaryJoni Squillaro732-986-3721848-445-4044jmls@oit.rutgers.eduPlease see Machine Room and Environment Information for more information on escalation of machine room issues.
+" KB0014360 FT FT - Connect - PowerShell Cmdlets "
+To connect to PowerShell, follow the documentation provided by Connect Support. This page also contains the full list of available cmdlets which can be used, with some contained below for reference which can be used on our internal groups to adjust permissions as indicated by ACE.
+Group Commands
+Get-DistributionGroupMember -identity <GroupName> gives all members of a distribution group.
+Add-DistributionGroupMember -identity <GroupName> -member <Member> adds the member to the group.
+Remove-DistributionGroupMember -identity <GroupName> -member <Member> removes the member from the group.
+Get-UnifiedGroupLinks -identity <GroupName> gives all members of a unified group.
+Add-UnifiedGroupLinks -identity <GroupName> -Link Type <Owner/Member> -Links <Member,Member> adds the member(s) to the group.
+Remove-UnifiedGroupLinks -identity <GroupName> -Link Type <Owner/Member> -Links <Member,Member> removes the member(s) to the group.
+SendAS
+Get-RecipientPermission -identity <Group> -AccessRights SendAS lists all with sendas permissions on a desired group.
+Add-RecipientPermission -identity <Group> -AccessRights SendAS -Trustee <Member> adds sendas permissions for the desired member on a group.
+Remove-RecipientPermission -identity <Group> -AccessRights SendAS -Trustee <Member> removes sendas permissions for the desired member on a group.
+" KBB0010133 Archive FT - Data Security Incident - Experian IdentityWorks "
+[Archived, delete date 06-01-2028]
+***NB-HD - FT User Criteria Group, CMD Help Desk***
+Phone Number: (866) 676-4064
+Click here to download a pdf list of users affected.
+For FT informational purposes only, do not provide to consultants/users: copy of letter sent to users.
+***NB-HD - FT User Criteria Group, CMD Help Desk***
+" KB0014194 FT FT - IDM - NetID Management Test Interface "
+The link for the Admin Tool for the Test NetID Management Application is:
+https://test-netid.rutgers.edu/adminLoginView.htm
+Please note that the password you use to login here might not be same as your production password. In case you don t remember it, you can use forgotten password on test-netid.rutgers.edu (Your password won t be changed anywhere else other than the test-netid application).
+" KB0014227 FT FT - IDM - NetID+ and Duo Support - Opt Out Directions "
+Although this should be used very rarely, Full-Time Staff members can grant users the ability to opt out of Duo. This is done by adding a user to the "Opt Out" List in the Grouper tool. Grouper can be accessed at:
+https://groups.rutgers.edu/grouper
+After you have logged in to the Grouper system, collapse or traverse the tree structure below on the left panel by clicking on each folder.
+The Menu path is: Applications Connected to grouper> Office Of Information Technology > Enterprise Applications& Services > Identity Management Group> NetID Management > Enable DUO opt in and opt out
+1. In the Enable DUO opt in and opt out section, click on the Add Members button in the top right corner of the screen. Then enter the user's NetID and click the Add button.
+2. Make sure you can see the newly added user in the member list.
+3. After a user is added to the DUO opt-out list, they can be directed to netid.rutgers.edu and log in with their NetID and password.
+4. After logging in, the user should select the "Manage My NetID+ User Account Opt in/Out" link located on the left-hand side of the page.
+5. The user will need to authenticate via two-factor authentication before proceeding.
+6. The user should now see the Opt Out of NetID+ radio button.
+" KB0014200 FT FT - IDM - Shibboleth Services and Required Attributes "
+Shibboleth is an open software system implemented based on a federated identity solution, which shares people s electronic identities and attributes securely among multiple organizations and applications. Service Providers that are typically hosted externally are not required to handle Single Sign On (SSO); instead, this is delegated to the Shibboleth Identity Provider which interacts with the authentication services and retrieves the necessary attributes, passing them electronically to the service providers. More information can be found on KB0017446.
+Non-InCommon Service Providers
+The Help Desk has a list of all non-InCommon services which are linked through Shibboleth, along with the business owners, accessing populations, and requested attributes by the service to login.
+Wide-scale authentication issues would follow the IDM Shibboleth Escalation subsection.
+Service Providers and attributes are on the attached file:
+" KB0016549 FT FT - Log into Sauron/Edit VCC Script "
+VCC Script looks at Rad Groups to set VCC privs/security profiles.
+Github
+A copy of the most up to date script should always be kept on Github, and updated whenever the script is changed. Can be found here:
+https://gitlab.rutgers.edu/users/sign_in Project is located under vcc-control. Functions.php houses all the main functions and will be most likely what needs to be updated when making changes to the script
+Logging In
+PC name: ESDDAV176S01
+Must log in with -adm credentials.
+Note: need to be part of the necessary Group Policy in order to remote into Sauron (PC maintaining VCC Script). PC is physically located in Joe D's office.
+Editing Script Sample
+Example steps of adding L2 Specialist position/privs.
+1. Code versions stored on Gitlab, note this does not push to Sauron. You will need to copy and paste the code. 
+o https://gitlab.rutgers.edu/users/sign_in
+o Project is located under vcc-control
+o Functions.php houses all the main functions and will be most likely what needs to be updated when making changes to the script
+2. Add rad group to function memCheck 
+o $allGroups
+o Oit Esd Css Hd-Level 2 Specialist
+3. Add reference to new skills in function privrunner 
+o Used for reference
+o Adding ITS Inbound and SDM general
+4. Create new array under function privrunner for new position 
+o Copied $L2Privs
+o Renamed to be $L2SpecPrivs
+o Create new else if to assign privs to position, copied from level 2 
+* Make sure it is in the correct order of the other elseif's in regards to the positions level as the script works it's way down thru the levels.
+* else if (in_array($allGroups[28], $value)) {//L2 HD, check labs 
+$user_priv_arr = privAdd($user_arr, $user_priv_arr, $key, $L2SpecPrivs); 
+$user_priv_arr = certCheck($user_arr, $user_priv_arr, $key, $value, $AppsPrivs, $NetPrivs, $HDatPrivs, $HDAtSupPrivs, $HDAtTrainPrivs, $allGroups); 
+}
+5. Create new elseif under function profileset 
+o else if (in_array($allGroups[28], $value)) {// L2 Specialist HD 
+$user_priv_arr[$key]['profileId'] = 2318; 
+}
+6. Remote into Sauron, esddav176s01.rad.rutgers.edu using -adm credentials (if you have access) 
+o Script files are found on the C drive 
+* C:\inetpub\html-
+* Update appropriate php files
+7. Run scripts from the web 
+o https://hd-apps.rutgers.edu/acer/
+o https://hd-apps.rutgers.edu/mailer/
+o https://hd-apps.rutgers.edu/vcc-control/
+ 
+" KB0015907 FT FT - NetID - Consultant NetID Change Procedure "
+When an OIT consultant changes their NetID, some changes are automatic, and some are manual. All changes that need to be made are listed below.
+
+OIT-Related ApplicationsApplication NameHow the Application UpdatesORThe consultant will need to re-sign the user agreement. Make sure the consultant opens the user agreement in an incognito window so that they are not automatically logged in with their old NetID. After this is completed, we can submit another request to IdM via ServiceNow for access.NetID AdminUpdates automaticallyCASUpdates automaticallyServiceNowShould update automatically overnight. If not, reach out to SMO so that they can update manually.Five9Update manuallyPTSUpdate manuallyACEUpdate manuallyZedReach out to the development team. They will update the NetID. Information in Zed is handled by employee ID, so this should not cause any payroll issues.Name Badges/PlatesUpdate manuallyApps OfficeUpdate manually 
+
+Non-OIT-Related ApplicationsApplication NameHow the Application UpdatesZoomUpdates automatically. Can manually update their name if needed.CanvasCourses should show up in Canvas the next day after 12 p.m. You can check the privileges view in IDCheck to see if the courses are associated with the correct NetID. However, the old and new NetIDs may need to be merged in Canvas by admins.Immunization PortalThis tool may need to be updated manually if the automatic update fails.WebRegThe consultant may need to call OneStop.AliasesStudents can update manuallyWebexUpdates automaticallyAdobeUpdates automatically. If there is also a name change, a task will be created with the software team.BoxUpdates automatically 
+" KB0014161 FT FT - Notifying Phished Users "
+Connect Support may email requesting that we contact a list of users who may have had their passwords compromised by a phishing link. These emails will be sent to hd_ft@oit and help@oit. To handle these emails:
+1. Ensure a sample message is provided and formatted.
+2. If the list is greater than 500 addresses follow the procedure below (if not it can be sent directly through Connect, skip to step 3) 
+o Take the list of emails and add them to the do_not_reply Mailman list. 
+1. To populate the list, log in, then go to Membership Management and ensure no one is currently subscribed.
+2. Go to Mass Subscription and paste the list (ensure one address per line) and ensure the following settings are set as follows: 
+* Subscribe these users now or invite them? Subscribe
+* Send welcome messages to new subscribers? No
+* Send notifications of new subscriptions to the list owner? No
+3. Create an email with the settings as indicated below, depending on the method of notification: 
+o Mailman 
+* From: help@oit
+* To: do_not_reply@email.rutgers.edu
+* Cc: help@oit
+* Subject (if not provided): Notice Regarding Phishing Scam <TODAY'S DATE>
+o Connect 
+* From: help@oit
+* To: -
+* Bcc: addresses of affected users
+* Subject (if not provided): Notice Regarding Phishing Scam <TODAY'S DATE>
+4. Post the list of users, message sent, and a brief notification to the oit_allcampus_hdft channel within the RutgersIT slack instance
+5. Post the message sent and notification, we may receive emails to the esd_nb_hd_email and esd_nb_hd_all channels within the OIT/ESD slack instance
+6. Have a supervisor create a tag for calls/emails related to this issue (i.e., [Phishing MM/DD])
+" KB0016505 FT FT - OIT Help Desk Service Accounts "
+Service Accounts
+Existing ESD service accounts. DAs for OIT can see and modify the members of each group via CAT.
+* srv-oit-afterhours 
+o OIT After Hours Zoom Bridge
+o Services: Zoom
+* srv-oit-csq 
+o Remote Help Desk
+o Services: Zoom
+* srv-oit-hd 
+o OIT Help Desk
+o Services: Zoom, Email, Webex
+o Email Delivery address: sarnicki@oit.rutgers.edu
+* srv-oit-nb-ft 
+o ESD NB Full Time Supervisors
+o Services: Zoom, Email, webex
+o Email Delivery Address:esd_nb_ft_sups@oit.rutgers.edu
+Accessing Accounts
+Zoom
+Log into Zoom SSO with the following credentials:
+* Username: [serviceaccountname]+netid 
+o Example: srv-oit-test+abc123
+* Password: Your NetID password
+Members will log into the service account and then create meetings just as they would in their own account. If the member wants to host the meeting themselves, they should add themselves as an alternate host (sometimes called a co-host) to the meeting.
+One member can create a meeting in a service account and then any member can start/host that meeting. So long as they log into that service account to start the meeting. However, if a member wants to use their own Rutgers Zoom account to start/host the meeting then the member should be added as an alternate host (sometimes called a co-host) to the meeting.
+Email
+All service accounts are given a srv-domain-account@rutgers.edu email alias, however the email alias address does not deliver anywhere until a delegated administrator configures a delivery address.
+Webex
+Log into Webex SSO with the following credentials:
+* Username: [serviceaccountname]+netid 
+o Example: srv-oit-test+abc123
+* Password: Your NetID password
+Members will log into the service account and then create meetings just as they would in their own account. If the member wants to host the meeting themselves, they should add themselves as an alternate host (sometimes called a co-host) to the meeting.
+One member can create a meeting in a service account and then any member can start/host that meeting. So long as they log into that service account to start the meeting. However, if a member wants to use their own Rutgers Webex account to start/host the meeting then the member should be added as an alternate host (sometimes called a co-host) to the meeting.
+" KB0014327 FT FT - RBHS - IDCheck Access Request "
+How to obtain access to IDCheck:
+1. Got to https://go.rutgers.edu/IDCheck_Request
+2. Fill in your name and your supervisor's information (or department IT Mgmt) and select what type of access you are requesting.
+3. Once the form has been completed and approved, the request will be submitted to OIT/EAS. You will then be added to the FERPA quiz and receive an email from Canvas.
+4. After you have taken the quiz, email banner@oit.rutgers.edu so that your IDcheck request can be completed.
+5. The IDcheck request will not be completed without the FERPA quiz being done.
+" KB0014165 FT FT - Using REGIS for the Help Desk "
+Accessing REGIS
+1. Go to https://sims.rutgers.edu/rosters/ .
+2. Click the Rosters & Electronic Grading Information System (REGIS) link.
+3. Log in through Central Authentication (CAS).
+Navigating REGIS
+There are 4 tabs available.
+View Rosters
+There are two tabs available: Quick Search and Drill-down Search.
+Quick Search
+1. Quick Search requires that you know the full course number. Everything but the section number is required.
+2. Then click the Retrieve Roster button.
+3. The class roster will be displayed. See the FERPA warning below regarding the proper use of this information.
+4. We have access to see all courses. Faculty members will be restricted to those courses for which they have been given permission by the department chair or his/her designee.
+5. Click the View Rosters tab to return to the main View Rosters page.
+Drill-down Search
+1. Drill-down Search allows you to search for course information.
+2. Use pulldown menus to select criteria.
+3. Click Retrieve Roster
+View Roster Status
+1. Enter course number and click View Status button.
+2. Roster status and the assigned professor is displayed.
+View & Grant/Revoke Privileges
+1. The View & Grant/Revoke Privileges page shows a person's current privileges. It shows your own privileges by default, and only for the current and previous years.
+2. Older sets of privileges are found through the Display Complete List ... link.
+3. Searches for others can be done by name or NetID.
+4. Click on a name to see its privs.
+5. Help Desk staff cannot change privs. We can only see the current ones. There are four main types of privs, each with its own set of abilities. 
+o Someone who is unable to do something in REGIS may not have been granted the privs for that access. Refer the person to either the person who granted the existing or previous privs (shown in the "Granted By" column) or to the departmental administrator (if no privs have been granted, or the previous granter is not available).
+6. We have also found undefined DEAN and GC_GUEST roles/privs.
+Main Menu
+Returns you to the page with the Rosters & Electronic Grading Information System (REGIS) link.
+How to use REGIS access
+1. For people with existing access, see who granted the access and send the inquirer to that person.
+2. For people who never had access before, or in cases where the original granter is no longer around, refer the inquirer to the department chair or administrator.
+3. We cannot search to see who has access to a given class roster. We can only search for access via a given name or a NetID that has access.
+4. Dos/Don'ts 
+o This tool is intended for use in specific cases to research someone's reported REGIS problem. Abuse of this access will result in immediate termination. Examples of abuse might be a parent searching for a child's roster or an idle examination of a colleague's roster.
+o Pay attention to the FERPA restrictions. They are briefly described in every displayed roster.
+o Rosters and privileges may also be viewed for REGIS training purposes.
+o Do not look up info on behalf of one of our employees. Refer the person to his/her professor.
+o Every time you use it, please make sure you are making a comment in the relevant ServiceNow incident. Document what you did and why you did it. Avoid including specific people's info in the ticket.
+o Log out of the REGIS tool when done; do not leave REGIS windows active. Delete any downloaded data when done.
+o When someone asks about a REGIS problem, you may tell them, "I need to verify your identity to make sure you have the right to this information." Do not show REGIS information to anyone other than the person whose access you are checking. (For example, do not tell a TA what sort of access the professor has.)
+o Refer all access/priv problems to the granter or department. You may explain that we cannot make changes in REGIS.
+" KBB0010185 General General - Help Desk and Labs Knowledge PDF - FT "
+Help Desk and Labs Knowledge txt - FT - updated 1-16-26
+" KBB0010183 General General - Help Desk and Labs Knowledge PDF - Level 2 Specialists "
+Help Desk and Labs Knowledge txt - Level 2 Specialists and AH - updated 07-23-26
+" KBB0010184 General General - Help Desk and Labs Knowledge PDF - Supervisors "
+Help Desk and Labs Knowledge txt - Supervisors - updated 07-23-26
+" KBB0010147 IDM IDM - CommunityID "
+***NB-HD - FT User Criteria Group***
+To look up and audit Community ID users, please navigate to the CommunityID Admin Page.
+CommunityID Admin Guide (pdf download)
+***NB-HD - FT User Criteria Group***
+" KBB0010138 ITS ITS - Bomgar - Instructions and Admin Credentials "
+***NB-HD - FT User Criteria Group Knowledge Block***
+ITS Admin credentials for laptops:
+ 
+AdminUsernamePasswordITS Laptop.\itsadminlaptoptmp12RAD Laptop.\nbitsadmin12M0rrell;Auto Pilot Laptop.\itsadminlaptoptmp12MacitsadminITS839*!Pandemic Loaner.\emrl-adminP@nd3m1c!_2020 
+***NB-HD - FT User Criteria Group Knowledge Block***
+" KBB0010139 Archive ITS - ITS Admin Password Creation "
+[Archived until June 1st, 2028]
+***NB-HD - FT User Criteria Group Knowledge Block***
+Temp password is: Sept202307##
+***NB-HD - FT User Criteria Group Knowledge Block***
+" KB0017889 IT Help Desk - Application Support ScarletMail Programmable Search Engine Request "
+In the Slack channel #scarlet-support-staff, or your SCTASKs, you may see a RITM from ScarletMail Support requesting that the Help Desk confirm specific information regarding a ScarletMail Programmable Search Engine request.
+Google Programmable Search Engine (PSE), formerly known as Google Custom Search Engine (CSE), lets web developers add a customizable search box to their web pages. The search uses the base Google search engine; however, it can be customized, for example, to only search specific sites. This product is popular for compliance with Rutgers website policy 80.1.7 "Search Function" requirements. A ScarletMail PSE, which may be requested via this form, offers benefits such as OIT-administered ownership that survives unit-level personnel changes and excludes advertising.
+To handle the request:
+1. When you open the RITM, scroll down to the SCTASKs and open the one assigned to OIT-HD - ScarletMail Support Staff.
+2. Assign the task to yourself. If you cannot assign the task to yourself, please inform a manager.
+3. The SCTASK will ask you to confirm the following information: 
+o Confirm the status/authority of the listed DDDC. DDDC refers to the Requestor Dean/Director/Chair. Job titles can be checked in CAT or IDCheck.
+o Verify University business affiliation. Is the requester a Rutgers University department member?
+o Verify 18+ status (whether through self-affirmation and/or IdM records). Verify that the requester is 18 or older.
+4. Once all this information is confirmed, state this in a work note and change the state of the SCTASK to "Closed Complete".
+5. If this request came through Slack or email, respond when the task is set as Closed Complete.
+See RITM0064214 as an example of the request and process.
+Link to the original request form.
+" KBB0010177 IT Help Desk - Student Supervisor Documentation - HD Level 3 CSQ "
+Supervisor Documentation - HD Level 3 CSQ 
+Table of Contents
+* L3 Training Breakdown
+* Overview of the Help Desk
+* General CSQ Responsibilities
+* End of shift report 
+* News Items
+* Opening Shifts
+* Closing Shifts
+* Safe, Mailroom, & Inventory
+* Outages
+* Level 3 Sup Drive
+* Backup UCS/ITD
+* ACE
+* NetID Merges
+* Switch Access/Commands
+* Scheduling
+L3 Training Breakdown
+* 1 on 1 training 
+o Training document and brief session in Help Desk
+* Training/Shadow Hybrid 
+o Trainee will shadow their mentor during a Center Square shift
+* Shadow Shifts (3) 
+o Trainee will shadow 3 different Full Time Staff members during their Center Square shifts
+* L3 SIT 
+o After the above is completed a Supervisor is considered a Level 3 Supervisor in Training 
+* They will have weekly meetings with a mentor Full Time, and additional requirements to become Level 3 Certified.
+* Once their mentor feels they are ready they are promoted to Level 3 Supervisor and receive additional privileges
+Overview of the Help Desk
+* Level 1 Consultants ? Blue Sations ? Primarily on the phones & answering template based emails.
+* Level 2 ? Pink Stations ? Veteran consultants assisting Level 2 consultants, walkins, and following up with on-hold tickets, ITS, RSDM, etc. Phones will automatically route calls to them when no Level 2 s are available 
+o Front Station ? Staffed by a L2 consultant. Their primary focus is to assist the walkins. This seat should be filled by the first Level 2 that enters the room
+o Level 2 Consultants who are stationed at the Labs that we can view on our scheduling printout for Dispatch escalations for ResNet. 
+* Additional Responsibilities 
+* Answering Emails from Help@ & NB-HD Triage
+* Taking overflow calls or when HD Staffing is low (Often during Temp Schedule Periods).
+* Level 3 Assistant Supervisors 
+o Are there to support CSq Supervisors 
+* Password Resets
+* CVC/Pseudo SSN Access (Certified AS Only)
+* Should be consulted first unless all are tied up with before consulting a Level 3 Supervisor.
+* Reviewing HD L1 and L2 EOS
+* Conducting Trainings
+* Committee work
+* ITS
+* Level 3 CSq Supervisors 
+o Supervisors who are responsible for the Help Desk as a whole 
+* Will go into depth in the following training.
+* Ensure Proper Chain of command is followed when possible: 
+o Level 1 ? Level 2 ? Level 3 AS ? Level 3 CSQ ? FT
+o This chain may be broken if insufficient staffing
+The Level 3 Supervisor is responsible for ensuring violations of policies and other issues impacting operations are reported and dealt with appropriately. Level 3 supervisors are expected to refer to provided guidelines, use good judgment, and seek advice from management when dealing with issues.
+General CSQ Responsibilities
+* You are the one responsible for what goes on during your shift. 
+o Make sure consultants are on the phones, taking calls
+o Keep track of visitors (anyone not on shift)
+o Completing HD Rounds 
+* Ensure Headsets are on Wireless Chargers
+* Garbage is thrown out
+* Ensure beverages are covered/no food in HD
+* Note down any HD Equipment that may be faulty/not working for FT to look at if initial troubleshooting does not work.
+* PTS: Make sure Supervisors are recording consultant incidents as they occur
+* Monitoring call volume
+* Be informed on who to call/email for issues
+* Escalations of Critical Service Issues 
+o Level 3s are responsible for escalating After-Hours issues during the day.
+End of shift report
+* The End of Shift report summarizes all events that occur while you are on duty. 
+o Located on Supervisor Staff Page at: 
+* Help Desk Resources ? Level 1/Level 3 EOS
+* The EOS Includes tracking Calls Stats (Answered/Abandoned) 
+* Can be found on the Five9 Dashboard ? Campaign Summary by Campaign for Handled & Abandoned Calls
+* Tracking of Student Scheduling Inbox for Unanswered Emails and Active Coverage Requests
+* Standard EOS Statistics from Level 1 and Level 2 EOS
+* Additionally includes spots for Committee Work and Other Items such as PTS or CIRT Incidents.
+News Items
+* When newsworthy events happen, it is Center Square s responsibility to ensure the information is properly disseminated. This can include placing information on the Help Desk Status Board in the back of the Help Desk, sending reminders in hd_all for Scheduling Updates, Staff Meetings, etc.
+* Updating and making consultants/supervisors aware of critical service issues so they are aware of these items in real time.
+* Board Link
+Opening Shifts
+* Turn all 3 TVs on Raspberry Pis
+* Update/Turn On Walk-In Station iPads
+* Ensure at least an L2 is stationed at Front Station
+* Check the triage queue for tickets that need to be addressed.
+* Check the schedule for open shifts/coverage issues for the day.
+* Open door five minutes before start time 
+o If the door is open the lights are ON
+* Sign into Five9 Station in the front of the Help Desk 
+o Username: hd_supervisors@oit.rutgers.edu
+o Password: V - word
+* Sign-in on Help Desk Status Board in the back of the Help Desk
+* Clean up any additional Trash/Clean up any stations that may be dirty
+* Place any name-tags back at Front Station.
+Closing Shifts
+* Make sure no HD phones are still logged in
+* Make sure all stations are relatively clean and tidy
+* Turn off all 3 TVs and Pis associated with them.
+* 10 minutes before closing, contact After Hours Support to let them know the status of pending calls and ask them to log on to the phones. 
+o Usually this is done via Slack where incidents can be threaded.
+* Turn off iPads at front station (If Applicable)
+* Turn off all the lights and ensure the doors are completely shut
+* Close the FT Door if it has not already been closed.
+* Ensure any Coffee Pots in the Break Room are turned off/cleaned.
+* You should be the last person to leave unless an FT is still around in the office and approved for you to leave.
+Safe, Mailroom, & Inventory
+* The safe is located on the wall in the mailroom, in some circumstances you may need the keys to certain cabinets in CSQ or the sup corner. The Code can be found here
+* There are also Telco Keys located here as well but generally a L3 would not be expected to need these anymore
+* The mailroom may be needed if certain materials are running low and need to be restocked in the Help Desk.
+* The cabinets in the back of the break room also have supplies (Wipes, Pens, Tissues, etc). 
+o Level 3s should regularly bring supplies in from here and notify FT if anything is running low
+Outages
+* When an outage occurs, Center Square is responsible for coordinating proper communication.
+* Level 3 Supervisors should all be After Hours/Application Support trained and should be able to follow any necessary procedures for this division when working CSQ.
+* Since Day-time Application Support no longer occurs, Level 3 Supervisors are responsible for updating the maintenance schedule, ensuring issues are escalated as needed, etc.
+* If After-Hours Training has not yet been completed ensure this has been scheduled so the trainee is aware of the expectations. 
+o Level 3 Supervisors should be well-versed in After-Hours procedures and policies
+Level 3 Sup Drive
+* Contains Documentation for SIT Mentorship, HD Scheduling Documents (HD Master List), SIT Promotional Documents, etc.
+* This drive is sparingly used now but does still exist
+* Level 3 Drive
+Backup UCS/ITD
+* Level 3 Supervisors have the UCS IT Direct (OIT Level 3) skills at a lower priority than Full Time to assist in the event of a high volume of UCS IT Direct calls
+* Full Time have priority 1 while Level 3 Supervisors have Priority 6.
+* Call procedure 
+o Answer Thank you for calling the Rutgers IT Staff Direct line, my name is [NAME]. May I please have the spelling of your NetID?
+o Confirm user is an IT staff member by searching their name on search.r.e or checking their position in ServiceNow under the user s information and asking what department they are IT staff for 
+* If not IT staff let the caller know this line is reserved for IT personnel and transfer the user back into an appropriate regular queue
+* If the issue is more technical consider transferring to New Brunswick Level 2 queue otherwise send to New Brunswick General.
+o Once confirmed proceed as a normal call, but cut the ticket in the NB-HD Queue via ServiceNow. 
+* If the issue is more complicated or we want less visibility to consultants, place it in NB-HD - Level 3 as needed.
+o When the call is completed Five9 it will require a disposition inputted so ensure to do that or you will not be able to go available
+ACE
+Go through ACE with L3 In training.
+* Show how to search for employees
+* Show how to update employee positions or certifications
+* Explain what ACE actually is
+* Explain responsibilities and how they are delegated to different full time members
+NetID Merges
+* Knowledge Article - 
+https://rutgers.service-now.com/kb_view.do?sysparm_article=KB0014735
+* Newark, Camden or other Help Desks do not create the Incident TASK for IDM to complete the Merge.
+* Ensure we confirm with the user which NetID they want to keep.
+* Using Audit compare the different pieces of information from both NetIDs. 
+o Usually SSN not matching is the reason another NetID was created.
+* L3s and FT are responsible for NetID Merges, generally AS should not be completing them unless they have been shown the process already.
+Switch Access/Commands
+* Knowledge Article -
+https://rutgers.service-now.com/kb_view.do?sysparm_article=KB0014258
+* ResNet Switchlist/Keylist:
+https://docs.google.com/spreadsheets/d/11wJoVGPbBDzrRffv3Lkx_74Se06ERfrie8wwXnw2MTE/edit
+* You ll need to be connected to the Cisco AnyConnect VPN to access the Switch 
+o Open PuTTy ? Enter Appropriate IP from Switchlist ? Set Connection Type to Telnet.
+* Knowledge Article outlines basic usage and commands for troubleshooting.
+* ResNet Tools we have access to:
+* Fluke 
+o Used to test wall and switch ports for functionality, cable and switch information
+o Can diagnose cable issues
+* Loopback 
+o Used to send fluke signal back through wire pairs to fully diagnose cable issues in wall cabling
+o Locate user port on patch panel
+* Network Support Laptop 
+o Used to comment in tickets, research information, wireless surveys, and troubleshoot 802.1x ResNet issues
+* Wired NIC 
+o Test 802.1x on devices without native wired NICs and to diagnose NIC issues
+* Wireless NIC 
+o For survey standardization and testing of user devices to diagnose NIC issues
+* Test Router 
+o To test if a device which is failing to authenticate on ResNet can authenticate behind a MAB d router instead
+* ToolsUSB 
+o Holds useful software (i.e. AV, RUW_S installers, and Network Support software)
+* Hub 
+o Simple packet collection during Wireshark analysis for NOC escalation, this will be explained in more detail in a successive section
+* Patch cable (Ethernet cable) 
+o To replace damaged patch cables, and to test in place of a user cable
+o Cables on the back wall are all tested good cables
+* Teleco Closet Keys 
+o Keys to all building telecom (switch) closets
+* BCM 
+o Key which opens some telecom doors which are not opened by standard building keys
+* Campus Master 
+o Master keys for each campus in the event that the building key does not open the door or does not exist
+* 2AA Master 
+o Shared key between HD and NOC that should open all telecom doors on campus
+o Only CSq can get this key from the safe and it should only be used if necessary per the Switchlist/Keylist or other keys previously did not open the teleco door
+Scheduling
+* Usage of Inbox - hd_sched 
+o Active Requests are where current active Coverage Requests are placed
+o FT - Intervention Folder - used to place requests that need FT Approval/Perms (Leave Requests, etc).
+o Semester Folder - Place any addressed emails in this folder
+* Further training will be completed after Level 3 Training but basic usage of Zed such as creation of shifts, etc can be gone over.
+------------------------------------------------------------------------------------------------------------
+Scheduling Team Training (During L3 Training Phase)
+* Will be conducted separately with Jonathan on how to do scheduling
+Questions? Review?
+After training is complete, send the following email to hd_ft@oit.rutgers.edu as confirmation training was completed and to update the trainee in ACE:
+Subject: Level 3 Supervisor Training Complete - <TRAINEE NETID>
+Sups,
+<TRAINEE NAME> has completed their Level 3 training. They are scheduled for the following shadow shifts:
+<DATE/TIME OF SHADOW SHIFT> with <FT STAFF MEMBER>
+<DATE/TIME OF SHADOW SHIFT> with <FT STAFF MEMBER>
+<DATE/TIME OF SHADOW SHIFT> with <FT STAFF MEMBER>
+Once the shadow shifts have been completed, please give <TRAINEE NETID> the HD L3 SIT position in ACE and remove the HD L3 Sup (before training) position.
+" KBB0010119 IT Help Desk - Student Tools - Level 3 "
+**NB-HD - Level 3 Knowledge Block**
+ 
+ResNet WirelessSurvey ToolsEOS FormsSupervisorsMiscCisco ISERUWireless Survey ProceduresLevel 3/AS FormACEEAS Status PageCisco PrimeRUWireless Survey Webform Level 1/2 EOS ResponsesStatus DashboardHD BlocksRUWireless Survey Printout Walkin Tracker Network Node ManagerSpeedtest   RTIRRUWireless Survey Responses   ResNetReg Admin    Switchlist/Keylist    TD Whois Lookup     
+**NB-HD - Level 3 Knowledge Block**
+"
+
+
