@@ -1,4 +1,5 @@
 import json
+from typing import Callable
 
 
 def build_prompt(ticket_description: str, articles: list[dict]) -> str:
@@ -83,3 +84,45 @@ def parse_response(raw_text: str) -> dict:
         raise SchemaValidationError("cited_kb_articles must be a list")
 
     return data
+
+
+MIN_SCORE = 0.3
+
+
+def _retrieval_echo(articles: list[dict]) -> list[dict]:
+    return [{"kb_number": a["kb_number"], "title": a["title"], "score": a["score"]} for a in articles]
+
+
+def recommend(
+    ticket_description: str,
+    articles: list[dict],
+    call_llm: Callable[[str], str],
+    min_score: float = MIN_SCORE,
+) -> dict:
+    if not articles or articles[0]["score"] < min_score:
+        return {
+            "issue_summary": None,
+            "resolution_steps": [],
+            "cited_kb_articles": [],
+            "retrieval": _retrieval_echo(articles),
+            "insufficient_evidence": True,
+        }
+
+    prompt = build_prompt(ticket_description, articles)
+    raw = call_llm(prompt)
+
+    try:
+        result = parse_response(raw)
+    except SchemaValidationError:
+        stricter_prompt = (
+            prompt
+            + "\n\nIMPORTANT: respond with ONLY the JSON object, no other text, no markdown fences."
+        )
+        raw_retry = call_llm(stricter_prompt)
+        try:
+            result = parse_response(raw_retry)
+        except SchemaValidationError:
+            return {"schema_error": True, "raw_response": raw_retry}
+
+    result["retrieval"] = _retrieval_echo(articles)
+    return result
