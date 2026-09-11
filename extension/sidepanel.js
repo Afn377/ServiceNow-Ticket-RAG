@@ -1,0 +1,119 @@
+// extension/sidepanel.js
+const BACKEND_URL = "http://localhost:8420";
+
+const ticketHeader = document.getElementById("ticket-header");
+const analyzeBtn = document.getElementById("analyze-btn");
+const statusEl = document.getElementById("status");
+const resultEl = document.getElementById("result");
+
+let currentTicket = null;
+
+function requestTicketFromActiveTab() {
+  return new Promise((resolve) => {
+    chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
+      if (!tabs[0]) {
+        resolve(null);
+        return;
+      }
+      const timeout = setTimeout(() => resolve(null), 2000);
+      chrome.tabs.sendMessage(tabs[0].id, { type: "GET_TICKET" }, (response) => {
+        clearTimeout(timeout);
+        if (chrome.runtime.lastError) {
+          resolve(null);
+          return;
+        }
+        resolve(response);
+      });
+    });
+  });
+}
+
+function renderTicketHeader(ticket) {
+  if (!ticket || ticket.error === "not_an_incident_page") {
+    ticketHeader.textContent = "Open a ServiceNow incident to use this panel.";
+    return false;
+  }
+  if (ticket.error === "incident_fetch_failed") {
+    ticketHeader.innerHTML = '<span class="error">Couldn\'t read ticket - check you\'re logged into ServiceNow.</span>';
+    return false;
+  }
+
+  const notesLine = ticket.work_notes_unavailable
+    ? "Work notes unavailable"
+    : `${ticket.work_notes.length} work note entr${ticket.work_notes.length === 1 ? "y" : "ies"} found`;
+  ticketHeader.innerHTML = `<strong>${ticket.number}</strong>: ${ticket.short_description}<br><small>${notesLine}</small>`;
+  return true;
+}
+
+function buildTicketDescription(ticket) {
+  let text = ticket.description || ticket.short_description || "";
+  if (ticket.work_notes && ticket.work_notes.length > 0) {
+    text += "\n\nWork notes so far:\n";
+    text += ticket.work_notes
+      .map((n) => `- [${n.sys_created_on}] ${n.sys_created_by}: ${n.value}`)
+      .join("\n");
+  }
+  return text;
+}
+
+function renderRecommendation(data) {
+  if (data.insufficient_evidence) {
+    resultEl.innerHTML = '<p class="error">Not enough matching KB evidence found for this ticket.</p>';
+    return;
+  }
+  if (data.schema_error) {
+    resultEl.innerHTML = '<p class="error">The recommendation engine returned an unexpected response. Try again.</p>';
+    return;
+  }
+
+  const badgeClass = {
+    SUPPORTED: "badge-supported",
+    INFERRED: "badge-inferred",
+    UNCERTAIN: "badge-uncertain",
+  };
+
+  let html = `<h3>${data.issue_summary}</h3>`;
+  html += "<ol>";
+  for (const step of data.resolution_steps) {
+    html += `<li class="step">${step.step}<span class="badge ${badgeClass[step.grounding]}">${step.grounding}</span></li>`;
+  }
+  html += "</ol>";
+  if (data.cited_kb_articles && data.cited_kb_articles.length > 0) {
+    html += `<p><strong>Cited:</strong> ${data.cited_kb_articles.join(", ")}</p>`;
+  }
+  resultEl.innerHTML = html;
+}
+
+async function onAnalyzeClick() {
+  if (!currentTicket) return;
+  statusEl.textContent = "Analyzing...";
+  resultEl.innerHTML = "";
+  analyzeBtn.disabled = true;
+
+  try {
+    const response = await fetch(`${BACKEND_URL}/recommend`, {
+      method: "POST",
+      headers: { "Content-Type": "application/json" },
+      body: JSON.stringify({ ticket_description: buildTicketDescription(currentTicket) }),
+    });
+    if (!response.ok) {
+      throw new Error(`backend returned ${response.status}`);
+    }
+    const data = await response.json();
+    statusEl.textContent = "";
+    renderRecommendation(data);
+  } catch (err) {
+    statusEl.innerHTML = "<span class=\"error\">Backend not running - start it with `python3 server.py`.</span>";
+  } finally {
+    analyzeBtn.disabled = false;
+  }
+}
+
+async function init() {
+  currentTicket = await requestTicketFromActiveTab();
+  const ok = renderTicketHeader(currentTicket);
+  analyzeBtn.disabled = !ok;
+}
+
+analyzeBtn.addEventListener("click", onAnalyzeClick);
+init();
