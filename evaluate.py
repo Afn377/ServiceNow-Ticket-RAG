@@ -69,7 +69,7 @@ def evaluate_tickets(
     results = []
     for ticket in tickets:
         retrieved = retrieve(ticket["ticket"], corpus, index, top_k=top_k)
-        retrieved_kb = [r["kb_number"] for r in retrieved]
+        retrieved_kb = [str(r["kb_number"]) for r in retrieved]
         hit, reciprocal_rank = score_retrieval(ticket["expected_kb"], retrieved_kb)
         results.append(
             {

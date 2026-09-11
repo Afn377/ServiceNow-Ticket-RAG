@@ -1,0 +1,491 @@
+{
+  "summary": {
+    "total_tickets": 30,
+    "hit_rate": 0.9,
+    "mrr": 0.7944444444444444
+  },
+  "results": [
+    {
+      "id": "T01",
+      "ticket": "My laptop's wifi keeps disconnecting randomly during the day, any fix?",
+      "expected_kb": [
+        "KB0015335"
+      ],
+      "retrieved_kb": [
+        "KB0015335",
+        "KB0014343",
+        "KB0014254",
+        "KB0014149",
+        "KB0010943"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T02",
+      "ticket": "I sent something to print through PaperCut but can't find it anywhere, how do I check on my print job?",
+      "expected_kb": [
+        "KB0012542"
+      ],
+      "retrieved_kb": [
+        "KB0012542",
+        "KB0012626",
+        "KB0018936",
+        "KB0014049",
+        "KB0012544"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T03",
+      "ticket": "Can I print from my personal laptop or does it have to be a university computer?",
+      "expected_kb": [
+        "KB0012543"
+      ],
+      "retrieved_kb": [
+        "KB0012543",
+        "KB0013565",
+        "KB0012626",
+        "KB0012627",
+        "KB0012678"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T04",
+      "ticket": "I have a guest visiting who needs a Duo hardware token for two-step login, how do they get one?",
+      "expected_kb": [
+        "KB0013077"
+      ],
+      "retrieved_kb": [
+        "KB0013077",
+        "KB0013076",
+        "KB0012519",
+        "KB0012534",
+        "KB0013079"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T05",
+      "ticket": "What happens if my phone dies and I need to log in with two-step login?",
+      "expected_kb": [
+        "KB0013075"
+      ],
+      "retrieved_kb": [
+        "KB0013089",
+        "KB0013060",
+        "KB0012727",
+        "KB0013090",
+        "KB0013085"
+      ],
+      "hit": false,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "id": "T06",
+      "ticket": "I'm a professor and need to add a guest speaker to my live Canvas course site",
+      "expected_kb": [
+        "KB0015398"
+      ],
+      "retrieved_kb": [
+        "KB0015398",
+        "KB0015511",
+        "KB0015337",
+        "KB0016318",
+        "KB0015442"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T07",
+      "ticket": "The semester already ended but I need to add a new user to my Canvas course, is that possible?",
+      "expected_kb": [
+        "KB0015448"
+      ],
+      "retrieved_kb": [
+        "KB0015442",
+        "KB0015337",
+        "KB0018427",
+        "KB0015448",
+        "KB0015390"
+      ],
+      "hit": true,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "id": "T08",
+      "ticket": "How do I connect my new laptop to the campus wifi network?",
+      "expected_kb": [
+        "KB0012482",
+        "KB0012539"
+      ],
+      "retrieved_kb": [
+        "KB0013685",
+        "KB0018798",
+        "KB0010943",
+        "KB0012481",
+        "KB0013734"
+      ],
+      "hit": false,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "id": "T09",
+      "ticket": "I'm connected to RUWireless but it's not redirecting me to the login page, what do I do?",
+      "expected_kb": [
+        "KB0012988"
+      ],
+      "retrieved_kb": [
+        "KB0012988",
+        "KB0010956",
+        "KB0012482",
+        "KB0012647",
+        "KB0012538"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T10",
+      "ticket": "I can't figure out how to sign into my Rutgers Zoom account",
+      "expected_kb": [
+        "KB0012540"
+      ],
+      "retrieved_kb": [
+        "KB0012540",
+        "KB0012553",
+        "KB0013139",
+        "KB0012735",
+        "KB0012736"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T11",
+      "ticket": "I accidentally scheduled a Zoom meeting and the delete option isn't where the Zoom help center says it should be",
+      "expected_kb": [
+        "KB0012492"
+      ],
+      "retrieved_kb": [
+        "KB0012492",
+        "KB0015950",
+        "KB0013545",
+        "KB0012692",
+        "KB0012735"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T12",
+      "ticket": "Am I allowed to have a Box account as a student?",
+      "expected_kb": [
+        "KB0014727",
+        "KB0012461"
+      ],
+      "retrieved_kb": [
+        "KB0014727",
+        "KB0012798",
+        "KB0012778",
+        "KB0012461",
+        "KB0012826"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T13",
+      "ticket": "How do I forward my ScarletMail to my Rutgers Connect email?",
+      "expected_kb": [
+        "KB0012514"
+      ],
+      "retrieved_kb": [
+        "KB0012514",
+        "KB0013035",
+        "KB0012918",
+        "KB0015372",
+        "KB0013028"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T14",
+      "ticket": "What other Google apps come with my ScarletMail besides Gmail?",
+      "expected_kb": [
+        "KB0012448"
+      ],
+      "retrieved_kb": [
+        "KB0014199",
+        "KB0012448",
+        "KB0013028",
+        "KB0013002",
+        "KB0013037"
+      ],
+      "hit": true,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "id": "T15",
+      "ticket": "I need to lock a former employee's Connect account, how do I do that as a delegated admin?",
+      "expected_kb": [
+        "KB0012967"
+      ],
+      "retrieved_kb": [
+        "KB0012967",
+        "KB0012599",
+        "KB0012959",
+        "KB0019569",
+        "KB0010777"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T16",
+      "ticket": "Can I download extra add-ons for Adobe Express?",
+      "expected_kb": [
+        "KB0018063"
+      ],
+      "retrieved_kb": [
+        "KB0018063",
+        "KB0012842",
+        "KB0012750",
+        "KB0014572",
+        "KB0018627"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T17",
+      "ticket": "My Adobe Creative Cloud files stopped syncing, what happened?",
+      "expected_kb": [
+        "KB0018009"
+      ],
+      "retrieved_kb": [
+        "KB0018009",
+        "KB0016226",
+        "KB0013591",
+        "KB0012739",
+        "KB0012842"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T18",
+      "ticket": "What exactly is a NetID and password used for?",
+      "expected_kb": [
+        "KB0014201"
+      ],
+      "retrieved_kb": [
+        "KB0012847",
+        "KB0012849",
+        "KB0012846",
+        "KBB0010156",
+        "KB0015765"
+      ],
+      "hit": false,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "id": "T19",
+      "ticket": "How do I make sure my Webex meetings are secure?",
+      "expected_kb": [
+        "KB0012460"
+      ],
+      "retrieved_kb": [
+        "KB0012460",
+        "KB0012623",
+        "KB0012722",
+        "KB0014118",
+        "KB0012576"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T20",
+      "ticket": "I don't know how to log into Webex with my Rutgers account",
+      "expected_kb": [
+        "KB0013125"
+      ],
+      "retrieved_kb": [
+        "KB0014629",
+        "KB0013126",
+        "KB0012554",
+        "KB0013125",
+        "KB0016469"
+      ],
+      "hit": true,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "id": "T21",
+      "ticket": "How do I upload a video to my Canvas course through Kaltura?",
+      "expected_kb": [
+        "KB0018270"
+      ],
+      "retrieved_kb": [
+        "KB0018270",
+        "KB0016282",
+        "KB0018548",
+        "KB0016284",
+        "KB0016302"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T22",
+      "ticket": "How can I see who is in a myCommunity group?",
+      "expected_kb": [
+        "KB0017964"
+      ],
+      "retrieved_kb": [
+        "KB0017937",
+        "KB0017959",
+        "KB0017964",
+        "KB0017942",
+        "KB0017633"
+      ],
+      "hit": true,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "id": "T23",
+      "ticket": "The printer in the computer lab ran out of paper, can I add more myself?",
+      "expected_kb": [
+        "KB0015716"
+      ],
+      "retrieved_kb": [
+        "KB0012906",
+        "KB0015716",
+        "KB0018477",
+        "KB0016057",
+        "KB0012627"
+      ],
+      "hit": true,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "id": "T24",
+      "ticket": "Do I need a webcam to join a Webex meeting?",
+      "expected_kb": [
+        "KB0013131"
+      ],
+      "retrieved_kb": [
+        "KB0013131",
+        "KB0013117",
+        "KB0012720",
+        "KB0012576",
+        "KB0014118"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T25",
+      "ticket": "Is there a live chat option for the help desk instead of calling?",
+      "expected_kb": [
+        "KB0018751"
+      ],
+      "retrieved_kb": [
+        "KB0018751",
+        "KB0018415",
+        "KB0014882",
+        "KB0014885",
+        "KB0016938"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T26",
+      "ticket": "When is my work computer due for a hardware upgrade?",
+      "expected_kb": [
+        "KB0016326"
+      ],
+      "retrieved_kb": [
+        "KB0016326",
+        "KB0018501",
+        "KB0016341",
+        "KB0016346",
+        "KB0013095"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T27",
+      "ticket": "How do I find the computer name on my Windows machine?",
+      "expected_kb": [
+        "KB0016782"
+      ],
+      "retrieved_kb": [
+        "KB0016782",
+        "KB0014124",
+        "KB0016479",
+        "KB0016490",
+        "KB0012850"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T28",
+      "ticket": "Someone needs to report a leaky faucet in a building, is that something OIT handles?",
+      "expected_kb": [
+        "KB0014155"
+      ],
+      "retrieved_kb": [
+        "KB0014155",
+        "KB0017609",
+        "KB0019535",
+        "KB0014316",
+        "KB0014266"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T29",
+      "ticket": "How do I add a family member to my ANCOR account for registration purposes?",
+      "expected_kb": [
+        "KB0019166"
+      ],
+      "retrieved_kb": [
+        "KB0019166",
+        "KB0019220",
+        "KB0019184",
+        "KB0019162",
+        "KB0019195"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T30",
+      "ticket": "My print job is stuck in the queue and won't come out, how do I release it?",
+      "expected_kb": [
+        "KB0012544"
+      ],
+      "retrieved_kb": [
+        "KB0012544",
+        "KB0018936",
+        "KB0012542",
+        "KB0012905",
+        "KB0011251"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    }
+  ]
+}
