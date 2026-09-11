@@ -5,7 +5,7 @@ import numpy as np
 from embeddings import embed_query
 
 TOP_K = 5
-BOOST_WEIGHT = 0.15
+BOOST_WEIGHT = 0.10
 
 
 def rank_articles(
