@@ -55,11 +55,12 @@ async function loadTicket() {
   }
 }
 
-loadTicket();
+let loadPromise = loadTicket();
 
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
   if (message.type === "GET_TICKET") {
-    sendResponse(cachedTicket);
+    loadPromise.then(() => sendResponse(cachedTicket));
+    return true;
   }
   return true;
 });
