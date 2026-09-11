@@ -8,6 +8,12 @@ const resultEl = document.getElementById("result");
 
 let currentTicket = null;
 
+function escapeHtml(text) {
+  const div = document.createElement("div");
+  div.textContent = text == null ? "" : String(text);
+  return div.innerHTML;
+}
+
 function requestTicketFromActiveTab() {
   return new Promise((resolve) => {
     chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
@@ -15,7 +21,7 @@ function requestTicketFromActiveTab() {
         resolve(null);
         return;
       }
-      const timeout = setTimeout(() => resolve(null), 2000);
+      const timeout = setTimeout(() => resolve(null), 8000);
       chrome.tabs.sendMessage(tabs[0].id, { type: "GET_TICKET" }, (response) => {
         clearTimeout(timeout);
         if (chrome.runtime.lastError) {
@@ -41,7 +47,7 @@ function renderTicketHeader(ticket) {
   const notesLine = ticket.work_notes_unavailable
     ? "Work notes unavailable"
     : `${ticket.work_notes.length} work note entr${ticket.work_notes.length === 1 ? "y" : "ies"} found`;
-  ticketHeader.innerHTML = `<strong>${ticket.number}</strong>: ${ticket.short_description}<br><small>${notesLine}</small>`;
+  ticketHeader.innerHTML = `<strong>${escapeHtml(ticket.number)}</strong>: ${escapeHtml(ticket.short_description)}<br><small>${notesLine}</small>`;
   return true;
 }
 
@@ -72,14 +78,14 @@ function renderRecommendation(data) {
     UNCERTAIN: "badge-uncertain",
   };
 
-  let html = `<h3>${data.issue_summary}</h3>`;
+  let html = `<h3>${escapeHtml(data.issue_summary)}</h3>`;
   html += "<ol>";
   for (const step of data.resolution_steps) {
-    html += `<li class="step">${step.step}<span class="badge ${badgeClass[step.grounding]}">${step.grounding}</span></li>`;
+    html += `<li class="step">${escapeHtml(step.step)}<span class="badge ${badgeClass[step.grounding]}">${step.grounding}</span></li>`;
   }
   html += "</ol>";
   if (data.cited_kb_articles && data.cited_kb_articles.length > 0) {
-    html += `<p><strong>Cited:</strong> ${data.cited_kb_articles.join(", ")}</p>`;
+    html += `<p><strong>Cited:</strong> ${data.cited_kb_articles.map(escapeHtml).join(", ")}</p>`;
   }
   resultEl.innerHTML = html;
 }
