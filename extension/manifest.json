@@ -1,0 +1,24 @@
+{
+  "manifest_version": 3,
+  "name": "ServiceNow Ticket Recommender",
+  "version": "0.1.0",
+  "description": "KB-grounded resolution recommendations for ServiceNow incidents (Rutgers OIT pilot).",
+  "permissions": ["sidePanel", "activeTab"],
+  "host_permissions": [
+    "https://rutgers.service-now.com/*",
+    "http://localhost:8420/*"
+  ],
+  "content_scripts": [
+    {
+      "matches": ["https://rutgers.service-now.com/*"],
+      "js": ["content_script.js"]
+    }
+  ],
+  "background": {
+    "service_worker": "background.js"
+  },
+  "side_panel": {
+    "default_path": "sidepanel.html"
+  },
+  "action": {}
+}
