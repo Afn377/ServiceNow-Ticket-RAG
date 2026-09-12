@@ -11,6 +11,11 @@
   "content_scripts": [
     {
       "matches": ["https://rutgers.service-now.com/*"],
+      "js": ["main_world_bridge.js"],
+      "world": "MAIN"
+    },
+    {
+      "matches": ["https://rutgers.service-now.com/*"],
       "js": ["content_script.js"]
     }
   ],
