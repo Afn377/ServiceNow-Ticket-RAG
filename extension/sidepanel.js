@@ -122,4 +122,13 @@ async function init() {
 }
 
 analyzeBtn.addEventListener("click", onAnalyzeClick);
+chrome.runtime.onMessage.addListener((message) => {
+  if (message.type === "TICKET_UPDATED") {
+    currentTicket = message.ticket;
+    const ok = renderTicketHeader(currentTicket);
+    analyzeBtn.disabled = !ok;
+    resultEl.innerHTML = "";
+    statusEl.textContent = "";
+  }
+});
 init();

@@ -3,6 +3,7 @@ const SYS_ID_PATTERN = /[a-f0-9]{32}/;
 
 let cachedTicket = null;
 let userToken = null;
+let lastSysId;
 
 const userTokenPromise = new Promise((resolve) => {
   function handleMessage(event) {
@@ -53,8 +54,7 @@ async function fetchWorkNotes(sysId) {
   return { entries: data.result, unavailable: false };
 }
 
-async function loadTicket() {
-  const sysId = extractSysId(window.location.href);
+async function loadTicket(sysId) {
   if (!sysId) {
     cachedTicket = { error: "not_an_incident_page" };
     return;
@@ -77,7 +77,18 @@ async function loadTicket() {
   }
 }
 
-let loadPromise = loadTicket();
+async function checkForNavigation() {
+  const sysId = extractSysId(window.location.href);
+  if (sysId === lastSysId) {
+    return;
+  }
+  lastSysId = sysId;
+  await loadTicket(sysId);
+  chrome.runtime.sendMessage({ type: "TICKET_UPDATED", ticket: cachedTicket });
+}
+
+let loadPromise = checkForNavigation();
+setInterval(checkForNavigation, 1000);
 
 chrome.runtime.onMessage.addListener((message, sender, sendResponse) => {
   if (message.type === "GET_TICKET") {
