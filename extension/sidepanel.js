@@ -19,7 +19,8 @@ function redactSensitiveText(text) {
     .replace(/\b(?:\d{1,3}\.){3}\d{1,3}\b/g, "[REDACTED-IP]")
     .replace(/\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b/g, "[REDACTED-EMAIL]")
     .replace(/RcpID:\s*\d+/gi, "RcpID: [REDACTED]")
-    .replace(/\b[A-Za-z]{2,3}\d{4}\b/g, "[REDACTED-ID]");
+    .replace(/NetID:\s*\S+/gi, "NetID: [REDACTED]")
+    .replace(/\b[A-Za-z]{2,4}\d{2,4}\b/g, "[REDACTED-ID]");
 }
 
 function requestTicketFromActiveTab() {
