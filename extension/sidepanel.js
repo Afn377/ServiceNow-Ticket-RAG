@@ -14,6 +14,14 @@ function escapeHtml(text) {
   return div.innerHTML;
 }
 
+function redactSensitiveText(text) {
+  return text
+    .replace(/\b(?:\d{1,3}\.){3}\d{1,3}\b/g, "[REDACTED-IP]")
+    .replace(/\b[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,}\b/g, "[REDACTED-EMAIL]")
+    .replace(/RcpID:\s*\d+/gi, "RcpID: [REDACTED]")
+    .replace(/\b[A-Za-z]{2,3}\d{4}\b/g, "[REDACTED-ID]");
+}
+
 function requestTicketFromActiveTab() {
   return new Promise((resolve) => {
     chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
@@ -59,7 +67,7 @@ function buildTicketDescription(ticket) {
       .map((n) => `- [${n.sys_created_on}] ${n.sys_created_by}: ${n.value}`)
       .join("\n");
   }
-  return text;
+  return redactSensitiveText(text);
 }
 
 function renderRecommendation(data) {
