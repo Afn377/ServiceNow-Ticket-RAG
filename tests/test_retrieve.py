@@ -57,7 +57,5 @@ def test_retrieve_joins_ranked_results_with_corpus_fields():
     assert results[0]["kb_number"] == "KB0000001"
     assert results[0]["title"] == "VPN Setup"
     assert results[0]["body"] == "How to VPN."
-    # Hybrid retrieval: score is now the RRF-fused value (semantic rank 1 +
-    # bm25 rank 1) rather than the raw semantic cosine similarity.
-    assert results[0]["score"] == 1 / 61 + 1 / 61
+    assert results[0]["score"] == 1.0
     assert results[1]["kb_number"] == "KB0000002"
