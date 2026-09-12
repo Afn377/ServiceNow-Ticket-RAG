@@ -41,17 +41,46 @@ async function fetchIncident(sysId) {
   return data.result;
 }
 
-async function fetchWorkNotes(sysId) {
-  const query = `element_id=${sysId}^element=work_notes^ORDERBYsys_created_on`;
-  const response = await fetch(
-    `/api/now/table/sys_journal_field?sysparm_query=${encodeURIComponent(query)}&sysparm_fields=value,sys_created_on,sys_created_by`,
-    { credentials: "same-origin", headers: { "X-UserToken": userToken } }
-  );
-  if (!response.ok) {
+function deepQuerySelectorAll(selector, root = document) {
+  const results = [];
+  const stack = [root];
+  while (stack.length > 0) {
+    const node = stack.pop();
+    if (typeof node.querySelectorAll === "function") {
+      results.push(...node.querySelectorAll(selector));
+      const all = node.querySelectorAll("*");
+      for (const el of all) {
+        if (el.shadowRoot) {
+          stack.push(el.shadowRoot);
+        }
+      }
+    }
+  }
+  return results;
+}
+
+function scrapeWorkNotes() {
+  const articles = deepQuerySelectorAll("article.sn-as-card");
+  if (articles.length === 0) {
     return { entries: [], unavailable: true };
   }
-  const data = await response.json();
-  return { entries: data.result, unavailable: false };
+
+  const entries = [];
+  for (const article of articles) {
+    const typeLabel = article.querySelector(".sn-as-card-header-bottom .meta");
+    if (!typeLabel || typeLabel.textContent.trim() !== "Work notes") {
+      continue;
+    }
+    const author = article.querySelector("#card-title .title-text");
+    const timeEl = article.querySelector(".sn-as-card-header-bottom time");
+    const bodyEl = article.querySelector(".sn-as-card-body-journal");
+    entries.push({
+      value: bodyEl ? bodyEl.textContent.trim() : "",
+      sys_created_on: timeEl ? timeEl.textContent.trim() : "",
+      sys_created_by: author ? author.textContent.trim() : "",
+    });
+  }
+  return { entries, unavailable: false };
 }
 
 async function loadTicket(sysId) {
@@ -64,7 +93,11 @@ async function loadTicket(sysId) {
 
   try {
     const incident = await fetchIncident(sysId);
-    const workNotes = await fetchWorkNotes(sysId);
+    let workNotes = scrapeWorkNotes();
+    if (workNotes.unavailable) {
+      await new Promise((resolve) => setTimeout(resolve, 1500));
+      workNotes = scrapeWorkNotes();
+    }
     cachedTicket = {
       number: incident.number,
       short_description: incident.short_description,
