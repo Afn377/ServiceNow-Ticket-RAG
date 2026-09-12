@@ -1,4 +1,6 @@
-from fastapi import FastAPI
+import os
+
+from fastapi import Depends, FastAPI, Header, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 
@@ -23,7 +25,13 @@ class RecommendRequest(BaseModel):
     ticket_description: str
 
 
-@app.post("/recommend")
+def verify_api_key(x_api_key: str = Header(default=None)) -> None:
+    expected = os.environ.get("BACKEND_API_KEY")
+    if expected and x_api_key != expected:
+        raise HTTPException(status_code=401, detail="invalid or missing API key")
+
+
+@app.post("/recommend", dependencies=[Depends(verify_api_key)])
 def recommend_endpoint(request: RecommendRequest) -> dict:
     articles = retrieve(request.ticket_description, corpus, index)
     return recommend(request.ticket_description, articles, call_llm=call_deepseek)

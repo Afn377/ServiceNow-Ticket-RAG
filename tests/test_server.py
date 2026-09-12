@@ -38,3 +38,49 @@ def test_recommend_endpoint_rejects_missing_ticket_description():
     response = client.post("/recommend", json={})
 
     assert response.status_code == 422
+
+
+def test_recommend_endpoint_rejects_missing_api_key_when_key_configured(monkeypatch):
+    monkeypatch.setenv("BACKEND_API_KEY", "secret123")
+
+    client = TestClient(server.app)
+    response = client.post("/recommend", json={"ticket_description": "test"})
+
+    assert response.status_code == 401
+
+
+def test_recommend_endpoint_rejects_wrong_api_key_when_key_configured(monkeypatch):
+    monkeypatch.setenv("BACKEND_API_KEY", "secret123")
+
+    client = TestClient(server.app)
+    response = client.post(
+        "/recommend",
+        json={"ticket_description": "test"},
+        headers={"X-API-Key": "wrong"},
+    )
+
+    assert response.status_code == 401
+
+
+def test_recommend_endpoint_accepts_correct_api_key_when_key_configured(monkeypatch):
+    monkeypatch.setenv("BACKEND_API_KEY", "secret123")
+    monkeypatch.setattr(server, "retrieve", lambda *a, **k: [])
+    monkeypatch.setattr(
+        server,
+        "recommend",
+        lambda *a, **k: {
+            "issue_summary": "ok",
+            "resolution_steps": [],
+            "cited_kb_articles": [],
+            "retrieval": [],
+        },
+    )
+
+    client = TestClient(server.app)
+    response = client.post(
+        "/recommend",
+        json={"ticket_description": "test"},
+        headers={"X-API-Key": "secret123"},
+    )
+
+    assert response.status_code == 200
