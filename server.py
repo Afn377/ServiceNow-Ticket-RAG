@@ -10,9 +10,11 @@ from retrieve import load_corpus, load_index, retrieve
 
 app = FastAPI()
 
+EXTENSION_ORIGIN = os.environ.get("EXTENSION_ORIGIN", "chrome-extension://REPLACE_WITH_EXTENSION_ID")
+
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],
+    allow_origins=[EXTENSION_ORIGIN],
     allow_methods=["POST"],
     allow_headers=["*"],
 )

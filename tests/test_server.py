@@ -1,6 +1,14 @@
 from fastapi.testclient import TestClient
+from starlette.middleware.cors import CORSMiddleware
 
 import server
+
+
+def test_cors_is_not_configured_with_wildcard_origin():
+    cors_entries = [m for m in server.app.user_middleware if m.cls is CORSMiddleware]
+
+    assert len(cors_entries) == 1
+    assert cors_entries[0].kwargs["allow_origins"] != ["*"]
 
 
 def test_recommend_endpoint_wires_ticket_through_retrieve_and_recommend(monkeypatch):
