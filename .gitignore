@@ -12,3 +12,4 @@ Library/
 .backend-api-key.local
 .instance-id.local
 .public-ip.local
+*.zip
