@@ -3,6 +3,11 @@
   "name": "ServiceNow Ticket Recommender",
   "version": "0.1.0",
   "description": "KB-grounded resolution suggestions for ServiceNow incidents. An independent tool built by a Rutgers OIT team member.",
+  "icons": {
+    "16": "icons/icon16.png",
+    "48": "icons/icon48.png",
+    "128": "icons/icon128.png"
+  },
   "permissions": ["sidePanel", "activeTab"],
   "host_permissions": [
     "https://rutgers.service-now.com/*",
@@ -26,5 +31,11 @@
   "side_panel": {
     "default_path": "sidepanel.html"
   },
-  "action": {}
+  "action": {
+    "default_icon": {
+      "16": "icons/icon16.png",
+      "48": "icons/icon48.png",
+      "128": "icons/icon128.png"
+    }
+  }
 }
