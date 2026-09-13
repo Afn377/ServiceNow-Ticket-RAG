@@ -2,7 +2,7 @@
   "manifest_version": 3,
   "name": "ServiceNow Ticket Recommender",
   "version": "0.1.0",
-  "description": "KB-grounded resolution recommendations for ServiceNow incidents (Rutgers OIT pilot).",
+  "description": "KB-grounded resolution suggestions for ServiceNow incidents. An independent tool built by a Rutgers OIT team member.",
   "permissions": ["sidePanel", "activeTab"],
   "host_permissions": [
     "https://rutgers.service-now.com/*",
