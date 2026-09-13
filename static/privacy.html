@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Privacy Policy — ServiceNow Ticket Recommender</title>
+<meta name="description" content="Privacy policy for the ServiceNow Ticket Recommender Chrome extension used by Rutgers OIT help desk staff.">
+<style>
+  :root {
+    --text: #1f2328;
+    --muted: #59636e;
+    --rule: #d8dee4;
+    --accent: #cc0033;
+    --bg: #ffffff;
+    --panel: #f6f8fa;
+  }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+  }
+
+  body {
+    margin: 0;
+    padding: 2.5rem 1.25rem 4rem;
+    background: var(--bg);
+    color: var(--text);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+      Arial, "Noto Sans", sans-serif;
+    font-size: 17px;
+    line-height: 1.65;
+  }
+
+  main {
+    max-width: 46rem;
+    margin: 0 auto;
+  }
+
+  header {
+    border-bottom: 3px solid var(--accent);
+    padding-bottom: 1.25rem;
+    margin-bottom: 2rem;
+  }
+
+  h1 {
+    font-size: 1.9rem;
+    line-height: 1.25;
+    margin: 0 0 0.5rem;
+    letter-spacing: -0.01em;
+  }
+
+  .subtitle {
+    margin: 0;
+    color: var(--muted);
+    font-size: 0.95rem;
+  }
+
+  h2 {
+    font-size: 1.2rem;
+    line-height: 1.35;
+    margin: 2.25rem 0 0.65rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--rule);
+  }
+
+  h2:first-of-type {
+    border-top: 0;
+    padding-top: 0;
+    margin-top: 0;
+  }
+
+  p {
+    margin: 0 0 1rem;
+  }
+
+  ul {
+    margin: 0 0 1rem;
+    padding-left: 1.4rem;
+  }
+
+  li {
+    margin-bottom: 0.35rem;
+  }
+
+  ul li:last-child {
+    margin-bottom: 0;
+  }
+
+  strong {
+    font-weight: 600;
+  }
+
+  code {
+    font-family: ui-monospace, SFMono-Regular, "SF Mono", Menlo, Consolas,
+      "Liberation Mono", monospace;
+    font-size: 0.9em;
+    background: var(--panel);
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    padding: 0.1em 0.35em;
+  }
+
+  .updated {
+    margin-top: 3rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid var(--rule);
+    color: var(--muted);
+    font-size: 0.9rem;
+  }
+
+  @media (max-width: 480px) {
+    body {
+      font-size: 16px;
+      padding: 1.75rem 1rem 3rem;
+    }
+
+    h1 {
+      font-size: 1.55rem;
+    }
+  }
+</style>
+</head>
+<body>
+  <main>
+    <header>
+      <h1>Privacy Policy — ServiceNow Ticket Recommender</h1>
+      <p class="subtitle">A Rutgers OIT internal tool for help desk staff.</p>
+    </header>
+
+    <h2>1. What this extension does</h2>
+    <p>
+      The ServiceNow Ticket Recommender is a Chrome extension used by Rutgers OIT
+      (Office of Information Technology) help desk staff. It reads the currently
+      open ServiceNow incident ticket's description and work notes, and displays
+      AI-generated, knowledge-base-grounded resolution suggestions in a side panel
+      alongside the ticket.
+    </p>
+
+    <h2>2. What data is read</h2>
+    <p>
+      The extension reads ticket text — the incident description and work notes —
+      only from the active ServiceNow tab, and only when the user clicks
+      <strong>&ldquo;Analyze.&rdquo;</strong> It does not run in the background, and it
+      does not read any other page or tab.
+    </p>
+
+    <h2>3. What is redacted before anything is sent</h2>
+    <p>
+      Before any ticket text leaves the browser, the extension automatically
+      redacts sensitive identifiers, including:
+    </p>
+    <ul>
+      <li>IP addresses</li>
+      <li>Email addresses</li>
+      <li>RcpID values</li>
+      <li>NetID values</li>
+      <li>Other ID-like patterns</li>
+    </ul>
+    <p>
+      This redaction happens locally in the browser, before any network request is
+      made.
+    </p>
+
+    <h2>4. What is transmitted, and to whom</h2>
+    <p>
+      The redacted ticket text is sent over HTTPS to a backend server operated by
+      Rutgers OIT at <code>servicenow.smafnanhaider.com</code>, authenticated with a
+      private API key. That backend forwards the redacted text to a third-party LLM
+      API (DeepSeek) solely to generate the resolution recommendation, and returns
+      the result to the extension. No other third party receives this data.
+    </p>
+
+    <h2>5. What is not stored</h2>
+    <p>
+      The backend does not log, save, or persist ticket text anywhere. Each request
+      is processed and its result returned; no ticket data is retained on the server
+      after the response is sent.
+    </p>
+
+    <h2>6. Who can use this extension</h2>
+    <p>
+      This extension is distributed privately to Rutgers OIT staff only, via a
+      private (non-public) Chrome Web Store listing. It is not available to the
+      general public.
+    </p>
+
+    <h2>7. Data retention</h2>
+    <p>
+      No user data is retained by the extension itself. It holds ticket data in
+      memory only while the side panel is open, and does not use browser storage
+      (localStorage, cookies, etc.) to persist any ticket content.
+    </p>
+
+    <h2>8. Contact</h2>
+    <p>
+      For questions about this policy, contact Rutgers OIT.
+    </p>
+
+    <p class="updated">Last updated: September 12, 2026</p>
+  </main>
+</body>
+</html>
