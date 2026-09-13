@@ -1,6 +1,6 @@
 // extension/sidepanel.js
 const BACKEND_URL = "https://servicenow.smafnanhaider.com";
-const BACKEND_API_KEY = "REPLACE_WITH_GENERATED_API_KEY";
+const BACKEND_API_KEY = "92fe0b377b35569610c2e6e70d827d9d8f1b3e0c40d5b04f5a1bea070426044b";
 
 const ticketHeader = document.getElementById("ticket-header");
 const analyzeBtn = document.getElementById("analyze-btn");
