@@ -8,3 +8,7 @@ __pycache__/
 .worktrees/
 .cache/
 Library/
+*.pem
+.backend-api-key.local
+.instance-id.local
+.public-ip.local
