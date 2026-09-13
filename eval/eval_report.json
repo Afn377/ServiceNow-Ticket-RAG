@@ -1,8 +1,8 @@
 {
   "summary": {
-    "total_tickets": 100,
-    "hit_rate": 0.95,
-    "mrr": 0.8220000000000001
+    "total_tickets": 200,
+    "hit_rate": 0.945,
+    "mrr": 0.8451666666666666
   },
   "results": [
     {
@@ -1606,6 +1606,1606 @@
       ],
       "hit": true,
       "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T101",
+      "ticket": "Outlook on my office PC suddenly only opens in Safe Mode and I can't get it to run normally, how do I fix it?",
+      "expected_kb": [
+        "KB0016329"
+      ],
+      "retrieved_kb": [
+        "KB0016329",
+        "KB0013566",
+        "KB0012674",
+        "KB0016314",
+        "KB0016491"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T102",
+      "ticket": "I tried to email a big announcement to a mailing list I'm on and it bounced back with a weird error about the message body being too large, what does that mean?",
+      "expected_kb": [
+        "KB0012490"
+      ],
+      "retrieved_kb": [
+        "KB0012490",
+        "KB0014147",
+        "KB0014139",
+        "KB0012633",
+        "KB0012828"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T103",
+      "ticket": "Is there a way to see the photos and NetIDs of all the students enrolled in my Canvas course?",
+      "expected_kb": [
+        "KB0016599"
+      ],
+      "retrieved_kb": [
+        "KB0015390",
+        "KB0015337",
+        "KB0015596",
+        "KB0016599",
+        "KB0015511"
+      ],
+      "hit": true,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "id": "T104",
+      "ticket": "Do I have to be connected to the VPN to use the Virtual Computer Labs, or do they work without it?",
+      "expected_kb": [
+        "KB0013111"
+      ],
+      "retrieved_kb": [
+        "KB0013111",
+        "KB0013112",
+        "KB0013523",
+        "KB0013105",
+        "KB0013106"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T105",
+      "ticket": "My Android phone's browser keeps acting up and I was told to clear the cache and cookies, but I can't figure out how to do it on Android.",
+      "expected_kb": [
+        "KB0012471"
+      ],
+      "retrieved_kb": [
+        "KB0012471",
+        "KB0012474",
+        "KB0012472",
+        "KB0012473",
+        "KB0017607"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T106",
+      "ticket": "A friend mentioned some Google tool called NotebookLM for reading through a bunch of PDFs, how do I get started with it?",
+      "expected_kb": [
+        "KB0019475"
+      ],
+      "retrieved_kb": [
+        "KB0019475",
+        "KB0018654",
+        "KB0018731",
+        "KB0013010",
+        "KB0014209"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T107",
+      "ticket": "On our Mailman list the wrong name shows up next to my email address and I've tried changing it but nothing sticks, why does it keep showing someone else's name?",
+      "expected_kb": [
+        "KB0018487"
+      ],
+      "retrieved_kb": [
+        "KB0018487",
+        "KB0013402",
+        "KB0014139",
+        "KB0016446",
+        "KB0012490"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T108",
+      "ticket": "I'm faculty at RBHS and I need to email everyone in one of my classes, is there a way to do that through Banner Self-Service?",
+      "expected_kb": [
+        "KB0012555"
+      ],
+      "retrieved_kb": [
+        "KB0012555",
+        "KB0019249",
+        "KB0012641",
+        "KB0014325",
+        "KB0012560"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T109",
+      "ticket": "Do I really have to sign into Office every single time I open Word in the Virtual Computer Labs? It keeps asking me to log in again.",
+      "expected_kb": [
+        "KB0013527"
+      ],
+      "retrieved_kb": [
+        "KB0013527",
+        "KB0013523",
+        "KB0013528",
+        "KB0013112",
+        "KB0013111"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T110",
+      "ticket": "I'm a student and I need Power BI for a class project, how do I get access to it through Rutgers?",
+      "expected_kb": [
+        "KB0017752"
+      ],
+      "retrieved_kb": [
+        "KB0013744",
+        "KB0017752",
+        "KB0013783",
+        "KB0012645",
+        "KB0013784"
+      ],
+      "hit": true,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "id": "T111",
+      "ticket": "How do I start a new group conversation with a few coworkers in Microsoft Teams?",
+      "expected_kb": [
+        "KB0012470"
+      ],
+      "retrieved_kb": [
+        "KB0012470",
+        "KB0012725",
+        "KB0012894",
+        "KB0012896",
+        "KB0012895"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T112",
+      "ticket": "I'm an instructor and already use LabArchives, how do I connect it to my Canvas course?",
+      "expected_kb": [
+        "KB0016431"
+      ],
+      "retrieved_kb": [
+        "KB0016431",
+        "KB0016416",
+        "KB0019223",
+        "KB0016450",
+        "KB0019177"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T113",
+      "ticket": "I want to make sure only people with a Rutgers NetID can fill out my Qualtrics survey, how do I restrict it?",
+      "expected_kb": [
+        "KB0013324"
+      ],
+      "retrieved_kb": [
+        "KB0013324",
+        "KB0013309",
+        "KB0018272",
+        "KB0014321",
+        "KB0013334"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T114",
+      "ticket": "Where do I go to submit an IT ticket online instead of calling the help desk?",
+      "expected_kb": [
+        "KB0016247"
+      ],
+      "retrieved_kb": [
+        "KB0014213",
+        "KB0014891",
+        "KB0012659",
+        "KB0014111",
+        "KB0015085"
+      ],
+      "hit": false,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "id": "T115",
+      "ticket": "How do I clear the cache and cookies in Safari on my iPhone? My browser keeps glitching.",
+      "expected_kb": [
+        "KB0012472"
+      ],
+      "retrieved_kb": [
+        "KB0012472",
+        "KB0012473",
+        "KB0012474",
+        "KB0012471",
+        "KB0018776"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T116",
+      "ticket": "How do I order a new wireless keyboard and mouse for my university office computer?",
+      "expected_kb": [
+        "KB0016504"
+      ],
+      "retrieved_kb": [
+        "KB0016382",
+        "KB0016504",
+        "KB0016162",
+        "KB0011593",
+        "KB0012880"
+      ],
+      "hit": true,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "id": "T117",
+      "ticket": "What's the difference between a TA and a Course Support person in Canvas, and what is each role actually allowed to do?",
+      "expected_kb": [
+        "KB0015353"
+      ],
+      "retrieved_kb": [
+        "KB0015353",
+        "KB0015595",
+        "KB0016360",
+        "KB0015434",
+        "KB0015412"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T118",
+      "ticket": "The cable TV in my dorm room suddenly stopped working, did Rutgers get rid of the TV service?",
+      "expected_kb": [
+        "KB0014534"
+      ],
+      "retrieved_kb": [
+        "KB0014534",
+        "KB0016896",
+        "KB0018019",
+        "KB0010999",
+        "KB0016721"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T119",
+      "ticket": "Every time I click on Zoom inside Canvas I get an error saying my email address is invalid, how do I fix it?",
+      "expected_kb": [
+        "KB0016299"
+      ],
+      "retrieved_kb": [
+        "KB0016299",
+        "KB0015549",
+        "KB0015442",
+        "KB0012735",
+        "KB0018777"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T120",
+      "ticket": "I can't sign into the computers in the Rutgers Business School lab, but I can log into the main Rutgers site just fine, who should I talk to?",
+      "expected_kb": [
+        "KB0014353"
+      ],
+      "retrieved_kb": [
+        "KB0012919",
+        "KB0012645",
+        "KB0012526",
+        "KB0014629",
+        "KB0012609"
+      ],
+      "hit": false,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "id": "T121",
+      "ticket": "Do I need to buy a license to have Java installed on my personal laptop just for home use?",
+      "expected_kb": [
+        "KB0012855"
+      ],
+      "retrieved_kb": [
+        "KB0012855",
+        "KB0012856",
+        "KB0012854",
+        "KB0012704",
+        "KB0012879"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T122",
+      "ticket": "One of my Kaltura Capture recordings failed to process after I recorded it, can I upload it again to fix it?",
+      "expected_kb": [
+        "KB0016301"
+      ],
+      "retrieved_kb": [
+        "KB0016301",
+        "KB0016344",
+        "KB0019396",
+        "KB0016345",
+        "KB0018270"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T123",
+      "ticket": "I got an email saying my Rutgers email account is going to be closed in a week out of nowhere, why is that happening?",
+      "expected_kb": [
+        "KB0012646"
+      ],
+      "retrieved_kb": [
+        "KB0012646",
+        "KB0014371",
+        "KB0013035",
+        "KB0015613",
+        "KB0016212"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T124",
+      "ticket": "What's the difference between a Group and a contact group in Rutgers Connect? They seem like the same thing to me.",
+      "expected_kb": [
+        "KB0012971"
+      ],
+      "retrieved_kb": [
+        "KB0012971",
+        "KB0013011",
+        "KB0011231",
+        "KB0012915",
+        "KB0017939"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T125",
+      "ticket": "Do files I keep in my OneDrive fall under the same legal discovery rules as my email?",
+      "expected_kb": [
+        "KB0012975"
+      ],
+      "retrieved_kb": [
+        "KB0012975",
+        "KB0012974",
+        "KB0016525",
+        "KB0012475",
+        "KB0012673"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T126",
+      "ticket": "Where do I go to pull up and download my W-2 tax form?",
+      "expected_kb": [
+        "KB0012437"
+      ],
+      "retrieved_kb": [
+        "KB0012437",
+        "KB0014102",
+        "KB0012443",
+        "KB0012542",
+        "KB0019181"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T127",
+      "ticket": "I'm a student and heard I can get Windows 11 for free from Rutgers, how do I actually get it?",
+      "expected_kb": [
+        "KB0011593"
+      ],
+      "retrieved_kb": [
+        "KB0011593",
+        "KB0012609",
+        "KB0012880",
+        "KB0012557",
+        "KB0018501"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T128",
+      "ticket": "How do I add EchoEngage to my Canvas course? I don't see it listed in my course navigation.",
+      "expected_kb": [
+        "KB0016450"
+      ],
+      "retrieved_kb": [
+        "KB0016450",
+        "KB0015355",
+        "KB0016389",
+        "KB0019326",
+        "KB0016431"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T129",
+      "ticket": "How can I export the events from my myCommunity calendar so they show up in my Outlook calendar?",
+      "expected_kb": [
+        "KB0017969"
+      ],
+      "retrieved_kb": [
+        "KB0017969",
+        "KB0012561",
+        "KB0012563",
+        "KB0012983",
+        "KB0012979"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T130",
+      "ticket": "I can't access the shared drive for my department anymore, how do I get it mapped again so I can see our shared files?",
+      "expected_kb": [
+        "KB0016310"
+      ],
+      "retrieved_kb": [
+        "KB0016310",
+        "KB0016395",
+        "KB0016296",
+        "KB0014473",
+        "KB0014504"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T131",
+      "ticket": "I have an undergrad helping me this semester, how do I give them access to just WeVideo without letting them see my whole Canvas gradebook?",
+      "expected_kb": [
+        "KB0016360"
+      ],
+      "retrieved_kb": [
+        "KB0016360",
+        "KB0016357",
+        "KB0015444",
+        "KB0017201",
+        "KB0015434"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T132",
+      "ticket": "What Microsoft 365 Copilot agents can I use with my Rutgers account, and where do I find them?",
+      "expected_kb": [
+        "KB0019724"
+      ],
+      "retrieved_kb": [
+        "KB0019724",
+        "KB0017502",
+        "KB0019476",
+        "KB0012609",
+        "KB0012556"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T133",
+      "ticket": "How do I fully uninstall TikTok from my phone?",
+      "expected_kb": [
+        "KB0016637"
+      ],
+      "retrieved_kb": [
+        "KB0016637",
+        "KB0014247",
+        "KB0012639",
+        "KB0016727",
+        "KB0013093"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T134",
+      "ticket": "How do I sign up to get emergency text alerts from the university on my phone?",
+      "expected_kb": [
+        "KB0012637"
+      ],
+      "retrieved_kb": [
+        "KB0012637",
+        "KB0018075",
+        "KB0017971",
+        "KB0018211",
+        "KB0014408"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T135",
+      "ticket": "I'm already a Rutgers student but want to switch to a different school within the university, how does that process work?",
+      "expected_kb": [
+        "KB0014104"
+      ],
+      "retrieved_kb": [
+        "KB0014104",
+        "KB0012872",
+        "KB0012469",
+        "KB0012645",
+        "KB0012512"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T136",
+      "ticket": "When I was setting up the Duo Mobile app on my new phone it asked for permission to use my camera. Is that normal or is something sketchy going on?",
+      "expected_kb": [
+        "KB0013066"
+      ],
+      "retrieved_kb": [
+        "KB0013066",
+        "KB0013065",
+        "KB0013075",
+        "KB0019351",
+        "KB0013093"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T137",
+      "ticket": "I keep hearing Grammarly is free for Rutgers people, how do I actually activate it with my account?",
+      "expected_kb": [
+        "KB0017918"
+      ],
+      "retrieved_kb": [
+        "KB0017918",
+        "KB0017984",
+        "KB0017930",
+        "KB0017934",
+        "KB0017933"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T138",
+      "ticket": "Every time I open one of my Tableau reports I have to redo all the same filters. Is there a way to save the filters I use so they're already applied next time?",
+      "expected_kb": [
+        "KB0016810"
+      ],
+      "retrieved_kb": [
+        "KB0016810",
+        "KB0018390",
+        "KB0016808",
+        "KB0019308",
+        "KB0016806"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T139",
+      "ticket": "Our office has that KACE inventory agent on our computers and I plugged in a personal USB drive. Does it actually scan the files on my external drives? I'm a little worried it's reading my personal stuff.",
+      "expected_kb": [
+        "KB0012839"
+      ],
+      "retrieved_kb": [
+        "KB0012839",
+        "KB0012832",
+        "KB0012833",
+        "KB0016490",
+        "KB0012836"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T140",
+      "ticket": "I'm trying to connect to eduroam on a device where the automatic setup isn't available, so I have to enter the settings by hand. What are the exact manual configuration settings for eduroam?",
+      "expected_kb": [
+        "KB0012502"
+      ],
+      "retrieved_kb": [
+        "KB0012574",
+        "KB0012573",
+        "KB0014267",
+        "KB0012829",
+        "KB0014274"
+      ],
+      "hit": false,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "id": "T141",
+      "ticket": "I got a notice saying my NetID password expired and now I'm locked out of everything. How do I get a new one and get back in?",
+      "expected_kb": [
+        "KB0012846"
+      ],
+      "retrieved_kb": [
+        "KB0012846",
+        "KB0012847",
+        "KB0012849",
+        "KB0019569",
+        "KB0014045"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T142",
+      "ticket": "Does the myRutgers phone app show the campus bus routes? I want to see when the next bus gets to my stop.",
+      "expected_kb": [
+        "KB0017626"
+      ],
+      "retrieved_kb": [
+        "KB0017626",
+        "KB0017615",
+        "KB0017631",
+        "KB0017625",
+        "KB0017614"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T143",
+      "ticket": "I need to figure out which of Box, OneDrive, or Google Drive I'm actually allowed to store different kinds of university data in. Is there somewhere that compares them?",
+      "expected_kb": [
+        "KB0012489"
+      ],
+      "retrieved_kb": [
+        "KB0012475",
+        "KB0012770",
+        "KB0012489",
+        "KB0013012",
+        "KB0012618"
+      ],
+      "hit": true,
+      "reciprocal_rank": 0.3333333333333333
+    },
+    {
+      "id": "T144",
+      "ticket": "I have a pretty advanced Qualtrics question about a complex survey setup and the help desk told me to go straight to the Qualtrics experts. How do I submit that request?",
+      "expected_kb": [
+        "KB0013309"
+      ],
+      "retrieved_kb": [
+        "KB0013309",
+        "KB0013332",
+        "KB0018272",
+        "KB0014321",
+        "KB0013334"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T145",
+      "ticket": "I want to start using EndNote to manage my citations, how do I get it installed and who do I ask if I need help with it?",
+      "expected_kb": [
+        "KB0015482"
+      ],
+      "retrieved_kb": [
+        "KB0015482",
+        "KB0019149",
+        "KB0012977",
+        "KB0013150",
+        "KB0018731"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T146",
+      "ticket": "There's some program called Cisco Secure Endpoint, I think it used to be called AMP, installed on my work laptop. What is it actually doing?",
+      "expected_kb": [
+        "KB0012753"
+      ],
+      "retrieved_kb": [
+        "KB0012753",
+        "KB0012570",
+        "KB0012754",
+        "KB0013179",
+        "KB0012751"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T147",
+      "ticket": "I'm brand new here and can't figure out how I'm supposed to log into Canvas. Where do I go and what do I sign in with?",
+      "expected_kb": [
+        "KB0015596"
+      ],
+      "retrieved_kb": [
+        "KB0015549",
+        "KB0015596",
+        "KB0015445",
+        "KB0015442",
+        "KB0015595"
+      ],
+      "hit": true,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "id": "T148",
+      "ticket": "I've registered a bunch of devices to my Rutgers account over the years and now I have no idea which page manages what. How do I see what devices are tied to my account?",
+      "expected_kb": [
+        "KB0015504"
+      ],
+      "retrieved_kb": [
+        "KB0015504",
+        "KB0012645",
+        "KB0017621",
+        "KB0017619",
+        "KB0012937"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T149",
+      "ticket": "What are all the different ways I can approve a two-step login with Duo? I only ever use the app but I want to know my other options.",
+      "expected_kb": [
+        "KB0012702"
+      ],
+      "retrieved_kb": [
+        "KB0012727",
+        "KB0015155",
+        "KB0013089",
+        "KB0013085",
+        "KB0012508"
+      ],
+      "hit": false,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "id": "T150",
+      "ticket": "Can I upload files like documents or videos to my myCommunity profile, and how do I share them with my connections?",
+      "expected_kb": [
+        "KB0017948"
+      ],
+      "retrieved_kb": [
+        "KB0017948",
+        "KB0012476",
+        "KB0017911",
+        "KB0018793",
+        "KB0017975"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T151",
+      "ticket": "When I'm watching a Kaltura video in one of my Canvas courses I can't figure out how to slow it down or jump around in it. Where are the playback controls?",
+      "expected_kb": [
+        "KB0018763"
+      ],
+      "retrieved_kb": [
+        "KB0018763",
+        "KB0018270",
+        "KB0018521",
+        "KB0018548",
+        "KB0016282"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T152",
+      "ticket": "My department's front desk all need to use the same Webex account instead of everyone having their own. How do we request a shared one?",
+      "expected_kb": [
+        "KB0013128"
+      ],
+      "retrieved_kb": [
+        "KB0013128",
+        "KB0012642",
+        "KB0012688",
+        "KB0012628",
+        "KB0012717"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T153",
+      "ticket": "Someone in my department keeps saying we should put our team's stuff on SharePoint. What actually is SharePoint and what can I use it for?",
+      "expected_kb": [
+        "KB0012724"
+      ],
+      "retrieved_kb": [
+        "KB0012724",
+        "KB0012892",
+        "KB0012888",
+        "KB0012703",
+        "KB0012478"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T154",
+      "ticket": "We're planning a big virtual event and we'll have way more people than a normal Zoom meeting can hold. Is there a different Zoom license I can get for that?",
+      "expected_kb": [
+        "KB0012450"
+      ],
+      "retrieved_kb": [
+        "KB0012450",
+        "KB0012737",
+        "KB0018465",
+        "KB0013144",
+        "KB0012692"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T155",
+      "ticket": "I'm graduating soon and I've built up a lot of maps and projects in ArcGIS Online with my Rutgers account. What happens to all of it when I leave?",
+      "expected_kb": [
+        "KB0018877"
+      ],
+      "retrieved_kb": [
+        "KB0018877",
+        "KB0012774",
+        "KB0012512",
+        "KB0018864",
+        "KB0017614"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T156",
+      "ticket": "I'm leaving the university and I have a ton of files saved in my Rutgers Adobe Creative Cloud account. How do I move them to a personal Adobe account before I lose access?",
+      "expected_kb": [
+        "KB0016226"
+      ],
+      "retrieved_kb": [
+        "KB0016226",
+        "KB0012551",
+        "KB0012740",
+        "KB0012742",
+        "KB0013689"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T157",
+      "ticket": "A few of the Microsoft groups I belong to don't show up on the left side of my Outlook on the web. How do I get them to appear there?",
+      "expected_kb": [
+        "KB0012972"
+      ],
+      "retrieved_kb": [
+        "KB0012972",
+        "KB0012615",
+        "KB0012931",
+        "KB0012820",
+        "KB0012605"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T158",
+      "ticket": "I want one of my students to be able to start and run my Zoom meetings for the course I set up through Canvas. How do I give them that access?",
+      "expected_kb": [
+        "KB0016318"
+      ],
+      "retrieved_kb": [
+        "KB0016318",
+        "KB0016317",
+        "KB0016330",
+        "KB0016300",
+        "KB0018427"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T159",
+      "ticket": "I used to be able to get a phone call on my landline to approve my logins, but that option seems to be gone now. Did they get rid of it and why?",
+      "expected_kb": [
+        "KB0019351"
+      ],
+      "retrieved_kb": [
+        "KB0017642",
+        "KB0019351",
+        "KB0014111",
+        "KB0012846",
+        "KB0018814"
+      ],
+      "hit": true,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "id": "T160",
+      "ticket": "I'm the owner of a Mailman mailing list and when I try to send a message to my own list it never goes through, it just gets held. What's going on?",
+      "expected_kb": [
+        "KB0014139"
+      ],
+      "retrieved_kb": [
+        "KB0014139",
+        "KB0012490",
+        "KB0013406",
+        "KB0012723",
+        "KB0016446"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T161",
+      "ticket": "My ScarletMail keeps choking and failing to sync on my phone, and someone mentioned my account might be hitting some kind of bandwidth limit. Are there limits on ScarletApps accounts?",
+      "expected_kb": [
+        "KB0013017"
+      ],
+      "retrieved_kb": [
+        "KB0013017",
+        "KB0016843",
+        "KB0014199",
+        "KB0018232",
+        "KB0014370"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T162",
+      "ticket": "I want to give my students access to our Canvas course before the semester officially begins. How do I let them in early?",
+      "expected_kb": [
+        "KB0015444"
+      ],
+      "retrieved_kb": [
+        "KB0015444",
+        "KB0016419",
+        "KB0015434",
+        "KB0018427",
+        "KB0015390"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T163",
+      "ticket": "I accidentally deleted a bunch of files from my Google Drive and emptied the trash without thinking. Is there any way to get them back?",
+      "expected_kb": [
+        "KB0016911"
+      ],
+      "retrieved_kb": [
+        "KB0016911",
+        "KB0012775",
+        "KB0016296",
+        "KB0012528",
+        "KB0016727"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T164",
+      "ticket": "Duo Mobile keeps telling me my phone's software is too old to work. What version do I need to be on for it to keep working?",
+      "expected_kb": [
+        "KB0015787"
+      ],
+      "retrieved_kb": [
+        "KB0015787",
+        "KB0013093",
+        "KB0013092",
+        "KB0013064",
+        "KB0019351"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T165",
+      "ticket": "How do I download or export one of my Tableau dashboards so I can save it as a PDF?",
+      "expected_kb": [
+        "KB0016809"
+      ],
+      "retrieved_kb": [
+        "KB0016809",
+        "KB0016810",
+        "KB0016808",
+        "KB0018390",
+        "KB0016806"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T166",
+      "ticket": "As a student, is there any way to get a discount or free version of streaming services like Netflix or Hulu with my Rutgers email?",
+      "expected_kb": [
+        "KB0016434"
+      ],
+      "retrieved_kb": [
+        "KB0014534",
+        "KB0016434",
+        "KB0013028",
+        "KB0016721",
+        "KB0015372"
+      ],
+      "hit": true,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "id": "T167",
+      "ticket": "The automatic captions on my Kaltura videos are pretty bad and I need something accurate for my students. Can I request proper human-generated captions?",
+      "expected_kb": [
+        "KB0016288"
+      ],
+      "retrieved_kb": [
+        "KB0016288",
+        "KB0016290",
+        "KB0018307",
+        "KB0017201",
+        "KB0018270"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T168",
+      "ticket": "I'm using the Virtual Computer Labs for a class and the software I need for it isn't installed. Can I request that it be added, or do I have to install it myself?",
+      "expected_kb": [
+        "KB0013108"
+      ],
+      "retrieved_kb": [
+        "KB0013108",
+        "KB0013112",
+        "KB0013523",
+        "KB0013104",
+        "KB0013111"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T169",
+      "ticket": "I need to get rid of Java completely from my Windows laptop. How do I uninstall it?",
+      "expected_kb": [
+        "KB0012704"
+      ],
+      "retrieved_kb": [
+        "KB0012704",
+        "KB0012578",
+        "KB0012855",
+        "KB0014018",
+        "KB0012854"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T170",
+      "ticket": "Is there a way for students in my Canvas course to record how to pronounce their names? I heard there's a tool for that.",
+      "expected_kb": [
+        "KB0016597"
+      ],
+      "retrieved_kb": [
+        "KB0016597",
+        "KB0016450",
+        "KB0018548",
+        "KB0015390",
+        "KB0015412"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T171",
+      "ticket": "I'm working on a research project with some sensitive participant data and I've been keeping it in my Adobe Creative Cloud storage since it's easy to share. Someone told me that might not be allowed, can I keep it there?",
+      "expected_kb": [
+        "KB0012744"
+      ],
+      "retrieved_kb": [
+        "KB0012744",
+        "KB0012743",
+        "KB0016226",
+        "KB0018009",
+        "KB0012844"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T172",
+      "ticket": "One of my students uploaded a video to Kaltura for a class project and I want to save a copy of it to my own computer. How do I download the video out of Kaltura?",
+      "expected_kb": [
+        "KB0016302"
+      ],
+      "retrieved_kb": [
+        "KB0016302",
+        "KB0018270",
+        "KB0016282",
+        "KB0016344",
+        "KB0016301"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T173",
+      "ticket": "My Mac's browser has been glitchy and pages keep loading weird, and IT told me to clear my cache and cookies. I'm on macOS and can't figure out where to do that.",
+      "expected_kb": [
+        "KB0012473"
+      ],
+      "retrieved_kb": [
+        "KB0012473",
+        "KB0012472",
+        "KB0012474",
+        "KB0018776",
+        "KB0012808"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T174",
+      "ticket": "I keep hearing we get Google's AI assistant for free with our Rutgers accounts. How do I actually start using Gemini with my school email?",
+      "expected_kb": [
+        "KB0019474"
+      ],
+      "retrieved_kb": [
+        "KB0019474",
+        "KB0013037",
+        "KB0018381",
+        "KB0013007",
+        "KB0018654"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T175",
+      "ticket": "I'm trying to schedule my Zoom lectures for the whole upcoming academic year, but Zoom won't let me set up meetings that far ahead. Is there a limit on how far in advance I can schedule?",
+      "expected_kb": [
+        "KB0013547"
+      ],
+      "retrieved_kb": [
+        "KB0013544",
+        "KB0013547",
+        "KB0018072",
+        "KB0016319",
+        "KB0013144"
+      ],
+      "hit": true,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "id": "T176",
+      "ticket": "Banner keeps telling me my password is expired and now I can't run my report or get into SRL. How do I fix my Banner password?",
+      "expected_kb": [
+        "KB0017606"
+      ],
+      "retrieved_kb": [
+        "KB0017606",
+        "KB0017605",
+        "KB0014325",
+        "KB0012846",
+        "KB0015445"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T177",
+      "ticket": "How do I change the picture on my myCommunity profile? It's showing a default avatar and I want to put up my own photo.",
+      "expected_kb": [
+        "KB0017911"
+      ],
+      "retrieved_kb": [
+        "KB0017911",
+        "KB0017920",
+        "KB0017937",
+        "KB0017948",
+        "KB0017963"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T178",
+      "ticket": "My professor told our class to check something called Post'em to see our feedback and grades, but I've never used it. How do I find my information in there?",
+      "expected_kb": [
+        "KB0019327"
+      ],
+      "retrieved_kb": [
+        "KB0019327",
+        "KB0019328",
+        "KB0017619",
+        "KB0016287",
+        "KB0012641"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T179",
+      "ticket": "My iPhone keeps failing to connect to RUWireless Secure and IT said I should remove and reinstall the Secure profile. How do I delete the old profile from my phone?",
+      "expected_kb": [
+        "KB0014247"
+      ],
+      "retrieved_kb": [
+        "KB0012652",
+        "KB0014247",
+        "KB0010952",
+        "KB0015335",
+        "KB0012584"
+      ],
+      "hit": true,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "id": "T180",
+      "ticket": "Where can I go to see my grades and print out an unofficial copy of my transcript for an internship application?",
+      "expected_kb": [
+        "KB0014167"
+      ],
+      "retrieved_kb": [
+        "KB0014167",
+        "KB0012444",
+        "KB0019785",
+        "KB0017619",
+        "KB0019327"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T181",
+      "ticket": "I'm moving to a different department and I need to hand off some of the maps and projects in my Rutgers ArcGIS Online account to a coworker. How do I request that transfer?",
+      "expected_kb": [
+        "KB0018864"
+      ],
+      "retrieved_kb": [
+        "KB0018864",
+        "KB0018877",
+        "KB0012512",
+        "KB0016321",
+        "KB0016226"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T182",
+      "ticket": "My team just set up a shared mailbox for our office, and I need it to show up in my Outlook alongside my own inbox. How do I add it on my desktop?",
+      "expected_kb": [
+        "KB0016309"
+      ],
+      "retrieved_kb": [
+        "KB0016503",
+        "KB0016309",
+        "KB0012687",
+        "KB0012825",
+        "KB0012564"
+      ],
+      "hit": true,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "id": "T183",
+      "ticket": "I'm trying to decide whether to run my class meetings in Teams, Webex, or Zoom, and I want to compare what each one can actually do. Is there a chart somewhere?",
+      "expected_kb": [
+        "KB0015141"
+      ],
+      "retrieved_kb": [
+        "KB0012479",
+        "KB0019209",
+        "KB0013138",
+        "KB0012720",
+        "KB0012737"
+      ],
+      "hit": false,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "id": "T184",
+      "ticket": "Outlook on my work laptop and Outlook on the web keep showing different emails, like stuff is missing on one but not the other. They don't seem to be syncing properly.",
+      "expected_kb": [
+        "KB0016314"
+      ],
+      "retrieved_kb": [
+        "KB0016314",
+        "KB0016272",
+        "KB0012713",
+        "KB0012931",
+        "KB0016503"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T185",
+      "ticket": "I've used up all of my printing allowance for the semester and I still have stuff to print. Can I keep printing, or am I just cut off?",
+      "expected_kb": [
+        "KB0012909"
+      ],
+      "retrieved_kb": [
+        "KB0012910",
+        "KB0012909",
+        "KB0012904",
+        "KB0012907",
+        "KB0012542"
+      ],
+      "hit": true,
+      "reciprocal_rank": 0.5
+    },
+    {
+      "id": "T186",
+      "ticket": "I built a course reading list in Canvas but I want to share it with colleagues who aren't enrolled in my course. Is there a way to share a reading list outside of Canvas?",
+      "expected_kb": [
+        "KB0018424"
+      ],
+      "retrieved_kb": [
+        "KB0018424",
+        "KB0015355",
+        "KB0015444",
+        "KB0016600",
+        "KB0018427"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T187",
+      "ticket": "I'm a computer science student and my professor keeps telling us to do our assignments on the iLab machines. How do I actually get into those and where are they?",
+      "expected_kb": [
+        "KB0014202"
+      ],
+      "retrieved_kb": [
+        "KB0014202",
+        "KB0014213",
+        "KB0016545",
+        "KB0016162",
+        "KB0012641"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T188",
+      "ticket": "How do I download the Webex app so I can join my meetings from my phone and laptop?",
+      "expected_kb": [
+        "KB0013114"
+      ],
+      "retrieved_kb": [
+        "KB0012576",
+        "KB0012720",
+        "KB0014118",
+        "KB0013114",
+        "KB0013122"
+      ],
+      "hit": true,
+      "reciprocal_rank": 0.25
+    },
+    {
+      "id": "T189",
+      "ticket": "I clicked on a link in a sketchy email and now my NetID password suddenly doesn't work even though I never changed it. Did someone hack my account?",
+      "expected_kb": [
+        "KB0019569"
+      ],
+      "retrieved_kb": [
+        "KB0019569",
+        "KB0012847",
+        "KB0012849",
+        "KBB0010156",
+        "KB0012846"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T190",
+      "ticket": "Every time I try to log into the Virtual Computer Labs I get a Connection Error and it won't let me in. What's going on?",
+      "expected_kb": [
+        "KB0013110"
+      ],
+      "retrieved_kb": [
+        "KB0013110",
+        "KB0015622",
+        "KB0013111",
+        "KB0013112",
+        "KB0013526"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T191",
+      "ticket": "My Qualtrics survey is getting flooded with junk responses from bots and I'm worried it's messing up my data. How do I lock it down so only real people can respond?",
+      "expected_kb": [
+        "KB0018272"
+      ],
+      "retrieved_kb": [
+        "KB0018272",
+        "KB0013309",
+        "KB0013324",
+        "KB0014321",
+        "KB0013334"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T192",
+      "ticket": "Can I use my Rutgers OneDrive to back up all the files off my desktop, or is that not really what it's meant for?",
+      "expected_kb": [
+        "KB0012974"
+      ],
+      "retrieved_kb": [
+        "KB0012974",
+        "KB0012617",
+        "KB0012618",
+        "KB0012475",
+        "KB0012673"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T193",
+      "ticket": "I just moved into my dorm and I can't get my smart TV and my Xbox connected to the internet. How do I set those up on the residence hall network?",
+      "expected_kb": [
+        "KB0012481"
+      ],
+      "retrieved_kb": [
+        "KB0018798",
+        "KB0014536",
+        "KB0013734",
+        "KB0010943",
+        "KB0013685"
+      ],
+      "hit": false,
+      "reciprocal_rank": 0.0
+    },
+    {
+      "id": "T194",
+      "ticket": "How do I turn on a waiting room for my Zoom meetings so I can control who gets let in?",
+      "expected_kb": [
+        "KB0013156"
+      ],
+      "retrieved_kb": [
+        "KB0013156",
+        "KB0012579",
+        "KB0012558",
+        "KB0012692",
+        "KB0013146"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T195",
+      "ticket": "I'm teaching a course this semester and want to hold my class meetings over Webex right from Canvas. How do I set that up in my course?",
+      "expected_kb": [
+        "KB0016298"
+      ],
+      "retrieved_kb": [
+        "KB0016298",
+        "KB0012720",
+        "KB0016317",
+        "KB0018777",
+        "KB0016318"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T196",
+      "ticket": "I'm setting up a computer for a student who is visually impaired and need to know what accessibility options Windows has built in, like magnification and screen reading.",
+      "expected_kb": [
+        "KB0014125"
+      ],
+      "retrieved_kb": [
+        "KB0014125",
+        "KB0014131",
+        "KB0018311",
+        "KB0018313",
+        "KB0017201"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T197",
+      "ticket": "My Canvas course is telling me I've run out of storage space and I can't upload any more files. Where else can I put my course files?",
+      "expected_kb": [
+        "KB0015421"
+      ],
+      "retrieved_kb": [
+        "KB0015421",
+        "KB0015390",
+        "KB0016431",
+        "KB0019332",
+        "KB0012828"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T198",
+      "ticket": "What's the difference between a course and a section in Canvas? I'm an instructor and my department mentioned both and I'm confused.",
+      "expected_kb": [
+        "KB0015592"
+      ],
+      "retrieved_kb": [
+        "KB0015592",
+        "KB0015434",
+        "KB0015353",
+        "KB0015398",
+        "KB0016416"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T199",
+      "ticket": "Can I set up the myRutgers app so it opens with Face ID instead of making me type my password every time?",
+      "expected_kb": [
+        "KB0017640"
+      ],
+      "retrieved_kb": [
+        "KB0017640",
+        "KB0014222",
+        "KB0017634",
+        "KB0017617",
+        "KB0017630"
+      ],
+      "hit": true,
+      "reciprocal_rank": 1.0
+    },
+    {
+      "id": "T200",
+      "ticket": "My professor says I have to use Lockdown Browser to take our exam, but I can't figure out how I'm supposed to open the quiz with it. Where do I start?",
+      "expected_kb": [
+        "KB0016367"
+      ],
+      "retrieved_kb": [
+        "KB0016352",
+        "KB0016367",
+        "KB0016351",
+        "KB0016368",
+        "KB0015408"
+      ],
+      "hit": true,
+      "reciprocal_rank": 0.5
     }
   ]
 }
