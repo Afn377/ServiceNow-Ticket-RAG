@@ -6,7 +6,8 @@
   "permissions": ["sidePanel", "activeTab"],
   "host_permissions": [
     "https://rutgers.service-now.com/*",
-    "http://localhost:8420/*"
+    "http://localhost:8420/*",
+    "https://servicenow.smafnanhaider.com/*"
   ],
   "content_scripts": [
     {

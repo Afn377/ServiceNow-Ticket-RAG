@@ -1,5 +1,6 @@
 // extension/sidepanel.js
-const BACKEND_URL = "http://localhost:8420";
+const BACKEND_URL = "https://servicenow.smafnanhaider.com";
+const BACKEND_API_KEY = "REPLACE_WITH_GENERATED_API_KEY";
 
 const ticketHeader = document.getElementById("ticket-header");
 const analyzeBtn = document.getElementById("analyze-btn");
@@ -108,7 +109,7 @@ async function onAnalyzeClick() {
   try {
     const response = await fetch(`${BACKEND_URL}/recommend`, {
       method: "POST",
-      headers: { "Content-Type": "application/json" },
+      headers: { "Content-Type": "application/json", "X-API-Key": BACKEND_API_KEY },
       body: JSON.stringify({ ticket_description: buildTicketDescription(currentTicket) }),
     });
     if (!response.ok) {
