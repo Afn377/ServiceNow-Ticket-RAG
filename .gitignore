@@ -13,3 +13,4 @@ Library/
 .instance-id.local
 .public-ip.local
 *.zip
+.venv/
